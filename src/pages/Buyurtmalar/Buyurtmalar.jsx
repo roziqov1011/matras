@@ -3,7 +3,12 @@ import './Buyurtmalar.scss'
 function Buyurtmalar() {
   return (
     <div>
-        <h1>Buyurtmalar</h1>
+      <div className="two__page">
+        
+      </div>
+       <div className="one_page">
+         
+       </div>
     </div>
   )
 }
