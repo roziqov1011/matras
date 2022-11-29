@@ -1,0 +1,54 @@
+.List{
+    background: #EABF9F;
+    height: 100vh;
+    position: relative;
+}
+.nav__list1{
+    list-style: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #01384D;
+    .list__item1{
+        padding: 10px;
+
+    }
+}
+
+.aloqa1{
+    position: relative;
+    button{
+        position: absolute;
+        width: 180px;
+        height: 46px;
+        background: #FFFFFF;
+        border: 2px solid #01384D;
+        border-radius: 5px;
+        top: 20px;
+        left: 45px;
+    }
+    
+    i{
+
+        position: absolute;
+        color: #01384D;
+        top: 100px;
+        left: 45px;
+    }
+    p{
+        position: absolute;
+        color: #01384D;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        top: 100px;
+        left: 70px;
+    }
+}
+.burger{
+    background: #01384D !important;
+    color: white !important;
+}
