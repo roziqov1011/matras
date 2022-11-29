@@ -197,6 +197,8 @@
 
 }
 .C_slider{
+    width: 0;
+    height: 0;
     display: none;
 }
 .mahsulot__matras{
@@ -471,7 +473,7 @@
 }
 @media only screen and (max-width:455px) {
     .header{
-        width: 120%;
+        width: 100%;
     }
     .menu{
         position: absolute;
@@ -503,11 +505,23 @@
     .statick{
         position: absolute;
         top: 1000px;
-        left: -200px;
+        left: -150px;
+        width: 400px;
+    }
+    .st-item{
+        width: 0px;
+    }
+    .list2{
+        position: absolute;
+        left: 250px;
+    }
+    .list4{
+        position: absolute;
+        left: 250px;
     }
     .C_slider{
         position: absolute;
-        left: 310px;
+        left: 300px;
         top: 1300px;
         .line1{
             position: absolute;
