@@ -36,7 +36,7 @@ export default function Menu() {
                     </ul>
                     <div className="aloqa1">
                     <button>Buyurtma berish</button>
-                    <i class="bi bi-telephone-fill"></i>  
+                    <i className="bi bi-telephone-fill"></i>  
                     <p>+998 90 123 45 67</p>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ export default function Menu() {
     <div>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)} className='burger'><i class="bi bi-list"></i></Button>
+          <Button onClick={toggleDrawer(anchor, true)} className='burger'><i className="bi bi-list"></i></Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
