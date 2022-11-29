@@ -1,7 +1,5 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import required modules
 import { Pagination } from "swiper";
 
 export default function Category_slid() {
