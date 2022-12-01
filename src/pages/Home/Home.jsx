@@ -1,11 +1,16 @@
 import React from 'react'
+import "swiper/css/bundle";
+import 'antd/dist/reset.css';
 import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
-import Slider from '../../components/Slider/Slider'
 import Card from '../../components/Card/Card'
 import Menu from '../../components/Menu/Menu'
+<<<<<<< HEAD
 import Category_slid from '../../components/Category_slid/Category_slid'
 import Home_futer from '../Home_futer/Home_futer'
+=======
+import { data } from '../../lib/data';
+>>>>>>> 1c5cf0092b0416864dd6a4727acc23b1b568fdf3
 
 
 
@@ -30,7 +35,7 @@ function Home() {
                   <li className='list__item'>Aloqa</li>
                 </ul>
                 <div className="aloqa">
-                  <i class="bi bi-telephone-fill"></i>  
+                  <i className="bi bi-telephone-fill"></i>  
                   <p>+998 90 123 45 67</p>
                   <button>Buyurtma berish</button>
                 </div>
@@ -39,9 +44,8 @@ function Home() {
           <div className="header__about">
             <p>Kechalari sokin dam oling</p>
             <div className='Slider'>
-              <Slider/>
             </div>
-            <button>Kategoriyalar <i class="bi bi-arrow-right"></i></button>
+            <button>Kategoriyalar <i className="bi bi-arrow-right"></i></button>
             <div className='intro'></div>
             
           </div>
@@ -100,18 +104,20 @@ function Home() {
         </div>
       </div>
       <div className='C_slider'>
-        <Category_slid/>
         <div className='line1'></div>
 
       </div>
 
       <div className="mahsulot__matras">
-              <Card/>
-              <Card/>
-              <Card/>
+        {
+          data && data.map((e,i)=>(
+            <Card key={i} item={e}/>
+          ))
+        }
+              
+              
               <p className='title-matras'>Aksiyadagi mahsulotlar</p>
-              <Card/>
-              <Card/>
+              
       </div>
 
       
