@@ -32,15 +32,15 @@
     height: 50px;
     color: white;
     font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-text-decoration: none;
-padding: 15px 32px ;
-transition: all ease 0.3s;
-&:hover{
-    background-color: #EABF9F;
-}
-&:active{
-    background-color: #a5ea9f;
-}
-}
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 15px 32px ;
+    transition: all ease 0.3s;
+    &:hover{
+        background-color: #EABF9F;
+    }
+    &:active{
+        background-color: #a5ea9f;
+    }
+    }

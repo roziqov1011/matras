@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home_futer.scss'
 
-function Home_futer() {
+function HomeFuter() {
   
   return (
     <div className='Home'>
@@ -210,4 +210,4 @@ function Home_futer() {
   )
 }
 
-export default Home_futer
+export default HomeFuter

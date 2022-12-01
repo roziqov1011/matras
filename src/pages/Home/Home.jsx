@@ -5,8 +5,8 @@ import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
 import Card from '../../components/Card/Card'
 import Menu from '../../components/Menu/Menu'
-import Home_futer from '../Home_futer/Home_futer'
 import { data } from '../../lib/data';
+import HomeFuter from '../Home_futer/HomeFuter';
 
 
 
@@ -116,7 +116,7 @@ function Home() {
       </div>
 
       
-    <Home_futer/>
+    <HomeFuter />
     </div> 
   )
 }
