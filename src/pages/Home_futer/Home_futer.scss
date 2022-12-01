@@ -22,9 +22,8 @@ body {
     font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
-    line-height: 59px;
-    margin-top: 600px;
+    font-size: 6vh;
+    margin-top: 55vh;
 }
 /* slider */
 
@@ -34,11 +33,11 @@ body {
     width: 100%;
     height: auto;
     justify-content: space-around;
-    margin-top: 90px;
+    margin-top: 15vh;
 }
 
 .slider_all {
-    width: 31%;
+    width: 50vh;
 }
 
 .slider_all img {
@@ -47,7 +46,8 @@ body {
     margin-top: 12px;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 6px;
+    border-radius: 1vh;
+    border: 0.3vh solid #01384D;
 }
 
 .slider_all p {
@@ -55,12 +55,12 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 14px;
-    margin-top: 15px;
+    font-size: 2.2vh;
+    margin-top: 4vh;
 }
 
 .slider_all h3 {
-    font-size: 26px;
+    font-size: 3.5vh;
     text-align: center;
     font-family: sans-serif;
     font-weight: 600;
@@ -74,7 +74,7 @@ body {
 
 .vps{
     width: 100%;
-    height: 430px;
+    height: 65vh;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
@@ -82,40 +82,44 @@ body {
 }
 .vps_bir{
     position: relative;
-    width: 50%;
+    width: 70vh;
     height: 100%;
-    padding: 5px 60px;
-
+    margin-left: -5vh;
 }
 .vps_bir h1{
     position: absolute;
     color: #01384D;
     font-weight: 700;
-    top: 10%;
-    left: 12%;
+    top: 3vh;
+    left: 8vh;
+    font-size: 5vh
 }
 .vps_bir p{
     position: absolute;
-    left: 12%;
-    top: 38%;
+    left: 9vh;
+    top: 19vh;
+    font-size: 2.2vh;
 }
 .borderr{
     position: absolute;
     height: auto;
-    border-radius: 8px;
+    border-radius: 1vh;
     background: #EABF9F;
-    top: 55%;
-    left: 12%;
+    top: 35vh;
+    padding: 1vh 2vh;
+    width: 70vh;
+    left: 8vh;
+    font-size: 2vh;
 }
 .vps_ikki{
-    width: 50%;
-    height: 100%;
+    width: 86vh;
+    height: 55vh;
     overflow: hidden;
 }
 .vps_ikki img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
+    width: 85vh;
+    height: 55vh;
+    border-radius: 2vh;
 }
 
 
@@ -123,42 +127,47 @@ body {
 
 .ACG{
     width: 100%;
-    height: 430px;
+    height: 60vh;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
     margin-top: 30px;
 }
 .ACG_bir{
-    width: 50%;
-    height: 100%;
+    width: 80vh;
+    height: 55vh;
 }
 .ACG_bir img{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 2vh;
 }
 
 .ACG_ikki{
     position: relative;
     width: 50%;
     height: 100%;
-    padding: 10px 60px;
+    padding: 3vh 8vh;
 }
 .border_ol{
     position: absolute;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 1vh;
     background: #EABF9F;
     top: 35%;
+    width: 72vh;
+    height: auto;
+    font-size: 2vh;
 }
 .ACG_ikki h6{
     position: absolute;
     top: 12%;
+    font-size: 2.2vh;
 }
 .ACG_ikki p{
     position: absolute;
     top: 72%;
+    font-size: 2.2vh;
 }
 
 
@@ -167,12 +176,13 @@ body {
 .Nega_bizni{
     margin-top: 75px;
     text-align: center;
+    font-size: 5vh;
 }
 
 .counter{
     display: flex;
     width: 100%;
-    height: 380px;
+    height: 58vh;
     justify-content: space-between;
     margin-top: 70px;
 }
@@ -198,18 +208,193 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
-    font-size: 20px;
+    margin-top: 3vh;
+    font-size: 3vh;
 }
 .count_all p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
     text-align: center;
+    font-size: 2.5vh;
+    padding: 0 2vh;
 }
 .count_all h5{
     text-align: center;
-    font-size: 14px;
-    margin-top: 12px;
+    font-size: 2vh;
+    margin-top: 5vh;
+}
+
+
+// manzil
+
+.Manzil{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+.lakatsya{
+    position: relative;
+    width: 80vh;
+    height: 100%;
+    padding: 5px 10vh;
+    h3{
+        position: absolute;
+        font-size: 5vh;
+    }
+    h6{
+        position: absolute;
+        top: 25%;
+        font-size: 3vh;
+    }
+    p{
+        position: absolute;
+        top: 15vh;
+        font-size: 2vh;
+    }
+    button{
+        position: absolute;
+        width: 40vh;
+        top: 28vh;
+        height: 6vh;
+        border:1px solid  #01384D;
+        border-radius: 2px;
+        font-size: 2.5vh;
+    }
+}
+.manzil_slider{
+    width: 55vh;
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+}
+
+
+// sorovnoma
+.open_modal{
+    display: flex;
+    margin-top: 10vh;
+}
+.sorov_modal{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #EABF9F;
+    display: none;
+
+
+}
+.sorov_content{
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #EABF9F;
+
+
+
+    .savol{
+        position: absolute;
+        width: 53vh;
+        left: 25vh;
+       h6{
+            font-size: 3vh;
+       }
+       p{
+        font-size: 2vh;
+       }
+    }
+    .sorov_btn{
+        position: absolute;
+        width: 70vh;
+        left: 100vh;
+
+
+        input{
+            width: 40vh;
+            height: 5vh;
+            border: 0.1vh solid  #01384D;
+            outline: none;
+            border-radius: 3px;
+            font-size: 2vh;
+            padding: 0 8px;
+        }
+        button{
+            width: 15vh;
+            height: 5vh;
+            border: none;
+            border-radius: 2px;
+            background: #01384D;
+            color: #FFF;
+            margin-left: 1vh;
+            margin-top: -2px;
+            font-size: 2vh;
+        }
+    }
+}
+
+// bottom
+
+.bottom{
+    width: 100%;
+    height: 25vh;
+    hr{
+        width: 75%;
+        margin: 1vh auto;
+    }
+    .bottom_bir{
+        display: flex;
+        justify-content: space-around;
+        height: 10vh;
+        align-items: center;
+        .ul_li{
+            display: flex;
+            li{
+                margin: 0 3vh;
+                list-style-type: none;
+                font-size: 2.2vh;
+            }
+        }
+        .ul_img{
+            display: flex;
+            list-style-type: none;
+            li{
+                margin: 0 3vh;
+                font-size: 2.2vh;
+            }
+        }
+    }
+    .bottom_ikki{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3vh;
+        p{
+            font-size: 1.5vh;
+        }
+        .bottom_img {
+            display: flex;
+        p{
+            width: 12vh;
+            text-align: center;
+            border: 1px solid #909090;
+            height: 5vh;
+            font-size: 1.5vh;
+        }
+    }
+    }
 }
