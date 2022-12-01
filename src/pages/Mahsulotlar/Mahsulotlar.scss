@@ -1,0 +1,36 @@
+.wrapper{
+    flex-grow: 1;
+}
+
+.table{
+    width: 1086px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #01384D;
+
+    thead{
+        color: white;
+        background-color:#01384D;
+    }
+}
+
+
+.add__button {
+    float: right;
+    margin-top: 188px;
+    margin-right: 220px;
+    background: #01384D;
+    border-radius: 8px;
+    width: 135px;
+    height: 40px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.table__action{
+    display: flex;
+    justify-content: space-around;
+}
