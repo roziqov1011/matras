@@ -87,6 +87,7 @@ function Mahsulotlar() {
                   </div>
                 </td>
               </tr>
+              
             </tbody>
           </table>
 

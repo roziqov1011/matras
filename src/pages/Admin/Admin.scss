@@ -1,0 +1,46 @@
+.Admin{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Admin__left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.admin__inner{
+    display: flex;
+}
+
+.admin__bar{
+    background-color:  #01384D;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: 100vh;
+    .logo{
+        height: 69px;
+        width: 219px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000;
+    }
+}
+
+.admin__link{
+    height: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 15px 32px ;
+    transition: all ease 0.3s;
+    &:hover{
+        background-color: #EABF9F;
+    }
+    &:active{
+        background-color: #a5ea9f;
+    }
+    }
