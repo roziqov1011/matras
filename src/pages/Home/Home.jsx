@@ -5,7 +5,12 @@ import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
 import Card from '../../components/Card/Card'
 import Menu from '../../components/Menu/Menu'
+<<<<<<< HEAD
+import Category_slid from '../../components/Category_slid/Category_slid'
+import Home_futer from '../Home_futer/Home_futer'
+=======
 import { data } from '../../lib/data';
+>>>>>>> 1c5cf0092b0416864dd6a4727acc23b1b568fdf3
 
 
 
@@ -115,6 +120,8 @@ function Home() {
               
       </div>
 
+      
+    <Home_futer/>
     </div> 
   )
 }
