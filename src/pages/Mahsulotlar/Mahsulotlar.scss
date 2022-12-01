@@ -5,6 +5,7 @@
 .table{
     width: 1086px;
     height: 50px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #01384D;
@@ -35,4 +36,13 @@
 .table__action{
     display: flex;
     justify-content: space-around;
+}
+
+// modal
+
+.modal-add{
+    width: 1090px;
+    height: 430px;
+    right: 0;
+    left: 0;
 }
