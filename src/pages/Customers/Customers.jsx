@@ -4,14 +4,11 @@ import './Customers.scss'
 function Customers() {
 return (
 <div>
-  <div class="form-check form-switch">
-    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-    <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
-  </div>
+ 
 
   <div className="admin_page">
     <div className="admin_pagee">
-      <ul className='admin_list'>
+      <table className='admin_list'>
 
         <li className='admin__item'>
           <span>Id</span>
@@ -27,10 +24,10 @@ return (
           <span>Qayta Aloqa</span>
 
         </li>
-      </ul>
+      </table>
     </div>
     <div className="line">
-      <ul className='admin_lists'>
+      <table className='admin_lists'>
         <li className='admin__itemm'>
           <span>6</span>
         </li>
@@ -45,19 +42,19 @@ return (
 
           <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
         </li>
         <li className='admin__itemi'>
-          <span>4</span>
+         
         </li>
         <li className='admin__itema'>
           <span className='admin__trash'><i class="bi bi-trash"></i></span>
         </li>
-      </ul>
+      </table>
 
-      <ul className='admin_listss'>
+      <table className='admin_listss'>
         <li className='admin__itemm'>
           <span>6</span>
         </li>
@@ -71,18 +68,18 @@ return (
 
           <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
 
         </li>
         <li className='admin__itemi'>
-          <span>4</span>
+         
         </li>
         <li className='admin__itema'>
           <span><i class="bi bi-trash"></i></span>
         </li>
-      </ul>
+      </table>
 
 
       <ul className='admin_listsss'>
@@ -99,13 +96,13 @@ return (
 
           <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
 
         </li>
         <li className='admin__itemi'>
-          <span>4</span>
+         
         </li>
         <li className='admin__itema'>
           <span><i class="bi bi-trash"></i></span>
@@ -127,12 +124,12 @@ return (
 
           <div class="form-check form-switch">
             <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
         </li>
         <li className='admin__itemi'>
-          <span>4</span>
+         
         </li>
         <li className='admin__itema'>
           <span><i class="bi bi-trash"></i></span>
