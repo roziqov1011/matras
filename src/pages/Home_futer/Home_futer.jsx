@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home_futer.scss'
-import { useState} from 'react'
 
 function Home_futer() {
   

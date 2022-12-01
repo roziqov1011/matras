@@ -5,9 +5,9 @@ import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
 import Card from '../../components/Card/Card'
 import Menu from '../../components/Menu/Menu'
-import Category_slid from '../../components/Category_slid/Category_slid'
 import Home_futer from '../Home_futer/Home_futer'
 import { data } from '../../lib/data';
+
 
 
 
@@ -111,8 +111,6 @@ function Home() {
             <Card key={i} item={e}/>
           ))
         }
-              
-              
               <p className='title-matras'>Aksiyadagi mahsulotlar</p>
               
       </div>

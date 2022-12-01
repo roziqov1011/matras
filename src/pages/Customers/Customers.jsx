@@ -10,79 +10,79 @@ return (
     <div className="admin_pagee">
       <table className='admin_list'>
 
-        <li className='admin__item'>
+        <th className='admin__item'>
           <span>Id</span>
 
-        </li>
-        <li className='admin__item'>
+        </th>
+        <th className='admin__item'>
           <span>Sana</span>
-        </li>
-        <li className='admin__item'>
+        </th>
+        <th className='admin__item'>
           <span>TelefonRaqanlar</span>
-        </li>
-        <li className='admin__item'>
+        </th>
+        <th className='admin__item'>
           <span>Qayta Aloqa</span>
 
-        </li>
+        </th>
       </table>
     </div>
     <div className="line">
       <table className='admin_lists'>
-        <li className='admin__itemm'>
+        <td className='admin__itemm'>
           <span>6</span>
-        </li>
-        <li className='admin__itemn'>
+        </td>
+        <td className='admin__itemn'>
           <span>Jenny </span>
-        </li>
-        <li className='admin__iteml'>
+        </td>
+        <td className='admin__iteml'>
           <span>+998 90 123 45 67</span>
-        </li>
-        <li className='admin__itemj'>
+        </td>
+        <td className='admin__itemj'>
 
 
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+          <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <label className="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
-        </li>
+        </td>
         <li className='admin__itemi'>
          
         </li>
-        <li className='admin__itema'>
-          <span className='admin__trash'><i class="bi bi-trash"></i></span>
-        </li>
+        <td className='admin__itema'>
+          <span className='admin__trash'><i className="bi bi-trash"></i></span>
+        </td>
       </table>
 
       <table className='admin_listss'>
-        <li className='admin__itemm'>
+        <tr className='admin__itemm'>
           <span>6</span>
-        </li>
-        <li className='admin__itemn'>
+        </tr>
+        <tr className='admin__itemn'>
           <span>Jenny </span>
-        </li>
-        <li className='admin__iteml'>
+        </tr>
+        <tr className='admin__iteml'>
           <span>+998 90 123 45 67</span>
-        </li>
-        <li className='admin__itemj'>
+        </tr>
+        <tr className='admin__itemj'>
 
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+          <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <label className="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
 
-        </li>
+        </tr>
         <li className='admin__itemi'>
          
         </li>
         <li className='admin__itema'>
-          <span><i class="bi bi-trash"></i></span>
+          <span><i className="bi bi-trash"></i></span>
         </li>
       </table>
 
 
-      <ul className='admin_listsss'>
+      <table className='admin_listsss'>
         <li className='admin__itemm'>
           <span>6</span>
         </li>
@@ -94,9 +94,9 @@ return (
         </li>
         <li className='admin__itemj'>
 
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+          <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <label className="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
 
@@ -105,11 +105,11 @@ return (
          
         </li>
         <li className='admin__itema'>
-          <span><i class="bi bi-trash"></i></span>
+          <span><i className="bi bi-trash"></i></span>
         </li>
-      </ul>
+      </table>
 
-      <ul className='admin_listssss'>
+      <table className='admin_listssss'>
         <li className='admin__itemm'>
           <span>6</span>
         </li>
@@ -122,9 +122,9 @@ return (
         <li className='admin__itemj'>
 
 
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-            <label class="form-check-label" for="flexSwitchCheckDefault"></label>
+          <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+            <label className="form-check-label" for="flexSwitchCheckDefault"></label>
           </div>
 
         </li>
@@ -132,9 +132,9 @@ return (
          
         </li>
         <li className='admin__itema'>
-          <span><i class="bi bi-trash"></i></span>
+          <span><i className="bi bi-trash"></i></span>
         </li>
-      </ul>
+      </table>
 
 
 
