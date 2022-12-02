@@ -6,6 +6,7 @@ import Card from '../../components/Card/Card'
 
 
 import Slider from '../../components/Slider/Slider'
+import HomeIkki from '../HomeIkki/HomeIkki'
 
 
 function Home() {
@@ -39,11 +40,7 @@ function Home() {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      <Card/>
-=======
-      
->>>>>>> b623539d6e42edd34f110fdcb6bbdbed693df505
+    <HomeIkki/>
     </div> 
   )
 }

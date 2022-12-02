@@ -1,7 +1,6 @@
 import React from 'react'
 import './card.scss'
-import matras1 from '../../img/img__home/oq_matras.png'
-import matras2 from '../../img/img__home/qizil_matras.png'
+
 
 
 
