@@ -2,8 +2,8 @@ import React from 'react'
 import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
 import Slider from '../../components/Slider/Slider'
-import { statistica } from '../../lib/static'
 import Statistica from '../../components/Static/Statistica'
+import { dataFoiz } from '../../lib/Data_foiz'
 
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
                 <div className="logo-btn">
                   <img src={logo} alt="" />
                     <div className="btn-ra">
-                        <p> <i class="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
+                        <p> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
                         <button>Buyurtma berish</button>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ function Home() {
                     <div className="slider_bots">
                       <Slider/>
                     </div>
-                    <button className='M-button'>Kategoriyalar <i class="bi bi-arrow-right"></i></button>
+                    <button className='M-button'>Kategoriyalar <i className="bi bi-arrow-right"></i></button>
                     <div className="line"></div>
                 </div>
           </div>
@@ -39,11 +39,12 @@ function Home() {
       </div>
       <div className="statick">
           {
-            statistica && statistica.map((e,i)=>(
+            dataFoiz && dataFoiz.map((e,i)=>(
               <Statistica key={i} item={e}/>
             ))
           }
       </div>
+
     </div> 
   )
 }
