@@ -1,8 +1,7 @@
 import React from 'react'
 import './Home_futer.scss'
-import { useState} from 'react'
 
-function Home_futer() {
+function HomeFuter() {
   
   return (
     <div className='Home'>
@@ -190,10 +189,11 @@ function Home_futer() {
         <li>Manzilimiz</li>
       </div>
       <div className="ul_img">
-        <li>img</li>
-        <li>img</li>
-        <li>img</li>
-        <li>img</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
       </div>
     </div>
     <hr className='hr'/>
@@ -211,4 +211,4 @@ function Home_futer() {
   )
 }
 
-export default Home_futer
+export default HomeFuter
