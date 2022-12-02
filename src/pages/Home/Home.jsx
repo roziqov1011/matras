@@ -4,6 +4,10 @@ import logo from '../../img/img__home/logo.svg'
 import Slider from '../../components/Slider/Slider'
 import Statistica from '../../components/Static/Statistica'
 import { dataFoiz } from '../../lib/Data_foiz'
+import HomeIkki from '../HomeIkki/HomeIkki'
+import Category_slid from '../../components/Category_slid/Category_slid'
+import Card from '../../components/Card/Card'
+
 
 
 function Home() {
@@ -37,13 +41,24 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="statick">
-          {
-            dataFoiz && dataFoiz.map((e,i)=>(
-              <Statistica key={i} item={e}/>
-            ))
-          }
-      </div>
+
+        <div className="ST">
+          <div className="container">
+            <Statistica/>
+          </div>
+        </div>
+
+        <div className="CT">
+          <div className="container">
+              <Category_slid/>
+          </div>
+        </div>
+        <div className="Cardss">
+          <div className="container">
+              <Card/>
+          </div>
+        </div>
+    <HomeIkki/>
 
     </div> 
   )

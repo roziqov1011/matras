@@ -1,19 +1,17 @@
 import React from 'react'
 import './card.scss'
+import matrs from '../../img/img__home/oq_matras.png'
 
 
-
-function Card({item}) {
-  let data = item
-  console.log(data.img);
+function Card() {
   return (
     <div className='card'>
       <div className='card__matras'>
           <button>Yangi mahsulot</button>
-          <img src={data.img} className="img" alt="" />
+          <img src={matrs} className="img" alt="" />
       </div>
       <div className="card__item">
-        <span className='card__title'>{data.name}</span>
+        <span className='card__title'>Ortopedik Eko matras</span>
         <div className="malumaot">
           <ul className='list'>
               <li className='list-item'>
@@ -33,8 +31,8 @@ function Card({item}) {
                 <p>2 kishilik</p>
               </li>
           </ul>
-          <p className='info'>{
-            data.info}
+          <p className='info'>
+          Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
           </p>
           <span className='narx'>Narxi</span>
           <p className='som'>1 699 999 <sub>so’m</sub></p>

@@ -1,0 +1,21 @@
+.Statistica__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    .static{
+        p{
+            font-weight: 700;
+            font-size: 120px;
+            line-height: 141px;
+            color: #01384D;
+        }
+        span{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #01384D;
+        }
+    }
+}
