@@ -3,8 +3,8 @@ import './Static.scss'
 
 export default function Statistica() {
   return (
-    <div>
-
+    <div className='Statistica'>
+        
     </div>
   )
 }
