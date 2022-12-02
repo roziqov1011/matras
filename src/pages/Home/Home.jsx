@@ -39,7 +39,11 @@ function Home() {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <Card/>
+=======
+      
+>>>>>>> b623539d6e42edd34f110fdcb6bbdbed693df505
     </div> 
   )
 }
