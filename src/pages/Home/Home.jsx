@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
 import Slider from '../../components/Slider/Slider'
+import { statistica } from '../../lib/static'
+import Statistica from '../../components/Static/Statistica'
 
 
 function Home() {
@@ -35,7 +37,13 @@ function Home() {
           </div>
         </div>
       </div>
-      
+      <div className="statick">
+          {
+            statistica && statistica.map((e,i)=>(
+              <Statistica key={i} item={e}/>
+            ))
+          }
+      </div>
     </div> 
   )
 }
