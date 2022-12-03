@@ -171,7 +171,7 @@ function HomeIkki() {
         <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz</p>
       </div>
       <div className="sorov_btn">
-        <input type="text" placeholder='  +998  Raqamingizni yozing'/>
+        <input type="number" placeholder='  +998  Raqamingizni yozing'/>
         <button >Yuborish</button>
       </div>
     </div>
