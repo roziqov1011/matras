@@ -2,6 +2,11 @@
     background: #EABF9F;
     height: 100vh;
 }
+.container{
+    width: 1300px;
+    height: max-content;
+    margin: 0 auto;
+}
 .nav-list{
     display: flex;
     justify-content: flex-end;
