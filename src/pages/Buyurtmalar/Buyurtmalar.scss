@@ -1,20 +1,25 @@
-.wrapper1{
+.buyurtmalar{
     flex-grow: 1;
-    margin-top: 50px;
 }
 
-.table{
-    width: 1086px;
-    height: 50px;
-    margin-top: 30px;
+.buyurtmalar_table{
+    width: 1100px;
+    height: 90px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #01384D;
+    font-size: 20px;
 
     thead{
         background-color:#01384D;
         th{
             color: white;
+            font-size: 25px;
+        }
+        td{
+            color: black;
+            font-size: 25px;
         }
     }
 }
@@ -22,16 +27,4 @@
 
 
 
-.table__action{
-    display: flex;
-    justify-content: space-around;
-}
 
-
-
-.modal-add{
-    width: 1090px;
-    height: 430px;
-    right: 0;
-    left: 0;
-}
