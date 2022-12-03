@@ -1,12 +1,13 @@
 import React from 'react'
 import './Home.scss'
 import logo from '../../img/img__home/logo.svg'
+import Slider from '../../components/Slider/Slider'
+import Statistica from '../../components/Static/Statistica'
+import { dataFoiz } from '../../lib/Data_foiz'
+import HomeIkki from '../HomeIkki/HomeIkki'
+import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
 
-
-
-import Slider from '../../components/Slider/Slider'
-import HomeIkki from '../HomeIkki/HomeIkki'
 
 
 function Home() {
@@ -25,7 +26,7 @@ function Home() {
                 <div className="logo-btn">
                   <img src={logo} alt="" />
                     <div className="btn-ra">
-                        <p> <i class="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
+                        <p> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
                         <button>Buyurtma berish</button>
                     </div>
                 </div>
@@ -34,13 +35,31 @@ function Home() {
                     <div className="slider_bots">
                       <Slider/>
                     </div>
-                    <button className='M-button'>Kategoriyalar <i class="bi bi-arrow-right"></i></button>
+                    <button className='M-button'>Kategoriyalar <i className="bi bi-arrow-right"></i></button>
                     <div className="line"></div>
                 </div>
           </div>
         </div>
       </div>
+
+        <div className="ST">
+          <div className="container">
+            <Statistica/>
+          </div>
+        </div>
+
+        <div className="CT">
+          <div className="container">
+              <Category_slid/>
+          </div>
+        </div>
+        <div className="Cardss">
+          <div className="container">
+              <Card/>
+          </div>
+        </div>
     <HomeIkki/>
+
     </div> 
   )
 }

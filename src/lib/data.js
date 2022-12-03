@@ -1,51 +1,115 @@
 export const data = [
     {
         id:1,
+        mahsulot: 'Yangi mahsulot',
         img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
         name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
-    {
-        id:1,
-        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
-        name: 'sadhkjashdkjas',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
-    {
-        id:1,
-        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
-        name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
-    {
-        id:1,
-        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
-        name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
-    {
-        id:1,
-        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
-        name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
-    {
-        id:1,
-        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
-        name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
-    {
-        id:1,
-        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
-        name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
-    },
+        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.',
+        narxi: 'Narxi',
+        som: '1 699 999so`m',
+        byurtma: 'Buyurtma berish',
+        yuk: 'Yuklama',
+        kaf: 'Kafolat',
+        olcham: 'O’lchami',
+        sig: 'Sig’imi',
+        kg: 150,
+        yil: 3,
+        ol:'200x120x40',
+        kishi: '2 kishilik'
 
+    },
     {
-        id:1,
+        id:2,
+        mahsulot: 'Yangi mahsulot',
         img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
         name: 'Ortopedik Eko matras',
-        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.'
+        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.',
+        narxi: 'Narxi',
+        som: '1 699 999so`m',
+        byurtma: 'Buyurtma berish',
+        yuk: 'Yuklama',
+        kaf: 'Kafolat',
+        olcham: 'O’lchami',
+        sig: 'Sig’imi',
+        kg: 150,
+        yil: 3,
+        ol:'200x120x40',
+        kishi: '2 kishilik'
+    },
+    {
+        id:3,
+        mahsulot: 'Yangi mahsulot',
+        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
+        name: 'Ortopedik Eko matras',
+        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.',
+        narxi: 'Narxi',
+        som: '1 699 999so`m',
+        byurtma: 'Buyurtma berish',
+        yuk: 'Yuklama',
+        kaf: 'Kafolat',
+        olcham: 'O’lchami',
+        sig: 'Sig’imi',
+        kg: 150,
+        yil: 3,
+        ol:'200x120x40',
+        kishi: '2 kishilik'
+
+    },
+    {
+        id:4,
+        mahsulot: 'Yangi mahsulot',
+        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
+        name: 'Ortopedik Eko matras',
+        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.',
+        narxi: 'Narxi',
+        som: '1 699 999so`m',
+        byurtma: 'Buyurtma berish',
+        yuk: 'Yuklama',
+        kaf: 'Kafolat',
+        olcham: 'O’lchami',
+        sig: 'Sig’imi',
+        kg: 150,
+        yil: 3,
+        ol:'200x120x40',
+        kishi: '2 kishilik'
+
+    },
+    {
+        id:5,
+        mahsulot: 'Yangi mahsulot',
+        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
+        name: 'Ortopedik Eko matras',
+        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.',
+        narxi: 'Narxi',
+        som: '1 699 999so`m',
+        byurtma: 'Buyurtma berish',
+        yuk: 'Yuklama',
+        kaf: 'Kafolat',
+        olcham: 'O’lchami',
+        sig: 'Sig’imi',
+        kg: 150,
+        yil: 3,
+        ol:'200x120x40',
+        kishi: '2 kishilik'
+
+    },
+    {
+        id:6,
+        mahsulot: 'Yangi mahsulot',
+        img:'https://w7.pngwing.com/pngs/645/850/png-transparent-mattress-mattress-plus-memory.png',
+        name: 'Ortopedik Eko matras',
+        info: 'Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.',
+        narxi: 'Narxi',
+        som: '1 699 999so`m',
+        byurtma: 'Buyurtma berish',
+        yuk: 'Yuklama',
+        kaf: 'Kafolat',
+        olcham: 'O’lchami',
+        sig: 'Sig’imi',
+        kg: 150,
+        yil: 3,
+        ol:'200x120x40',
+        kishi: '2 kishilik'
+
     },
 ]
