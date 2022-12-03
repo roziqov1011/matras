@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.manzil{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.manzil_menu{
+    width: 1086px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #01384d;
+    color: white;
+}
+.manzil_menu_matn{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 560px;
+    height: 30px;
+    margin-top: 15px;
+}
+.manzil_menu_matn_li{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.manzil_form{
+    width: 1086px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.manzil_from_location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 580px;
+    height: 30px;
+    li{
+        margin-right: 50px;
+        color: black;
+        margin-top: 15px;
+    }
+}
+.manzil_from_delete{
+    display: flex;
+    list-style-type: none;
+    width: 120px;
+    height: 30px;
+}
+.manzil_from_delete_li{
+    font-size: 20px;
+    color: black;
+    padding: 6px;
+}
+.manzil_from_delete_il{
+    font-size: 20px;
+    padding: 5px;
+}
+.modal-header{
+    h5{
+        color: #000;
+    }
+}
+.my-modal{
+    // width: -700px;
+    // height: 100px;
+}
+.modal-content{
+    width: 800px;
+    height: 400px;
+}
+.modal-footer{
+    button{
+        width: 250px;
+        height: 50px;
+        background-color: #01384d;
+    }
+}
+.modal_img{
+    img{
+        width: 100px;
+    }
+}
+.modal_tedy_1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    input{
+        height: 50px;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+        border: 1px solid rgb(170, 163, 163);
+        outline: rgb(131, 127, 127);
+    }
+    span{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #000;
+    }
+}
+.modal_tedy_2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    input{
+        height: 50px;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+        border: 1px solid rgb(170, 163, 163);
+        outline: rgb(114, 110, 110);
+    }
+    span{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #000;
+    }
+}
+.modal_tedy_3{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    justify-content: space-between;
+    span{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #000;
+    }
+    .from{
+        width: 50px;
+        height: 25px;
+        margin-left: 110px;
+    }
+}
+.modal_tedy_4{
+    margin-left: 25px;
+    margin-top: -200px;
+    input{
+        width: 200px;
+        height: 180px;
+        border: 1px solid rgb(170, 163, 163);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        outline: rgb(154, 148, 148);
+}
+    span{
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: #000;
+    }
+}
+.qoshish{
+    width: 1400px;
+    height: 70px;
+    margin-top: 500px;
+    display: flex;
+    justify-content: end;
+    button{
+        width: 180px;
+        height: 55px;
+        background-color:  #01384d;
+    }
+}
