@@ -10,6 +10,7 @@ return (
       <thead className='table_head'>
         
         <tr>
+          <th></th>
           <th>Id</th>
           <th>Sana</th>
           <th>Telefon Raqam</th>
@@ -20,6 +21,7 @@ return (
       </thead>
       <tbody>
         <tr>
+          <th></th>
           <td>6</td>
           <td>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
@@ -35,6 +37,7 @@ return (
             </td>
         </tr>
         <tr>
+          <th></th>
           <td>2</td>
           <td>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
@@ -50,6 +53,7 @@ return (
             </td>
         </tr>
         <tr>
+          <th></th>
           <td>3</td>
           <td>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
@@ -65,6 +69,7 @@ return (
             </td>
         </tr>
         <tr>
+          <th></th>
           <td>6</td>
           <td>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
@@ -80,6 +85,7 @@ return (
             </td>
         </tr>
         <tr>
+          <th></th>
           <td>4</td>
           <td>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
