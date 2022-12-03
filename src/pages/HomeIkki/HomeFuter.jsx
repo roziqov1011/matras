@@ -150,7 +150,7 @@ function HomeIkki() {
                 <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTJAUJ0dIg5ZVmMju5U5xUwU8ob8yfzWxcqcWisHtEwArLJqkOXfyTsi0AhA8CpQNGmLY&usqp=CAU" class="d-block w-100" alt="..." />
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ function HomeIkki() {
         <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz</p>
       </div>
       <div className="sorov_btn">
-        <input type="number" placeholder='  +998  Raqamingizni yozing'/>
+        <input type="text" placeholder='  +998  Raqamingizni yozing'/>
         <button >Yuborish</button>
       </div>
     </div>
