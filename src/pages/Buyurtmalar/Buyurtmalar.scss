@@ -6,22 +6,27 @@
     width: 1100px;
     height: 90px;
     margin-top: 40px;
-    margin-left: auto;
+    margin-left: 30px;
     margin-right: auto;
     border: 1px solid #01384D;
-    font-size: 20px;
+    
 
     thead{
         background-color:#01384D;
-        th{
-            color: white;
-            font-size: 25px;
+        
+    }
+    tbody {
+        tr {
+            border: 1px solid #000;
+            
         }
         td{
-            color: black;
-            font-size: 25px;
+        height: 40px;
+        font-size: 19px;
         }
+        
     }
+    
 }
 
 

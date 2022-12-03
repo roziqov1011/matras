@@ -7,14 +7,10 @@ import { dataFoiz } from '../../lib/Data_foiz'
 import HomeIkki from '../HomeIkki/HomeIkki'
 import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
-<<<<<<< HEAD
 import Menu from '../../components/Menu/Menu'
 import { data } from '../../lib/data';
-import HomeFuter from '../Home_futer/HomeFuter';
 
 
-=======
->>>>>>> 933192dfa5c1606d4667f714c6d8a08476047067
 
 
 
@@ -56,7 +52,6 @@ function Home() {
           </div>
         </div>
 
-<<<<<<< HEAD
       <div className="mahsulot__matras">
         {
           data && data.map((e,i)=>(
@@ -66,7 +61,6 @@ function Home() {
               <p className='title-matras'>Aksiyadagi mahsulotlar</p>
               
       </div>
-=======
         <div className="CT">
           <div className="container">
               <Category_slid/>
@@ -78,7 +72,6 @@ function Home() {
           </div>
         </div>
     <HomeIkki/>
->>>>>>> 933192dfa5c1606d4667f714c6d8a08476047067
 
     </div> 
   )

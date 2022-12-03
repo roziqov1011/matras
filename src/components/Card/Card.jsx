@@ -1,11 +1,6 @@
 import React from 'react'
 import './card.scss'
-<<<<<<< HEAD
-// import matras1 from '../../img/img__home/oq_matras.png'
-// import matras2 from '../../img/img__home/qizil_matras.png'
-=======
 import matrs from '../../img/img__home/oq_matras.png'
->>>>>>> 933192dfa5c1606d4667f714c6d8a08476047067
 
 
 function Card() {
