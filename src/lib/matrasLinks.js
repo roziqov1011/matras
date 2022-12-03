@@ -1,0 +1,1 @@
+export const matsrLink = ['Barchasi','Barchasi','Model B+','Model C+','Model D','Model Yevro','Yangi tovarlar','Model A']

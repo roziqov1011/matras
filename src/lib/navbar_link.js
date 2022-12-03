@@ -1,0 +1,1 @@
+export const ulli = ['Katalog','Aksiya','Biz haqimizda','Manzilimiz','Aloqa']
