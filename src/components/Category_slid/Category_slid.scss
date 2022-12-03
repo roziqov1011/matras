@@ -24,10 +24,18 @@
       background: #01384D;
       opacity: 0.8;
       color: white;
-      text-align: center;
       border-radius: 5px;
       width: 131px;
       height: 45px;
+      border-radius: 10px;
+      transition: all ease 0.5s;
+      p{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
     }
   }
   .list__itemC{
@@ -38,6 +46,24 @@
     text-align: center;
     color: #01384D;
     opacity: 0.6;
+    &:hover{
+      background: #01384D;
+      opacity: 0.8;
+      color: white;
+      border-radius: 5px;
+      width: 131px;
+      height: 45px;
+      border-radius: 10px;
+      transition: all ease 0.5s;
+      p{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    }
+    
   }
 
 }
