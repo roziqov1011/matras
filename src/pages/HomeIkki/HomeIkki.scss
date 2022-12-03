@@ -8,10 +8,12 @@
 body {
     width: 100%;
     height: 100%;
+    padding: 0 100px;
+    border: 2px solid red;
 }
 
 .Home {
-    width: 85%;
+    width: 1300px;
     height: max-content;
     margin: 0 auto;
 }
@@ -22,51 +24,38 @@ body {
     font-family: sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 6vh;
-    margin-top: 55vh;
+    font-size: 45px;
+    margin-top: 150px;
 }
 /* slider */
 
-
-.slider_content {
-    display: flex;
+.slider_content{
     width: 100%;
-    height: auto;
-    justify-content: space-around;
-    margin-top: 15vh;
-}
-
-.slider_all {
-    width: 50vh;
-}
-
-.slider_all img {
-    width: 100%;
-    height: 100%;
-    margin-top: 12px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 1vh;
-    border: 0.3vh solid #01384D;
-}
-
-.slider_all p {
+    height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 2.2vh;
-    margin-top: 4vh;
+    overflow: hidden;
+    justify-content: space-between;
+    margin-top: 100px;
+    .slider_all{
+        width: 400px;
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            width: 400px;
+            height: 60%;
+            margin-top: 8px;
+            border-radius: 5px;
+        }
+        p{
+            font-size: 16px;
+            text-align: center;
+            margin-top: -80px;
+        }
+    }
 }
-
-.slider_all h3 {
-    font-size: 3.5vh;
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 600;
-    color: #01384D;
-}
-
 
 
 /* div_vps */
@@ -74,7 +63,7 @@ body {
 
 .vps{
     width: 100%;
-    height: 65vh;
+    height: auto;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
@@ -82,44 +71,44 @@ body {
 }
 .vps_bir{
     position: relative;
-    width: 70vh;
-    height: 100%;
-    margin-left: -5vh;
+    width: 50%;
+    height: auto;
+
 }
 .vps_bir h1{
     position: absolute;
     color: #01384D;
     font-weight: 700;
-    top: 3vh;
-    left: 8vh;
-    font-size: 5vh
+    top: 10px;
+    left: 60px;
+    font-size: 35px;
 }
 .vps_bir p{
     position: absolute;
-    left: 9vh;
-    top: 19vh;
-    font-size: 2.2vh;
+    left: 40px;
+    top: 120px;
+    font-size: 16px;
+    padding: 0 20px;
 }
 .borderr{
     position: absolute;
-    height: auto;
-    border-radius: 1vh;
+    border-radius: 5px;
     background: #EABF9F;
-    top: 35vh;
-    padding: 1vh 2vh;
-    width: 70vh;
-    left: 8vh;
-    font-size: 2vh;
+    top: 190px;
+    width: 80%;
+    height: auto;
+    left: 50px;
+    font-size: 16px;
 }
 .vps_ikki{
-    width: 86vh;
-    height: 55vh;
+    width: 50%;
+    height: 100%;
     overflow: hidden;
 }
 .vps_ikki img{
-    width: 85vh;
-    height: 55vh;
-    border-radius: 2vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 
@@ -127,47 +116,50 @@ body {
 
 .ACG{
     width: 100%;
-    height: 60vh;
+    height: auto;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
     margin-top: 30px;
 }
 .ACG_bir{
-    width: 80vh;
-    height: 55vh;
+    width: 48%;
+    height: 100%;
 }
 .ACG_bir img{
     width: 100%;
     height: 100%;
-    border-radius: 2vh;
+    border-radius: 5px;
 }
 
 .ACG_ikki{
     position: relative;
     width: 50%;
     height: 100%;
-    padding: 3vh 8vh;
+    padding: 15px 30px;
 }
 .border_ol{
     position: absolute;
-    border: 1px solid black;
-    border-radius: 1vh;
+    border-radius: 5px;
     background: #EABF9F;
-    top: 35%;
-    width: 72vh;
+    top: 90px;
+    width: 80%;
     height: auto;
-    font-size: 2vh;
+    left: 50px;
+    font-size: 16px;
 }
 .ACG_ikki h6{
     position: absolute;
-    top: 12%;
-    font-size: 2.2vh;
+    top:10px;
+    font-size: 18px;
+    padding: 0 20px;
+
 }
 .ACG_ikki p{
     position: absolute;
-    top: 72%;
-    font-size: 2.2vh;
+    top: 230px;
+    font-size:16px;
+    padding: 0 20px;
 }
 
 
@@ -176,13 +168,13 @@ body {
 .Nega_bizni{
     margin-top: 75px;
     text-align: center;
-    font-size: 5vh;
+    font-size:35px;
 }
 
 .counter{
     display: flex;
     width: 100%;
-    height: 58vh;
+    height: 420px;
     justify-content: space-between;
     margin-top: 70px;
 }
@@ -190,7 +182,7 @@ body {
     position: relative;
     width: 26%;
     height: 100%;
-    border: 2px solid #01384D;
+    border: 1px solid #01384D;
     border-top: none;
     border-radius: 6px;
     overflow: hidden;
@@ -208,21 +200,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3vh;
-    font-size: 3vh;
+    margin-top: 20px;
+    font-size: 28px;
 }
 .count_all p{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 2.5vh;
-    padding: 0 2vh;
+    font-size: 16px;
+    padding: 0 25px;
 }
 .count_all h5{
     text-align: center;
-    font-size: 2vh;
-    margin-top: 5vh;
+    font-size: 16px;
+    margin-top: 60px;
 }
 
 
@@ -230,42 +222,51 @@ body {
 
 .Manzil{
     width: 100%;
-    height: 40vh;
+    height: 400px;
     display: flex;
     justify-content: space-around;
-    margin-top: 15vh;
+    margin-top: 150px;
+    overflow: hidden;
+
 }
 .lakatsya{
     position: relative;
-    width: 80vh;
+    width: 48%;
     height: 100%;
-    padding: 5px 10vh;
+    padding: 15px 50px;
     h3{
         position: absolute;
-        font-size: 5vh;
+        font-size: 40px;
+        top: 42px;
     }
     h6{
         position: absolute;
-        top: 25%;
-        font-size: 3vh;
+        top: 110px;
+        font-size: 25px;
     }
     p{
         position: absolute;
-        top: 15vh;
-        font-size: 2vh;
+        top: 150px;
+        font-size: 16px;
     }
     button{
         position: absolute;
-        width: 40vh;
-        top: 28vh;
-        height: 6vh;
+        width: 250px;
+        top: 250px;
+        height: 40px;
         border:1px solid  #01384D;
         border-radius: 2px;
-        font-size: 2.5vh;
+        font-size: 16px;
+        transition: all ease 0.5s;
+
+        &:hover{
+            background-color: #01384D;
+            color: #fff;
+        }
     }
 }
 .manzil_slider{
-    width: 55vh;
+    width: 60%;
     height: 100%;
     img{
         width: 100%;
@@ -278,12 +279,12 @@ body {
 // sorovnoma
 .open_modal{
     display: flex;
-    margin-top: 10vh;
+    margin-top:120px;
 }
 .sorov_modal{
     position: relative;
     width: 100%;
-    height: 25vh;
+    height: 220px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -292,57 +293,55 @@ body {
     background: #EABF9F;
     display: none;
 
-
 }
 .sorov_content{
     position: relative;
     width: 100%;
-    height: 25vh;
+    height: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background: #EABF9F;
 
 
-
     .savol{
         position: absolute;
-        width: 53vh;
-        left: 25vh;
+        width: 550px;
+        left: 60px;
        h6{
-            font-size: 3vh;
+            font-size: 22px;
        }
        p{
-        font-size: 2vh;
+        font-size: 16px;
        }
     }
     .sorov_btn{
         position: absolute;
-        width: 70vh;
-        left: 100vh;
+        width:450px;
+        right: 120px;
 
 
         input{
-            width: 40vh;
-            height: 5vh;
-            border: 0.1vh solid  #01384D;
+            width:280px;
+            height: 40px;
+            border: 1px solid  #01384D;
             outline: none;
             border-radius: 3px;
-            font-size: 2vh;
+            font-size: 16px;
             padding: 0 8px;
         }
         button{
-            width: 15vh;
-            height: 5vh;
+            width: 120px;
+            height: 40px;
             border: none;
             border-radius: 2px;
             background: #01384D;
             color: #FFF;
-            margin-left: 1vh;
+            margin-left: 5px;
             margin-top: -2px;
-            font-size: 2vh;
+            font-size: 16px;
         }
     }
 }
@@ -351,30 +350,30 @@ body {
 
 .bottom{
     width: 100%;
-    height: 25vh;
+    height: 180px;
     hr{
         width: 75%;
-        margin: 1vh auto;
+        margin: 5px auto;
     }
     .bottom_bir{
         display: flex;
         justify-content: space-around;
-        height: 10vh;
+        height: 80px;
         align-items: center;
         .ul_li{
             display: flex;
             li{
-                margin: 0 3vh;
+                margin: 0 15px;
                 list-style-type: none;
-                font-size: 2.2vh;
+                font-size: 18px;
             }
         }
         .ul_img{
             display: flex;
             list-style-type: none;
             li{
-                margin: 0 3vh;
-                font-size: 2.2vh;
+                margin: 0 15px;
+                font-size: 18px;
             }
         }
     }
@@ -382,19 +381,30 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        margin-top: 3vh;
+        margin-top: 20px;
         p{
-            font-size: 1.5vh;
+            font-size: 14px;
         }
         .bottom_img {
             display: flex;
         p{
-            width: 12vh;
+            width: 89px;
             text-align: center;
             border: 1px solid #909090;
-            height: 5vh;
-            font-size: 1.5vh;
+            height: 40px;
+            font-size: 12px;
         }
     }
+    }
+}
+
+
+
+// responsive
+
+
+@media only screen and (max-width:1280px){
+    body{
+        background: #000;
     }
 }

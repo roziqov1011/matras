@@ -1,8 +1,7 @@
 import React from 'react'
-import './Home_futer.scss'
+import './HomeIkki.scss'
 
-function HomeFuter() {
-  
+function HomeIkki() {
   return (
     <div className='Home'>
 
@@ -14,13 +13,13 @@ function HomeFuter() {
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
             </div>
           </div>
@@ -32,13 +31,13 @@ function HomeFuter() {
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
             </div>
           </div>
@@ -50,13 +49,13 @@ function HomeFuter() {
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
             </div>
           </div>
@@ -145,10 +144,10 @@ function HomeFuter() {
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
               <div class="carousel-item">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTJAUJ0dIg5ZVmMju5U5xUwU8ob8yfzWxcqcWisHtEwArLJqkOXfyTsi0AhA8CpQNGmLY&usqp=CAU" class="d-block w-100" alt="..." />
@@ -210,4 +209,4 @@ function HomeFuter() {
   )
 }
 
-export default HomeFuter
+export default HomeIkki
