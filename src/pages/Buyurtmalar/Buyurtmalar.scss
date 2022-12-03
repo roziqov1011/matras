@@ -1,0 +1,35 @@
+.table_nav {
+    width: 1040px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid #01384D;
+
+    th {
+        color: white;
+
+    }
+
+    tbody {
+        tr {
+            border: 1px solid #000;
+        }
+        td{
+        height: 40px;
+        }
+    }
+
+}
+
+.table_head {
+    background-color: #01384D;
+    th{
+    width: 25px;
+    }
+
+    tr{
+        width: 1086px;
+        height: 50px;
+    }
+}
