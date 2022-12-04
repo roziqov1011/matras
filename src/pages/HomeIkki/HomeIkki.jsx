@@ -1,5 +1,10 @@
 import React from 'react'
 import './HomeIkki.scss'
+import  ferbook from '../../img/homeIkki_img/feb.png'
+import  tviter from '../../img/homeIkki_img/tvit.png'
+import  vie from '../../img/homeIkki_img/vie.png'
+import  youtb from '../../img/homeIkki_img/you.png'
+import  grup from '../../img/homeIkki_img/grup.png'
 
 function HomeIkki() {
   return (
@@ -188,10 +193,10 @@ function HomeIkki() {
         <li>Manzilimiz</li>
       </div>
       <div className="ul_img">
-        <li>img</li>
-        <li>img</li>
-        <li>img</li>
-        <li>img</li>
+        <li><img src={ferbook} alt="" /></li>
+        <li><img src={tviter} alt="" /></li>
+        <li><img src={vie} alt="" /></li>
+        <li><img src={youtb} alt="" /></li>
       </div>
     </div>
     <hr className='hr'/>
@@ -199,7 +204,7 @@ function HomeIkki() {
       <p>© 2021 Dream Cloud. Barcha huquqlar himoyalangan.</p>
       <div className="bottom_img">
         <p>desigend and develped in</p>
-        <img src="" alt="" />
+        <img src={grup} alt="" />
       </div>
     </div>
     </div>

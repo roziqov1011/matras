@@ -58,7 +58,7 @@
 
 .vps{
     width: 100%;
-    height: auto;
+    height: 450px;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
@@ -111,7 +111,7 @@
 
 .ACG{
     width: 100%;
-    height: auto;
+    height: 450px;
     display: flex;
     padding: 10px 20px;
     justify-content: space-between;
@@ -388,6 +388,10 @@
             border: 1px solid #909090;
             height: 40px;
             font-size: 12px;
+        }
+        img{
+            width: 120px;
+            height: 40px;
         }
     }
     }
