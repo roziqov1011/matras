@@ -30,8 +30,8 @@ function Buyurtmalar() {
           <td>Ortopedik Eko matras</td>
           <td>4</td>
           <td>
-            <div className="form-check form-switch">
-              <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
+            <div className="form-check form-switch icons_theme">
+              <input className="form-check-input icons_theme" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
            
@@ -44,7 +44,7 @@ function Buyurtmalar() {
           <td>Ortopedik Eko matras</td>
           <td>4</td>
           <td>
-            <div className="form-check form-switch">
+            <div className="form-check form-switch icons_theme">
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
@@ -58,7 +58,7 @@ function Buyurtmalar() {
           <td>Ortopedik Eko matras</td>
           <td>4</td>
           <td>
-            <div className="form-check form-switch">
+            <div className="form-check form-switch icons_theme">
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
@@ -72,7 +72,7 @@ function Buyurtmalar() {
           <td>Ortopedik Eko matras</td>
           <td>4</td>
           <td>
-            <div className="form-check form-switch">
+            <div className="form-check form-switch icons_theme">
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>

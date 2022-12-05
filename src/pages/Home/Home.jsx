@@ -48,7 +48,11 @@ function Home() {
 
         <div className="ST">
           <div className="container">
-            <Statistica/>
+            {
+              dataFoiz && dataFoiz.map((e,i)=>(
+                <Statistica key={i} item={e}/>
+              ))
+            }
           </div>
         </div>
         
