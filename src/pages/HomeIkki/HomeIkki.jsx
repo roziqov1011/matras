@@ -1,72 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './HomeIkki.scss'
 import  ferbook from '../../img/homeIkki_img/feb.png'
 import  tviter from '../../img/homeIkki_img/tvit.png'
 import  vie from '../../img/homeIkki_img/vie.png'
 import  youtb from '../../img/homeIkki_img/you.png'
 import  grup from '../../img/homeIkki_img/grup.png'
+import Homeikki_slider from '../../components/Homeikki_slider/Homeikki_slider'
+
+
 
 function HomeIkki() {
+  const [modal , setModal]= useState('sorov_modal')
+  const [buton , setbutn]= useState('bottom')
+  let opnmadal = ()=>{
+    setModal('sorov_modal_open')
+    setbutn('buton_open')
+  }
+  let removmadal = ()=>{
+    setModal('sorov_content')
+    setbutn('bottom')
+  }
+
+
   return (
     <div className='Home'>
 
       <h1 className='ishlab_chiqarish'>Ishlab chiqarish texnologiyalari</h1>
       <div className="slider_content">
-
-        <div className="slider_all">
-          <h3>Memoriform</h3>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-            </div>
-          </div>
-          <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
-        </div>
-
-        <div className="slider_all">
-          <h3>Memoriform</h3>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-            </div>
-          </div>
-          <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
-        </div>
-
-        <div className="slider_all">
-          <h3>Memoriform</h3>
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
-              </div>
-            </div>
-          </div>
-          <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
-        </div>
-      </div>
+        <Homeikki_slider/>
+     </div>
 
       {/* div_vps */}
 
@@ -164,27 +126,27 @@ function HomeIkki() {
       </div>
 
 
-    {/* sorovnoma */}
+    {/* {/* sorovnoma */ /*"sorov_modal"*/} 
 <div className="open_modal">
-<div className="sorov_modal">
+<div className=  {modal}>
       <h5>Arizangiz muvaffaqiyatli qabul qilindi ✅</h5>
       <p>Siz bilan tez orada bog’lanamiz 😊</p>
     </div>
-    <div className="sorov_content" >
+    <div className= 'sorov_content' >
       <div className="savol">
-        <h6>Sizni qiziqtirdimi?</h6>
-        <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz</p>
+        <h6>Sizni qiziqtirdimi? 🧐</h6>
+        <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz📱</p>
       </div>
       <div className="sorov_btn">
-        <input type="number" placeholder='  +998  Raqamingizni yozing'/>
-        <button >Yuborish</button>
+        <input type="number" placeholder='  +998 Raqamingizni yozing'/>
+        <button onClick={opnmadal} onDoubleClick={removmadal}>Yuborish</button>
       </div>
     </div>
 </div>
 
 {/* bottom */}
 
-    <div className="bottom">
+    <div className={buton}>
     <div className="bottom_bir">
     <div className="ul_li">
         <li>Biz haqimizda</li>
