@@ -2,6 +2,12 @@ import React from 'react'
 import './Customers.scss'
 
 function Customers() {
+  // useEffect(()=>{
+  //   fetch(``)
+  //   .then()
+  //   .then()
+  //   .catch();
+  // },[])
 
 return (
 <div>
@@ -22,9 +28,16 @@ return (
       <tbody>
         <tr>
           <th></th>
-          <td>6</td>
-          <td>12:13-12.05.2021</td>
-          <td>+998 90 123 45 67</td>
+          <td>7</td>
+            <td>12:13-12.05.2021</td>
+            <td>+998 90 123 45 67</td>
+          {/* {
+            data.map((e,i)=>(
+              <td>{e.id}</td>
+            <td>{e.date}</td>
+            <td>{e.phon number}</td>
+            ))
+          } */}
           <td>
             <div className="form-check form-switch">
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
