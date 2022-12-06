@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './card.scss'
 import matrs from '../../img/img__home/oq_matras.png'
+import Buyurtma from '../buyurtma/Buyurtma';
 
 
 function Card({maxsulot}) {
@@ -35,7 +36,7 @@ function Card({maxsulot}) {
           <p className='info'>{maxsulot.malumot}</p>
           <span className='narx'>Narxi</span>
           <p className='som'>{maxsulot.narx} <sub>so’m</sub></p>
-          <button className='button'>Buyurtma berish <i className="bi bi-cart-fill"></i></button>
+          <Buyurtma/>
         </div>
       </div>
     </div>
