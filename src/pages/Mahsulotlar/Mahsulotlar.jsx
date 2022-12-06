@@ -1,6 +1,6 @@
 import React from 'react'
 import './Mahsulotlar.scss'
-
+import input_logo from '../../img/admin/input_logo.png'
 function Mahsulotlar() {
   return (
     <div>
@@ -106,12 +106,22 @@ function Mahsulotlar() {
               <div className="modal-body">
                 <form>
                   <div className="mb-3">
-                    <label for="recipient-name" className="col-form-label">Recipient:</label>
-                    <input type="text" className="form-control" id="recipient-name" />
+                    <label for="recipient-name" className="col-form-label"><img src={input_logo} alt="" /></label>
+                    <input type="file" className="form-control" id="recipient-name" />
                   </div>
-                  <div className="mb-3">
-                    <label for="message-text" className="col-form-label">Message:</label>
+                  <div className="input__group1">
+                    <div className="mb-3">
+                      <label for="message-text" className="col-form-label">Toifalar</label>
+                      <textarea className="form-control" id="message-text"></textarea>
+                    </div>
+                    <div className="mb-3">
+                      <label for="message-text" className="col-form-label">Tovar nomi</label>
+                      <textarea className="form-control" id="message-text"></textarea>
+                    </div>
+                    <div className="mb-3">
+                    <label for="message-text" className="col-form-label">Narxi</label>
                     <textarea className="form-control" id="message-text"></textarea>
+                  </div>
                   </div>
                 </form>
               </div>
