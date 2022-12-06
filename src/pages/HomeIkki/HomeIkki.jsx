@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './HomeIkki.scss'
 import  ferbook from '../../img/homeIkki_img/feb.png'
 import  tviter from '../../img/homeIkki_img/tvit.png'
@@ -10,6 +10,7 @@ import Homeikki_slider from '../../components/Homeikki_slider/Homeikki_slider'
 
 
 function HomeIkki() {
+  const usst = useRef()
   const [modal , setModal]= useState('sorov_modal')
   const [buton , setbutn]= useState('bottom')
   let opnmadal = ()=>{
@@ -20,7 +21,6 @@ function HomeIkki() {
     setModal('sorov_content')
     setbutn('bottom')
   }
-
 
   return (
     <div className='Home'>
@@ -138,7 +138,7 @@ function HomeIkki() {
         <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz📱</p>
       </div>
       <div className="sorov_btn">
-        <input type="number" placeholder='  +998 Raqamingizni yozing'/>
+        <input ref={usst} type="number" placeholder='  +998 Raqamingizni yozing'/>
         <button onClick={opnmadal} onDoubleClick={removmadal}>Yuborish</button>
       </div>
     </div>
