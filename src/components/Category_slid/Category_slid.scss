@@ -13,12 +13,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .C-act{
+  .list__item-act{
     list-style-type: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     color: #01384D;
+    text-align: center;
+    &:hover{
+      background: #01384D;
+      opacity: 0.8;
+      color: white;
+      border-radius: 5px;
+      width: 131px;
+      height: 45px;
+      border-radius: 10px;
+      transition: all ease 0.5s;
+      p{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    }
   }
   .list__itemC{
     list-style-type: none;
@@ -28,14 +46,24 @@
     text-align: center;
     color: #01384D;
     opacity: 0.6;
+    &:hover{
+      background: #01384D;
+      opacity: 0.8;
+      color: white;
+      border-radius: 5px;
+      width: 131px;
+      height: 45px;
+      border-radius: 10px;
+      transition: all ease 0.5s;
+      p{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+      }
+    }
+    
   }
-  :hover{
-    background: #01384D;
-    opacity: 0.8;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    width: 131px;
-    height: 45px;
-  }
+
 }

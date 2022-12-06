@@ -48,19 +48,14 @@ function Home() {
 
         <div className="ST">
           <div className="container">
-            <Statistica/>
+            {
+              dataFoiz && dataFoiz.map((e,i)=>(
+                <Statistica key={i} item={e}/>
+              ))
+            }
           </div>
         </div>
-
-      <div className="mahsulot__matras">
-        {
-          data && data.map((e,i)=>(
-            <Card key={i} item={e}/>
-          ))
-        }
-              <p className='title-matras'>Aksiyadagi mahsulotlar</p>
-              
-      </div>
+        
         <div className="CT">
           <div className="container">
               <Category_slid/>
