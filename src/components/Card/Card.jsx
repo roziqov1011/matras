@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './card.scss'
 import matrs from '../../img/img__home/oq_matras.png'
 
 
 function Card({maxsulot}) {
+
   return (
     <div className='card'>
       <div className='card__matras'>

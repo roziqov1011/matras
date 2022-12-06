@@ -7,8 +7,6 @@ import { dataFoiz } from '../../lib/Data_foiz'
 import HomeIkki from '../HomeIkki/HomeIkki'
 import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
-import Menu from '../../components/Menu/Menu'
-import { data } from '../../lib/data';
 import { maxsulot } from '../../lib/maxsulot'
 
 
