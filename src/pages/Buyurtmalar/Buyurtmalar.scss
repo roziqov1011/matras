@@ -16,7 +16,7 @@
             border: 1px solid #000;
         }
         td{
-        height: 40px;
+        height: 75px;
         }
     }
 
@@ -25,11 +25,14 @@
 .table_head {
     background-color: #01384D;
     th{
-    width: 25px;
+    width: 40px;
     }
 
     tr{
         width: 1086px;
-        height: 50px;
+        height: 60px;
     }
+}
+.icons_theme{
+    font-size: 23px;
 }
