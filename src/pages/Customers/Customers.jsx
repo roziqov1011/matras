@@ -29,7 +29,7 @@ return (
         <tr>
           <th></th>
           <td>7</td>
-            <td>12:13-12.05.2021</td>
+            <td className='td_d'>12:13-12.05.2021</td>
             <td>+998 90 123 45 67</td>
           {/* {
             data.map((e,i)=>(
@@ -52,7 +52,7 @@ return (
         <tr className='trr'>
           <th></th>
           <td>2</td>
-          <td>12:13-12.05.2021</td>
+          <td className='td_d'>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
           <td>
             <div className="form-check form-switch formm">
@@ -68,7 +68,7 @@ return (
         <tr className='trr'>
           <th></th>
           <td>3</td>
-          <td>12:13-12.05.2021</td>
+          <td className='td_d'>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
           <td>
             <div className="form-check form-switch formm">
@@ -84,7 +84,7 @@ return (
         <tr className='trr'>
           <th></th>
           <td>6</td>
-          <td>12:13-12.05.2021</td>
+          <td className='td_d'>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
           <td>
             <div className="form-check form-switch formm">
@@ -100,7 +100,7 @@ return (
         <tr className='trr'>
           <th></th>
           <td>4</td>
-          <td>12:13-12.05.2021</td>
+          <td className='td_d'>12:13-12.05.2021</td>
           <td>+998 90 123 45 67</td>
           <td>
             <div className="form-check form-switch formm">
