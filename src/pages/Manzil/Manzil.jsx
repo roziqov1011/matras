@@ -61,6 +61,10 @@ return (
           </div>
           <div class="modal-body">
             <div className='modal_img '>
+              <div class="mb-3">
+                <label for="formFile" class="form-label"></label>
+                <input class="form-control" type="file" id="formFile" />
+              </div>
             </div>
             <div className='modal_tedy'>
               <div className='modal_tedy_1'>
@@ -86,7 +90,10 @@ return (
                   <span>
                     Matn
                   </span>
-                  <input type="text" />
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
                 </div>
               </div>
             </div>
