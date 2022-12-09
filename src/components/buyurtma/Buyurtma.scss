@@ -1,7 +1,87 @@
-button{
+.button__modal{
     border: 2px solid #01384D;
     border-radius: 5px;
     padding: 10px 20px;
     background: #fff;
     color: #01384D !important;
+}
+.buyrtma__modal{
+    .buyurtma__block{
+        padding: 20px;
+        .title__b{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            color: #01384D;
+            text-align: center;
+        }
+        .name__yoz{
+            width: 360px;
+            height: 60px;
+            background: #FFFFFF;
+            border: 2px solid #01384D;
+            border-radius: 5px;
+            margin-left: 60px;
+            padding: 20px;
+        }
+        .raqam{
+            margin-top: 25px;
+            margin-left: 60px;
+
+            .raqam__button{
+                width: 84px;
+                height: 59px;
+                background: #01384D;
+                color: white;
+                border-radius: 5px 0px 0px 5px;
+            }
+            input{
+                width: 276px;
+                height: 60px;
+                background: #FFFFFF;
+                border: 2px solid #01384D;
+                border-radius: 0px 5px 5px 0px;
+                padding: 20px;
+
+            }
+        }
+        .tanlash{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            color: #01384D;
+            margin-top: 45px;
+            margin-left: 60px;
+
+        }
+        .cateygoreya{
+            width: 360px;
+            height: 60px;
+            border: 2px solid #01384D;
+            border-radius: 5px;
+            margin-left: 60px;
+
+        }
+        .miqdor{
+            margin-left: 60px;
+            button{
+                width: 100px;
+
+            }
+            .button_1{
+                border-radius: 5px 0px 0px 5px;
+                
+            }
+            .button_2{
+                border-radius: 0px 5px 5px 0px;
+                
+            }
+            .miqdor__sonni{
+                padding: 12px 73px;
+                background: #FFFFFF;
+                border: 2px solid #01384D;
+            }
+
+        }
+    }
 }
