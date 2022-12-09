@@ -108,16 +108,16 @@ function HomeIkki() {
         </div>
 
         <div className="manzil_slider">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+          <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
                 <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+              <div className="carousel-item">
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" className="d-block w-100" alt="..." />
               </div>
             </div>
           </div>

@@ -7,11 +7,22 @@ function Buyurtma() {
     const [count, setCount] = useState(1)
     return (
       <div className="Buyurtma">
+<<<<<<< HEAD
+            <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+=======
             <button type="button" class="btn btn-primary button__modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+>>>>>>> da79c304892a9cc60fc1de8a705064adaa8b970c
                 Buyurtma berish
             </button>
 
 
+<<<<<<< HEAD
+            <div className="modal fade " id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                <div className="modal-body buyrtma__modal">
+                    
+=======
             <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content" style={{height: '700px'}}>
@@ -37,6 +48,7 @@ function Buyurtma() {
                           <button class="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Yuborish</button>
                         </div>
                     </div>
+>>>>>>> da79c304892a9cc60fc1de8a705064adaa8b970c
                 </div>
                 </div>
             </div>

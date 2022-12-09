@@ -61,37 +61,32 @@ return (
           </div>
           <div class="modal-body">
             <div className='modal_img '>
-              <div class="mb-3">
-                <input className="form-control" type="file" id="formFile" />
-              </div>
             </div>
-            <div className='modall'>
-              <div className='modal_tedy'>
-                <div className='modal_tedy_1'>
+            <div className='modal_tedy'>
+              <div className='modal_tedy_1'>
+                <span>
+                  Manzil
+                </span>
+                <input type="text" />
+              </div>
+              <div className='modal_tedy_2'>
+                <span>
+                  Location
+                </span>
+                <input type="text" />
+              </div>
+              <div className='modal_tedy_3'>
+                <span>
+                  Holat
+                </span>
+                <div className="form-check form-switch">
+                  <input className="form-check-input from" type="checkbox" id="flexSwitchCheckDefault" />
+                </div>
+                <div className='modal_tedy_4'>
                   <span>
-                    Manzil
+                    Matn
                   </span>
                   <input type="text" />
-                </div>
-                <div className='modal_tedy_2'>
-                  <span>
-                    Location
-                  </span>
-                  <input type="text" />
-                </div>
-                <div className='modal_tedy_3'>
-                  <span>
-                    Holat
-                  </span>
-                  <div className="form-check form-switch">
-                    <input className="form-check-input from" type="checkbox" id="flexSwitchCheckDefault" />
-                  </div>
-                  <div className='modal_tedy_4'>
-                    <span>
-                      Matn
-                    </span>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
                 </div>
               </div>
             </div>
