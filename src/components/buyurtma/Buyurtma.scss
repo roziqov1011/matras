@@ -1,7 +1,132 @@
-button{
+.button__modal{
     border: 2px solid #01384D;
     border-radius: 5px;
     padding: 10px 20px;
     background: #fff;
     color: #01384D !important;
+}
+.buyrtma__modal{
+    .buyurtma__block{
+        padding: 20px;
+        .title__b{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 47px;
+            color: #01384D;
+            text-align: center;
+        }
+        .name__yoz{
+            width: 360px;
+            height: 60px;
+            background: #FFFFFF;
+            border: 2px solid #01384D;
+            border-radius: 5px;
+            margin-left: 60px;
+            padding: 20px;
+        }
+        .raqam{
+            margin-top: 25px;
+            margin-left: 60px;
+
+            .raqam__button{
+                width: 84px;
+                height: 59px;
+                background: #01384D;
+                color: white;
+                border-radius: 5px 0px 0px 5px;
+            }
+            input{
+                width: 276px;
+                height: 60px;
+                background: #FFFFFF;
+                border: 2px solid #01384D;
+                border-radius: 0px 5px 5px 0px;
+                padding: 20px;
+
+            }
+        }
+        .tanlash{
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21px;
+            color: #01384D;
+            margin-top: 45px;
+            margin-left: 60px;
+
+        }
+        .cateygoreya{
+            width: 360px;
+            height: 60px;
+            border: 2px solid #01384D;
+            border-radius: 5px;
+            margin-left: 60px;
+
+        }
+        .miqdor{
+            margin-left: 60px;
+            button{
+                width: 103px;
+                padding: 10px;
+            }
+            .button_1{
+                border-radius: 5px 0px 0px 5px;
+                
+            }
+            .button_2{
+                border-radius: 0px 5px 5px 0px;
+                
+            }
+            .miqdor__sonni{
+                padding: 12.5px 73px;
+                background: #FFFFFF;
+                border-top: 2px solid #01384D;
+                border-bottom: 2px solid #01384D;
+                border-left: none;
+                border-right: none;
+            }
+
+        }
+        .yubor{
+            margin-left: 60px;
+            margin-top: 50px;
+            button{
+                width: 360px;
+                height: 60px;
+                background: #01384D;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+.modal2__block2{
+    margin-top: 20px;
+    .ariza{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #01384D;
+    }
+    img{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .habar{
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #01384D;
+    }
+    .yubor{
+        margin-left: 60px;
+        margin-top: 50px;
+        button{
+            width: 360px;
+            height: 60px;
+            background: #01384D;
+            border-radius: 5px;
+        }
+    }
 }
