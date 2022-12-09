@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import './Buyurtma.scss'
 import img from '../../img/img__home/Group.png'
 
 function Buyurtma() {
+
+    const [count, setCount] = useState(1)
     return (
       <div className="Buyurtma">
             <button type="button" class="btn btn-primary button__modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -27,9 +29,9 @@ function Buyurtma() {
                         </select>
                         <p className="tanlash">Miqdorni tanlang</p>
                         <div className="miqdor">
-                          <button className="button_1">-</button>
-                          <span className="miqdor__sonni">1</span>
-                          <button className="button_2">+</button>
+                          <button className="button_1" onClick={() => setCount(count != 1 ? count - 1 : 1)}>-</button>
+                          <span className="miqdor__sonni">{count}</span>
+                          <button className="button_2" onClick={() => setCount(count + 1)}>+</button>
                         </div>
                         <div class="yubor">
                           <button class="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Yuborish</button>
