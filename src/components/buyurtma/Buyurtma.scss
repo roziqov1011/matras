@@ -65,7 +65,7 @@
         .miqdor{
             margin-left: 60px;
             button{
-                width: 100px;
+                width: 103px;
 
             }
             .button_1{
@@ -77,11 +77,24 @@
                 
             }
             .miqdor__sonni{
-                padding: 12px 73px;
+                padding: 12.5px 73px;
                 background: #FFFFFF;
-                border: 2px solid #01384D;
+                border-top: 2px solid #01384D;
+                border-bottom: 2px solid #01384D;
+                border-left: none;
+                border-right: none;
             }
 
+        }
+        .yubor{
+            margin-left: 60px;
+            margin-top: 50px;
+            button{
+                width: 360px;
+                height: 60px;
+                background: #01384D;
+                border-radius: 5px;
+            }
         }
     }
 }

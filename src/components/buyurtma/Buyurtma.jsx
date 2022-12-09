@@ -30,9 +30,9 @@ function Buyurtma() {
                           <span className="miqdor__sonni">1</span>
                           <button className="button_2">+</button>
                         </div>
-                    </div>
-                    <div class="">
-                      <button class="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Yuborish</button>
+                        <div class="yubor">
+                          <button class="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Yuborish</button>
+                        </div>
                     </div>
                 </div>
                 </div>
