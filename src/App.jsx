@@ -8,6 +8,7 @@ import Mahsulotlar from './pages/Mahsulotlar/Mahsulotlar'
 import Texnologiyalar from './pages/Texnologiyalar/Texnologiyalar'
 import Manzil from './pages/Manzil/Manzil';
 import Buyurtmalar from './pages/Buyurtmalar/Buyurtmalar';
+import HomeIkki from './pages/HomeIkki/HomeIkki';
 
 function App() {
   return (
