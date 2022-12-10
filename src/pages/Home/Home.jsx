@@ -8,6 +8,7 @@ import HomeIkki from '../HomeIkki/HomeIkki'
 import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
 import { maxsulot } from '../../lib/maxsulot'
+import Buyurtma from '../../components/buyurtma/Buyurtma'
 
 
 
@@ -30,7 +31,7 @@ function Home() {
                   <img src={logo} alt="" />
                     <div className="btn-ra">
                         <p> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
-                        <button>Buyurtma berish</button>
+                        <Buyurtma/>
                     </div>
                 </div>
                 <div className="header_M">

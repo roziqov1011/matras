@@ -5,10 +5,16 @@
     background: #fff;
     color: #01384D !important;
 }
+.modal-content{
+    width: 550px !important;
+    height: 700px !important;
+}
 .buyrtma__modal{
     .buyurtma__block{
         padding: 20px;
+        
         .title__b{
+            margin-left: 60px;
             font-weight: 700;
             font-size: 40px;
             line-height: 47px;
@@ -66,7 +72,7 @@
             margin-left: 60px;
             button{
                 width: 103px;
-
+                padding: 10px;
             }
             .button_1{
                 border-radius: 5px 0px 0px 5px;
@@ -95,6 +101,41 @@
                 background: #01384D;
                 border-radius: 5px;
             }
+        }
+    }
+}
+.modal2__block2{
+    margin-left: 40px;
+    margin-top: 20px;
+    .ariza{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #01384D;
+    }
+    img{
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .habar{
+        margin-top: 50px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #01384D;
+        text-align: center;
+
+    }
+    .yubor{
+        margin-left: 40px;
+        margin-top: 50px;
+        button{
+            width: 360px;
+            height: 60px;
+            background: #01384D;
+            border-radius: 5px;
         }
     }
 }

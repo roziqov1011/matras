@@ -4,10 +4,8 @@ import './Buyurtmalar.scss'
 function Buyurtmalar() {
   return (
     <div>
-     
     <table className='table_nav'>
       <thead className='table_head'>
-        
         <tr>
         <th></th>
           <th>Id</th>
@@ -16,10 +14,7 @@ function Buyurtmalar() {
           <th>mahsulot nomi</th>
           <th>miqdor</th>
           <th>qayta aloqa</th>
-          
-          
         </tr>
-        
       </thead>
       <tbody>
         <tr>
@@ -34,7 +29,6 @@ function Buyurtmalar() {
               <input className="form-check-input icons_theme" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
-           
         </tr>
         <tr>
         <th></th>
@@ -48,7 +42,6 @@ function Buyurtmalar() {
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
-           
         </tr>
         <tr>
         <th></th>
@@ -62,7 +55,6 @@ function Buyurtmalar() {
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
-           
         </tr>
         <tr>
         <th></th>
@@ -76,14 +68,10 @@ function Buyurtmalar() {
               <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" defaultChecked />
             </div>
           </td>
-            
         </tr>
-        
-      
       </tbody>
     </table>
   </div>
-    
   )
 }
 
