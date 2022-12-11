@@ -34,7 +34,7 @@ function HomeIkki() {
 
       <div className="vps">
 
-        <div className="vps_bir">
+        <div className="vps_bir" id='Kampanya'>
 
           <h1>Dream Cloud<br /> kompaniyasi haqida</h1>
           <p>Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum:</p>
@@ -69,7 +69,7 @@ function HomeIkki() {
 
       {/*nega bizni tanlashdi */}
 
-      <h2 className='Nega_bizni'>Nega bizni tanlashadi</h2>
+      <h2 className='Nega_bizni'  id='Bizhaqimizda'>Nega bizni tanlashadi</h2>
 
       <div className="counter">
         <div className="count_all">
@@ -99,7 +99,7 @@ function HomeIkki() {
 {/* manzil */}
 
 
-      <div className="Manzil">
+      <div className="Manzil" id='Manzilimiz'>
         <div className="lakatsya">
           <h3>Manzilimiz</h3>
           <h6>Toshkent, Parkent ko'chasi, 176-uy</h6>
@@ -138,7 +138,7 @@ function HomeIkki() {
         <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz📱</p>
       </div>
       <div className="sorov_btn">
-        <input ref={usst} type="number" placeholder='  +998 Raqamingizni yozing'/>
+        <input ref={usst} type="number" placeholder='  +998 numer'/>
         <button onClick={opnmadal} onDoubleClick={removmadal}>Yuborish</button>
       </div>
     </div>
@@ -146,13 +146,13 @@ function HomeIkki() {
 
 {/* bottom */}
 
-    <div className={buton}>
+    <div className='bottom'>
     <div className="bottom_bir">
     <div className="ul_li">
-        <li>Biz haqimizda</li>
-        <li>Katalog</li>
+        <li><a href="#Bizhaqimizda">Biz haqimizda</a></li>
+        <li><a href="#Kampanya">Kampanya haqda</a></li>
         <li>Aksiya</li>
-        <li>Manzilimiz</li>
+        <li><a href="#Manzilimiz">Manzilimiz</a></li>
       </div>
       <div className="ul_img">
         <li><img src={ferbook} alt="" /></li>

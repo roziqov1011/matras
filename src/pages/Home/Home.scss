@@ -105,6 +105,11 @@
   }
 
 // resposive
+
+
+
+
+
   @media only screen and (max-width: 1000px){
     .headerr{
         background: #EABF9F;
@@ -112,13 +117,13 @@
         margin: 0 auto;
     }
     .container{
-        width: 1300px;
+        width: 1000px;
+        background-color: #01384D;
         height: max-content;
         margin: 0 auto;
     }
     .nav-list{
         display: flex;
-        justify-content: flex-end;
         align-items: center;
         padding-top: 20px;
         a{
@@ -131,7 +136,7 @@
         }
     }
     .logo-btn{
-        width: 100%;
+        width: 50px;
         display: flex;
         .btn-ra{
             display: flex;

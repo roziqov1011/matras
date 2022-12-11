@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #01384D;
+    text-decoration: none;
 }
 
 
@@ -340,60 +341,7 @@
 
 
 // bottom
-.buton_open{
-    width: 100%;
-    height: 180px;
 
-    hr{
-        width: 75%;
-        margin: 5px auto;
-    }
-    .bottom_bir{
-        display: flex;
-        justify-content: space-around;
-        height: 80px;
-        align-items: center;
-        .ul_li{
-            display: flex;
-            li{
-                margin: 0 15px;
-                list-style-type: none;
-                font-size: 18px;
-            }
-        }
-        .ul_img{
-            display: flex;
-            list-style-type: none;
-            li{
-                margin: 0 15px;
-                font-size: 18px;
-            }
-        }
-    }
-    .bottom_ikki{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 12px;
-        p{
-            font-size: 14px;
-        }
-        .bottom_img {
-            display: flex;
-        p{
-            width: 89px;
-            text-align: center;
-            border: 1px solid #909090;
-            height: 40px;
-            font-size: 12px;
-        }
-        img{
-            width: 120px;
-            height: 40px;
-        }
-    }
-    }
-}
 .bottom{
     width: 100%;
     height: 180px;
@@ -456,9 +404,9 @@
 
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1040px) {
     .Home {
-        width: 1000px;
+        width: 900px;
         height: max-content;
         margin: 0 auto;
     }
@@ -469,7 +417,7 @@
         font-family: sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 45px;
+        font-size: 32px;
         margin-top: 150px;
     }
     /* slider */
@@ -487,7 +435,7 @@
     
     .vps{
         width: 100%;
-        height: 390px;
+        height: 320px;
         display: flex;
         padding: 10px 20px;
         justify-content: space-between;
@@ -505,22 +453,23 @@
         font-weight: 700;
         top: 10px;
         left: 60px;
-        font-size: 28px;
+        font-size: 23px;
     }
     .vps_bir p{
         position: absolute;
         left: 40px;
-        top: 120px;
-        font-size: 14px;
+        top: 80px;
+        font-size: 12px;
         padding: 0 20px;
     }
     .borderr{
         position: absolute;
-        border-radius: 5px;
+        border-radius: 3px;
         background: #EABF9F;
         width: 80%;
         height: auto;
-        font-size: 16px;
+        font-size: 12px;
+        top: 160px;
     }
     .vps_ikki{
         width: 50%;
@@ -530,7 +479,7 @@
     .vps_ikki img{
         width: 100%;
         height: 90%;
-        border-radius: 5px;
+        border-radius: 3px;
     }
     
     
@@ -538,7 +487,7 @@
     
     .ACG{
         width: 100%;
-        height: 390px;
+        height: 320px;
         display: flex;
         padding: 10px 20px;
         justify-content: space-between;
@@ -546,7 +495,7 @@
 
     }
     .ACG_bir{
-        width: 48%;
+        width: 50%;
         height: 100%;
     }
     .ACG_bir img{
@@ -559,29 +508,29 @@
         position: relative;
         width: 50%;
         height: 100%;
-        padding: 15px 30px;
+        padding: 15px 20px;
     }
     .border_ol{
         position: absolute;
         border-radius: 5px;
         background: #EABF9F;
-        top: 90px;
+        top: 60px;
         width: 80%;
         height: auto;
-        left: 50px;
-        font-size: 14px;
+        left: 40px;
+        font-size: 12px;
     }
     .ACG_ikki h6{
         position: absolute;
-        top:10px;
-        font-size: 16px;
+        font-size: 14px;
+        top: -5px;
         padding: 0 20px;
     
     }
     .ACG_ikki p{
         position: absolute;
-        top: 230px;
-        font-size:14px;
+        top: 190px;
+        font-size:12px;
         padding: 0 20px;
     }
     
@@ -597,7 +546,7 @@
     .counter{
         display: flex;
         width: 100%;
-        height: 390px;
+        height: 320px;
         justify-content: space-between;
         margin-top: 70px;
     }
@@ -624,20 +573,20 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .count_all p{
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         padding: 0 25px;
     }
     .count_all h5{
         text-align: center;
-        font-size: 14px;
-        margin-top: 60px;
+        font-size: 13px;
+        margin-top: 40px;
     }
     
     
@@ -645,10 +594,10 @@
     
     .Manzil{
         width: 100%;
-        height: 360px;
+        height: 300px;
         display: flex;
         justify-content: space-around;
-        margin-top: 150px;
+        margin-top: 100px;
         overflow: hidden;
         
     }
@@ -659,29 +608,29 @@
         padding: 15px 50px;
         h3{
             position: absolute;
-            font-size: 30px;
+            font-size: 25px;
             top: 42px;
         }
         h6{
             position: absolute;
             top: 110px;
-            font-size: 20px;
+            font-size: 17px;
         }
         p{
             position: absolute;
             top: 150px;
             left: 29px;
-            font-size: 14px;
+            font-size: 12px;
             padding: 0 20px;
         }
         button{
             position: absolute;
-            width: 200px;
-            top: 250px;
+            width: 170px;
+            top: 220px;
             height: 30px;
             border:1px solid  #01384D;
             border-radius: 2px;
-            font-size: 14px;
+            font-size: 13px;
             transition: all ease 0.5s;
     
             &:hover{
@@ -692,10 +641,10 @@
     }
     .manzil_slider{
         width: 55%;
-        height: 250px;
+        height: 180px;
         img{
-            width: 100%;
-            height: 100%;
+            width: 440px;
+            height: 280px;
             border-radius: 5px;
         }
     }
@@ -705,13 +654,13 @@
     .open_modal{
         width: 100%;
         height: 220px;
-        margin-top: 120px;
+        margin-top: 100px;
         position: relative;
     }
     .sorov_modal{
         position: absolute;
         width: 100%;
-        height: 200px;
+        height: 180px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -725,7 +674,7 @@
     .sorov_modal_open{
         position: absolute;
         width: 100%;
-        height: 200px;
+        height: 180px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -740,7 +689,7 @@
     .sorov_content{
         position: absolute;
         width: 100%;
-        height: 200px;
+        height: 180px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -753,38 +702,38 @@
             width: 550px;
             left: 60px;
            h6{
-                font-size: 22px;
+                font-size: 18px;
            }
            p{
-            font-size: 16px;
+            font-size: 13px;
            }
         }
         .sorov_btn{
             position: absolute;
             width:450px;
-            right: 120px;
-            right: 60px;
+            right: 10px;
     
             input{
-                width:230px;
-                height: 40px;
+                width:200px;
+                height: 30px;
                 border: 1px solid  #01384D;
                 outline: none;
                 border-radius: 3px;
                 font-size: 16px;
                 padding: 0 8px;
                 margin-left: 55px;
+                
             }
             button{
                 width: 120px;
-                height: 40px;
+                height: 30px;
                 border: none;
                 border-radius: 2px;
                 background: #01384D;
                 color: #FFF;
                 margin-left: 5px;
                 margin-top: -2px;
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }
@@ -792,66 +741,13 @@
     
     
     // bottom
-    .buton_open{
-        width: 100%;
-        height: 180px;
-    
-        hr{
-            width: 75%;
-            margin: 5px auto;
-        }
-        .bottom_bir{
-            display: flex;
-            justify-content: space-around;
-            height: 80px;
-            align-items: center;
-            .ul_li{
-                display: flex;
-                li{
-                    margin: 0 15px;
-                    list-style-type: none;
-                    font-size: 18px;
-                }
-            }
-            .ul_img{
-                display: flex;
-                list-style-type: none;
-                li{
-                    margin: 0 15px;
-                    font-size: 18px;
-                }
-            }
-        }
-        .bottom_ikki{
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            margin-top: 12px;
-            p{
-                font-size: 14px;
-            }
-            .bottom_img {
-                display: flex;
-            p{
-                width: 89px;
-                text-align: center;
-                border: 1px solid #909090;
-                height: 40px;
-                font-size: 12px;
-            }
-            img{
-                width: 120px;
-                height: 40px;
-            }
-        }
-        }
-    }
+   
     .bottom{
         width: 100%;
         height: 180px;
     
         hr{
-            width: 75%;
+            width: 85%;
             margin: 5px auto;
         }
         .bottom_bir{
@@ -864,15 +760,20 @@
                 li{
                     margin: 0 15px;
                     list-style-type: none;
-                    font-size: 18px;
+                    font-size: 14px;
                 }
             }
             .ul_img{
                 display: flex;
                 list-style-type: none;
+                width: 220px;
+                height: 30px;
                 li{
                     margin: 0 15px;
-                    font-size: 18px;
+                    font-size: 12px;
+                }
+                img{
+                    width: 20px;
                 }
             }
         }
@@ -882,7 +783,7 @@
             justify-content: space-around;
             margin-top: 20px;
             p{
-                font-size: 14px;
+                font-size: 12px;
             }
             .bottom_img {
                 display: flex;
@@ -904,12 +805,12 @@
 
 
 
-//   1200
+//   700
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 700px) {
     .Home {
-        width: 1000px;
+        width: 650px;
         height: max-content;
         margin: 0 auto;
     }
@@ -920,7 +821,7 @@
         font-family: sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 45px;
+        font-size: 28px;
         margin-top: 150px;
     }
     /* slider */
@@ -928,7 +829,7 @@
     .slider_content{
         width: 100%;
         height: auto;
-        margin-top: 100px;
+        margin-top: 80px;
         
     }
     
@@ -938,9 +839,9 @@
     
     .vps{
         width: 100%;
-        height: 390px;
+        height: 270px;
         display: flex;
-        padding: 10px 20px;
+       
         justify-content: space-between;
         margin-top: 85px;
     }
@@ -955,23 +856,24 @@
         color: #01384D;
         font-weight: 700;
         top: 10px;
-        left: 60px;
-        font-size: 28px;
+        font-size: 15px;
     }
     .vps_bir p{
         position: absolute;
         left: 40px;
-        top: 120px;
-        font-size: 14px;
+        top: 80px;
+        font-size: 11px;
         padding: 0 20px;
+        top: 60px;
     }
     .borderr{
         position: absolute;
-        border-radius: 5px;
+        border-radius: 3px;
         background: #EABF9F;
         width: 80%;
         height: auto;
-        font-size: 16px;
+        font-size: 9px;
+        top: 140px;
     }
     .vps_ikki{
         width: 50%;
@@ -981,7 +883,7 @@
     .vps_ikki img{
         width: 100%;
         height: 90%;
-        border-radius: 5px;
+        border-radius: 3px;
     }
     
     
@@ -989,7 +891,7 @@
     
     .ACG{
         width: 100%;
-        height: 390px;
+        height: 270px;
         display: flex;
         padding: 10px 20px;
         justify-content: space-between;
@@ -997,7 +899,7 @@
 
     }
     .ACG_bir{
-        width: 48%;
+        width: 50%;
         height: 100%;
     }
     .ACG_bir img{
@@ -1010,29 +912,29 @@
         position: relative;
         width: 50%;
         height: 100%;
-        padding: 15px 30px;
+        padding: 15px 20px;
     }
     .border_ol{
         position: absolute;
         border-radius: 5px;
         background: #EABF9F;
-        top: 90px;
+        top: 60px;
         width: 80%;
         height: auto;
-        left: 50px;
-        font-size: 14px;
+        left: 40px;
+        font-size: 10px;
     }
     .ACG_ikki h6{
         position: absolute;
-        top:10px;
-        font-size: 16px;
+        font-size: 12px;
+        top: -5px;
         padding: 0 20px;
     
     }
     .ACG_ikki p{
         position: absolute;
-        top: 230px;
-        font-size:14px;
+        top: 178px;
+        font-size:10px;
         padding: 0 20px;
     }
     
@@ -1048,7 +950,7 @@
     .counter{
         display: flex;
         width: 100%;
-        height: 390px;
+        height: 270px;
         justify-content: space-between;
         margin-top: 70px;
     }
@@ -1075,20 +977,20 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
-        font-size: 25px;
+        font-size: 18px;
     }
     .count_all p{
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 14px;
+        font-size: 10px;
         padding: 0 25px;
     }
     .count_all h5{
         text-align: center;
-        font-size: 14px;
-        margin-top: 60px;
+        font-size: 11px;
+        margin-top: 30px;
     }
     
     
@@ -1096,10 +998,10 @@
     
     .Manzil{
         width: 100%;
-        height: 360px;
+        height: 250px;
         display: flex;
         justify-content: space-around;
-        margin-top: 150px;
+        margin-top: 100px;
         overflow: hidden;
         
     }
@@ -1110,29 +1012,29 @@
         padding: 15px 50px;
         h3{
             position: absolute;
-            font-size: 30px;
-            top: 42px;
+            font-size: 20px;
+            top: 32px;
         }
         h6{
             position: absolute;
-            top: 110px;
-            font-size: 20px;
+            top: 80px;
+            font-size: 14px;
         }
         p{
             position: absolute;
-            top: 150px;
+            top: 110px;
             left: 29px;
-            font-size: 14px;
+            font-size: 12px;
             padding: 0 20px;
         }
         button{
             position: absolute;
-            width: 200px;
-            top: 250px;
-            height: 30px;
+            width: 150px;
+            top: 190px;
+            height: 25px;
             border:1px solid  #01384D;
             border-radius: 2px;
-            font-size: 14px;
+            font-size: 13px;
             transition: all ease 0.5s;
     
             &:hover{
@@ -1143,10 +1045,10 @@
     }
     .manzil_slider{
         width: 55%;
-        height: 250px;
+        height: 180px;
         img{
-            width: 100%;
-            height: 100%;
+            width: 350px;
+            height: 240px;
             border-radius: 5px;
         }
     }
@@ -1155,14 +1057,14 @@
     // sorovnoma
     .open_modal{
         width: 100%;
-        height: 220px;
-        margin-top: 120px;
+        height: 200px;
+        margin-top: 80px;
         position: relative;
     }
     .sorov_modal{
         position: absolute;
         width: 100%;
-        height: 200px;
+        height: 150px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1176,7 +1078,7 @@
     .sorov_modal_open{
         position: absolute;
         width: 100%;
-        height: 200px;
+        height: 150px;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1191,7 +1093,7 @@
     .sorov_content{
         position: absolute;
         width: 100%;
-        height: 200px;
+        height: 150px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1201,41 +1103,41 @@
         
         .savol{
             position: absolute;
-            width: 550px;
-            left: 60px;
+            width: 300px;
+            left: 20px;
            h6{
-                font-size: 22px;
+                font-size: 16px;
            }
            p{
-            font-size: 16px;
+            font-size: 11px;
            }
         }
         .sorov_btn{
             position: absolute;
-            width:450px;
-            right: 120px;
-            right: 60px;
+            width:400px;
+            right: -20px;
     
             input{
-                width:230px;
-                height: 40px;
+                width:190px;
+                height: 25px;
                 border: 1px solid  #01384D;
                 outline: none;
                 border-radius: 3px;
                 font-size: 16px;
                 padding: 0 8px;
                 margin-left: 55px;
+                
             }
             button{
-                width: 120px;
-                height: 40px;
+                width: 100px;
+                height: 25px;
                 border: none;
                 border-radius: 2px;
                 background: #01384D;
                 color: #FFF;
                 margin-left: 5px;
                 margin-top: -2px;
-                font-size: 14px;
+                font-size: 12px;
             }
         }
     }
@@ -1243,12 +1145,13 @@
     
     
     // bottom
-    .buton_open{
+    
+    .bottom{
         width: 100%;
         height: 180px;
     
         hr{
-            width: 75%;
+            width: 85%;
             margin: 5px auto;
         }
         .bottom_bir{
@@ -1261,15 +1164,20 @@
                 li{
                     margin: 0 15px;
                     list-style-type: none;
-                    font-size: 18px;
+                    font-size: 11px;
                 }
             }
             .ul_img{
                 display: flex;
                 list-style-type: none;
+                width: 220px;
+                height: 30px;
                 li{
                     margin: 0 15px;
-                    font-size: 18px;
+                    font-size: 10px;
+                }
+                img{
+                    width: 20px;
                 }
             }
         }
@@ -1277,9 +1185,9 @@
             display: flex;
             align-items: center;
             justify-content: space-around;
-            margin-top: 12px;
+            margin-top: 20px;
             p{
-                font-size: 14px;
+                font-size: 12px;
             }
             .bottom_img {
                 display: flex;
@@ -1297,12 +1205,359 @@
         }
         }
     }
+  }
+
+//   500
+
+
+@media only screen and (max-width: 500px) {
+    .Home {
+        width: 450px;
+        height: max-content;
+        margin: 0 auto;
+    }
+    
+    
+    .ishlab_chiqarish {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 150px;
+    }
+    /* slider */
+    
+    .slider_content{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        
+    }
+    
+    
+    /* div_vps */
+    
+    
+    .vps{
+        width: 100%;
+        height: 750px;
+        margin-top: 85px;
+        border: 1px solid red;
+        display: block;
+    }
+    .vps_bir{
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    .vps_bir h1{
+        position: absolute;
+        color: #01384D;
+        font-weight: 700;
+        top: 10px;
+        font-size: 32px;
+        left: 25px;
+    }
+    .vps_bir p{
+        position: absolute;
+        left: 40px;
+        top: 80px;
+        font-size: 11px;
+        padding: 0 20px;
+        top: 60px;
+        left: 25px;
+
+    }
+    .borderr{
+        position: absolute;
+        border-radius: 3px;
+        background: #EABF9F;
+        width: 80%;
+        height: auto;
+        font-size: 9px;
+        top: 140px;
+        left: 25px;
+    }
+    .vps_ikki{
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        margin-top: 400px;
+    }
+    .vps_ikki img{
+        width: 100%;
+        height: 50%;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .ACG{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        margin-top: 30px;
+
+    }
+    .ACG_bir{
+        width: 50%;
+        height: 100%;
+    }
+    .ACG_bir img{
+        width: 100%;
+        height:90%;
+        border-radius: 5px;
+    }
+    
+    .ACG_ikki{
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding: 15px 20px;
+    }
+    .border_ol{
+        position: absolute;
+        border-radius: 5px;
+        background: #EABF9F;
+        top: 60px;
+        width: 80%;
+        height: auto;
+        left: 40px;
+        font-size: 10px;
+    }
+    .ACG_ikki h6{
+        position: absolute;
+        font-size: 12px;
+        top: -5px;
+        padding: 0 20px;
+    
+    }
+    .ACG_ikki p{
+        position: absolute;
+        top: 178px;
+        font-size:10px;
+        padding: 0 20px;
+    }
+    
+    
+    /* nega bizni tanlashdi */
+    
+    .Nega_bizni{
+        margin-top: 75px;
+        text-align: center;
+        font-size:28px;
+    }
+    
+    .counter{
+        display: flex;
+        width: 100%;
+        height: 270px;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .count_all{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        border: 1px solid #01384D;
+        border-top: none;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .con_img{
+        width: 100%;
+        height: 50%;
+    }
+    .count_all img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .count_all h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .count_all p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        padding: 0 25px;
+    }
+    .count_all h5{
+        text-align: center;
+        font-size: 11px;
+        margin-top: 30px;
+    }
+    
+    
+    // manzil
+    
+    .Manzil{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        overflow: hidden;
+        
+    }
+    .lakatsya{
+        position: relative;
+        width: 48%;
+        height: 100%;
+        padding: 15px 50px;
+        h3{
+            position: absolute;
+            font-size: 20px;
+            top: 32px;
+        }
+        h6{
+            position: absolute;
+            top: 80px;
+            font-size: 14px;
+        }
+        p{
+            position: absolute;
+            top: 110px;
+            left: 29px;
+            font-size: 12px;
+            padding: 0 20px;
+        }
+        button{
+            position: absolute;
+            width: 150px;
+            top: 190px;
+            height: 25px;
+            border:1px solid  #01384D;
+            border-radius: 2px;
+            font-size: 13px;
+            transition: all ease 0.5s;
+    
+            &:hover{
+                background-color: #01384D;
+                color: #fff;
+            }
+        }
+    }
+    .manzil_slider{
+        width: 55%;
+        height: 180px;
+        img{
+            width: 350px;
+            height: 240px;
+            border-radius: 5px;
+        }
+    }
+    
+    
+    // sorovnoma
+    .open_modal{
+        width: 100%;
+        height: 200px;
+        margin-top: 80px;
+        position: relative;
+    }
+    .sorov_modal{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+    
+    }
+    
+    .sorov_modal_open{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+        top: -0px;
+        z-index: 2;
+    }
+    
+    .sorov_content{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        
+        .savol{
+            position: absolute;
+            width: 300px;
+            left: 20px;
+           h6{
+                font-size: 16px;
+           }
+           p{
+            font-size: 11px;
+           }
+        }
+        .sorov_btn{
+            position: absolute;
+            width:400px;
+            right: -20px;
+    
+            input{
+                width:190px;
+                height: 25px;
+                border: 1px solid  #01384D;
+                outline: none;
+                border-radius: 3px;
+                font-size: 16px;
+                padding: 0 8px;
+                margin-left: 55px;
+                
+            }
+            button{
+                width: 100px;
+                height: 25px;
+                border: none;
+                border-radius: 2px;
+                background: #01384D;
+                color: #FFF;
+                margin-left: 5px;
+                margin-top: -2px;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    
+    
+    // bottom
+    
     .bottom{
         width: 100%;
         height: 180px;
     
         hr{
-            width: 75%;
+            width: 85%;
             margin: 5px auto;
         }
         .bottom_bir{
@@ -1315,15 +1570,20 @@
                 li{
                     margin: 0 15px;
                     list-style-type: none;
-                    font-size: 18px;
+                    font-size: 11px;
                 }
             }
             .ul_img{
                 display: flex;
                 list-style-type: none;
+                width: 220px;
+                height: 30px;
                 li{
                     margin: 0 15px;
-                    font-size: 18px;
+                    font-size: 10px;
+                }
+                img{
+                    width: 20px;
                 }
             }
         }
@@ -1333,7 +1593,7 @@
             justify-content: space-around;
             margin-top: 20px;
             p{
-                font-size: 14px;
+                font-size: 12px;
             }
             .bottom_img {
                 display: flex;
