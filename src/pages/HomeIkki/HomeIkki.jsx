@@ -25,7 +25,7 @@ function HomeIkki() {
   return (
     <div className='Home'>
 
-      <h1 className='ishlab_chiqarish'>Ishlab chiqarish texnologiyalari</h1>
+      <h1 className='ishlab_chiqarish' id='Ishlabchiqarish'>Ishlab chiqarish texnologiyalari</h1>
       <div className="slider_content">
         <Homeikki_slider/>
      </div>
@@ -65,6 +65,7 @@ function HomeIkki() {
           </div>
           <p>Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.</p>
         </div>
+        
       </div>
 
       {/*nega bizni tanlashdi */}
@@ -99,7 +100,7 @@ function HomeIkki() {
 {/* manzil */}
 
 
-      <div className="Manzil" id='Manzilimiz'>
+      <div className="Manzil" >
         <div className="lakatsya">
           <h3>Manzilimiz</h3>
           <h6>Toshkent, Parkent ko'chasi, 176-uy</h6>
@@ -146,13 +147,13 @@ function HomeIkki() {
 
 {/* bottom */}
 
-    <div className='bottom'>
+    <div className='bottom '>
     <div className="bottom_bir">
     <div className="ul_li">
         <li><a href="#Bizhaqimizda">Biz haqimizda</a></li>
         <li><a href="#Kampanya">Kampanya haqda</a></li>
         <li>Aksiya</li>
-        <li><a href="#Manzilimiz">Manzilimiz</a></li>
+        <li><a href="#Ishlabchiqarish">Ishlab chiqarish</a></li>
       </div>
       <div className="ul_img">
         <li><img src={ferbook} alt="" /></li>
