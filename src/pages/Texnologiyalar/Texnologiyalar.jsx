@@ -25,6 +25,27 @@ function Texnologiyalar() {
           <li className="list_body_item">youtube.com...</li>
         </ul>
         </div>
+        <div className="texno_body">
+        <ul className="list_body">
+          <li className="list_body_item">Menory foam</li>
+          <li className="list_body_item">Enim urna... </li>
+          <li className="list_body_item">youtube.com...</li>
+        </ul>
+        </div>
+        <div className="texno_body">
+        <ul className="list_body">
+          <li className="list_body_item">Menory foam</li>
+          <li className="list_body_item">Enim urna... </li>
+          <li className="list_body_item">youtube.com...</li>
+        </ul>
+        </div>
+        <div className="texno_body">
+        <ul className="list_body">
+          <li className="list_body_item">Menory foam</li>
+          <li className="list_body_item">Enim urna... </li>
+          <li className="list_body_item">youtube.com...</li>
+        </ul>
+        </div>
         </div>
     </div>
   )
