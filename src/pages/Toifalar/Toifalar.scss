@@ -34,6 +34,52 @@
         height: 50px;
     }
 }
+.btnn{
+    border-radius: 8px;
+}
+.closee{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+.holat{
+    display: flex;
+}
+.modal__width{
+    width: 400px !important;
+    height: 400px !important;
+}
+.btn__qoshish{
+margin-right: 70px;
+}
+.trashsh{
+    padding: 5px;
+    background: #D61F1F;
+    border-radius: 7px;
+    font-size: 25px;
+    color: white;
+    border: none;
+}
+.table__action{
+div{
+    i{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+}
+  
+}
+.pencill{
+    width: 37px;
+    height: 37px;
+    background: #01384D;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 600px;
+}
+
 .mb-4{
     display: flex !important;
     justify-content: space-between;
