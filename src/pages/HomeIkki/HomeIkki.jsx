@@ -5,6 +5,12 @@ import  tviter from '../../img/homeIkki_img/tvit.png'
 import  vie from '../../img/homeIkki_img/vie.png'
 import  youtb from '../../img/homeIkki_img/you.png'
 import  grup from '../../img/homeIkki_img/grup.png'
+
+import  yetk from '../../img/homeIkki_img/yetk.png'
+import  kaf from '../../img/homeIkki_img/kaf.png'
+import  aloqa from '../../img/homeIkki_img/aloqa.png'
+
+
 import Homeikki_slider from '../../components/Homeikki_slider/Homeikki_slider'
 
 
@@ -47,12 +53,12 @@ function HomeIkki() {
           </div>
 
         </div>
-        <div className="vps_ikki"><img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" /></div>
+        <div className="vps_ikki"><iframe className='img' src="https://www.youtube.com/embed/Pq-1P_i00WU" title="ТОП—7. Лучшие матрасы для сна в 2022 году (ортопедические, пружинные, беспружинные). Рейтинг!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       </div>
 
 
       <div className="ACG">
-        <div className="ACG_bir"><img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" /></div>
+        <div className="ACG_bir"><img src="https://avatars.mds.yandex.net/get-altay/2436798/2a0000018206f6c31806d60d99049fca97ea/M" alt="" /></div>
         <div className="ACG_ikki">
           <h6>Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. </h6>
           <div className="border_ol">
@@ -75,25 +81,25 @@ function HomeIkki() {
       <div className="counter">
         <div className="count_all">
           <div className="con_img">
-            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <img src={yetk} alt="" />
           </div>
           <h6>Yetkazib berish</h6>
           <p>Toshkent bo'ylab bepul o'lchov va etkazib berish</p>
         </div>
         <div className="count_all">
           <div className="con_img">
-            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <img src={aloqa} alt="" />
           </div>
-          <h6>Yetkazib berish</h6>
-          <p>Toshkent bo'ylab bepul o'lchov va etkazib berish</p>
+          <h6>Qo'llab-quvvatlash</h6>
+          <p>Bizning qo'llab-quvvatlash xizmati sizga har qanday savolda yordam beradi va menejerlarning </p>
           <h5>+998 97 144-24-42</h5>
         </div>
         <div className="count_all">
           <div className="con_img">
-            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <img src={kaf} alt="" />
           </div>
-          <h6>Yetkazib berish</h6>
-          <p>Toshkent bo'ylab bepul o'lchov va etkazib berish</p>
+          <h6>Kafolat</h6>
+          <p>Biz matraslarimiz uchun 8 yilgacha kafolat beramiz. Agar matras kamida 25 mm qisqartirilsa.</p>
         </div>
       </div>
 
@@ -112,13 +118,13 @@ function HomeIkki() {
           <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
+                <img src="https://static-pano.maps.yandex.ru/v1/?panoid=1487048994_803755386_23_1571548967&size=500%2C240&azimuth=61.6&tilt=10&api_key=maps&signature=CPOTm5Nz-BxlIDbp6l11xrmOnmhYQRHGw-hqkap7CeU="  alt="..." />
               </div>
               <div className="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
+                <img src="https://static-pano.maps.yandex.ru/v1/?panoid=1486735272_804396238_23_1571381893&size=500%2C240&azimuth=54.6&tilt=10&api_key=maps&signature=34zpeJwj2q2XBKGHuh5UWf_LpsA_AC0_dJbCvE_hv6o="  alt="..." />
               </div>
               <div className="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" className="d-block w-100" alt="..." />
+                <img src="https://avatars.mds.yandex.net/get-altay/2425845/2a000001794af3e4d0c76157c562aec68976/L" alt="..." />
               </div>
             </div>
           </div>

@@ -82,7 +82,7 @@
     height: 100%;
     overflow: hidden;
 }
-.vps_ikki img{
+.vps_ikki .img{
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -160,7 +160,6 @@
     width: 26%;
     height: 100%;
     border: 1px solid #01384D;
-    border-top: none;
     border-radius: 6px;
     overflow: hidden;
 }
@@ -177,7 +176,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 28px;
 }
 .count_all p{
@@ -478,7 +477,7 @@
         height: 100%;
         overflow: hidden;
     }
-    .vps_ikki img{
+    .vps_ikki .img{
         width: 100%;
         height: 90%;
         border-radius: 3px;
@@ -882,7 +881,7 @@
         height: 100%;
         overflow: hidden;
     }
-    .vps_ikki img{
+    .vps_ikki .img{
         width: 100%;
         height: 90%;
         border-radius: 3px;
@@ -1287,7 +1286,7 @@
         overflow: hidden;
         margin-top: 330px;
     }
-    .vps_ikki img{
+    .vps_ikki .img{
         width: 95%;
         margin-left:14px;
         height: 50%;
@@ -1713,7 +1712,7 @@
         overflow: hidden;
         margin-top: 370px;
     }
-    .vps_ikki img{
+    .vps_ikki .img{
         width: 95%;
         margin-left:14px;
         height: 50%;
