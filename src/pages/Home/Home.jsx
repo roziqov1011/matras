@@ -77,7 +77,7 @@ function Home() {
                 </div>
           </div>
         </div>
-    <HomeIkki/> */}
+     */}
   <HomeIkki/>
     </div> 
   )
