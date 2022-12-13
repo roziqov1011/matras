@@ -1,0 +1,57 @@
+.admin_home {
+    width: 1040px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid #01384D;
+
+    th {
+        color: white;
+
+    }
+
+    tbody {
+        tr {
+            border: 1px solid #000;
+        }
+        td{
+        height: 40px;
+      
+        }
+    }
+
+}
+
+.admin_thead {
+    background-color: #01384D;
+    th{
+    width: 40px;
+    }
+
+    tr{
+        width: 1086px;
+        height: 50px;
+    }
+}
+.mb-4{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn_btn{
+    width: 135px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 997px;
+    background-color: #01384D;
+    color: #fff;
+}
+
+.icon{
+    font-size: 30px;
+}
+.holat{
+    font-size: 30px;
+}
