@@ -7,8 +7,8 @@ import { dataFoiz } from '../../lib/Data_foiz'
 import HomeIkki from '../HomeIkki/HomeIkki'
 import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
-import Menu from '../../components/Menu/Menu'
-import { data } from '../../lib/data';
+import { maxsulot } from '../../lib/maxsulot'
+import Buyurtma from '../../components/buyurtma/Buyurtma'
 
 
 
@@ -31,7 +31,7 @@ function Home() {
                   <img src={logo} alt="" />
                     <div className="btn-ra">
                         <p> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
-                        <button>Buyurtma berish</button>
+                        <Buyurtma/>
                     </div>
                 </div>
                 <div className="header_M">
@@ -48,11 +48,13 @@ function Home() {
 
         <div className="ST">
           <div className="container">
-            {
-              dataFoiz && dataFoiz.map((e,i)=>(
-                <Statistica key={i} item={e}/>
-              ))
-            }
+            <div className="st">
+                {
+                  dataFoiz && dataFoiz.map((e,i)=>(
+                    <Statistica key={i} item={e}/>
+                  ))
+                }
+            </div>
           </div>
         </div>
         
@@ -63,7 +65,14 @@ function Home() {
         </div>
         <div className="Cardss">
           <div className="container">
-              <Card/>
+                <div className="cardss">
+                  {
+                    maxsulot && maxsulot.map((e,i)=>(
+                      <Card key={i} maxsulot={e}/>
+
+                    ))
+                  }
+                </div>
           </div>
         </div>
     <HomeIkki/>

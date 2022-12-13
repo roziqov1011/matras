@@ -1,5 +1,4 @@
 .SwiperSlide{
-    
     height: auto;
 }
 .mySwiper{
@@ -21,4 +20,130 @@
         margin-top: 15px;
     }
 }
+#ikki{
+    display: none;
+}
+#uch{
+    display: none;
+}
 
+
+
+// resposvie
+
+
+@media only screen and (max-width: 1400px){
+    .mySwiper{
+        height: auto;
+    }
+    .drop{
+        width: 280px;
+        margin: 0 auto;
+        h3{
+            text-align: center;
+            font-size:32px;
+        }
+        img{
+            width:100%;
+            height: 100%;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        p{
+            text-align: center;
+            margin-top: 12px;
+            font-size: 12px;
+        }
+    }
+   
+}
+@media only screen and (max-width: 700px){
+  #bir{
+    display: none;
+  }
+  #ikki{
+    display: block;
+  }
+  #uch{
+    display: none;
+  }
+  .drop{
+    width: 280px;
+    margin: 0 auto;
+    h3{
+        text-align: center;
+        font-size:25px;
+    }
+    img{
+        width:100%;
+        height: 100%;
+        border-radius: 3px;
+        margin-top: 15px;
+    }
+    p{
+        margin-top: 12px;
+        font-size: 11px;
+    }
+}
+}
+
+
+@media only screen and (max-width: 500px){
+    #bir{
+        display: none;
+    }
+    #ikki{
+    display: none;
+    }
+    #uch{
+        display: block;
+    }
+    .drop{
+        width: 400px;
+        h3{
+            text-align: center;
+            font-size: 30px;
+        }
+        img{
+            width:100%;
+            height: 280px;
+            border-radius: 3px;
+            margin-top: 15px;
+        }
+        p{
+            text-align: center;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+    }
+  }
+  @media only screen and (max-width: 360px){
+    #bir{
+        display: none;
+    }
+    #ikki{
+    display: none;
+    }
+    #uch{
+        display: block;
+    }
+    .drop{
+        width: 90%;
+        height: auto;
+        h3{
+            text-align: center;
+            font-size: 30px;
+        }
+        img{
+            width:100%;
+            height: 220px;
+            border-radius: 3px;
+            margin-top: 15px;
+        }
+        p{
+            text-align: center;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+    }
+  }

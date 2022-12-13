@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import './HomeIkki.scss'
 import  ferbook from '../../img/homeIkki_img/feb.png'
 import  tviter from '../../img/homeIkki_img/tvit.png'
@@ -10,6 +10,7 @@ import Homeikki_slider from '../../components/Homeikki_slider/Homeikki_slider'
 
 
 function HomeIkki() {
+  const usst = useRef()
   const [modal , setModal]= useState('sorov_modal')
   const [buton , setbutn]= useState('bottom')
   let opnmadal = ()=>{
@@ -21,11 +22,10 @@ function HomeIkki() {
     setbutn('bottom')
   }
 
-
   return (
     <div className='Home'>
 
-      <h1 className='ishlab_chiqarish'>Ishlab chiqarish texnologiyalari</h1>
+      <h1 className='ishlab_chiqarish' id='Ishlabchiqarish'>Ishlab chiqarish texnologiyalari</h1>
       <div className="slider_content">
         <Homeikki_slider/>
      </div>
@@ -34,7 +34,7 @@ function HomeIkki() {
 
       <div className="vps">
 
-        <div className="vps_bir">
+        <div className="vps_bir" id='Kampanya'>
 
           <h1>Dream Cloud<br /> kompaniyasi haqida</h1>
           <p>Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum:</p>
@@ -65,11 +65,12 @@ function HomeIkki() {
           </div>
           <p>Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.</p>
         </div>
+        
       </div>
 
       {/*nega bizni tanlashdi */}
 
-      <h2 className='Nega_bizni'>Nega bizni tanlashadi</h2>
+      <h2 className='Nega_bizni'  id='Bizhaqimizda'>Nega bizni tanlashadi</h2>
 
       <div className="counter">
         <div className="count_all">
@@ -99,7 +100,7 @@ function HomeIkki() {
 {/* manzil */}
 
 
-      <div className="Manzil">
+      <div className="Manzil" >
         <div className="lakatsya">
           <h3>Manzilimiz</h3>
           <h6>Toshkent, Parkent ko'chasi, 176-uy</h6>
@@ -108,16 +109,16 @@ function HomeIkki() {
         </div>
 
         <div className="manzil_slider">
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
+          <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
                 <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
-              <div class="carousel-item">
+              <div className="carousel-item">
                 <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg"  alt="..." />
               </div>
-              <div class="carousel-item">
-                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" class="d-block w-100" alt="..." />
+              <div className="carousel-item">
+                <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" className="d-block w-100" alt="..." />
               </div>
             </div>
           </div>
@@ -138,7 +139,7 @@ function HomeIkki() {
         <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz📱</p>
       </div>
       <div className="sorov_btn">
-        <input type="number" placeholder='  +998 Raqamingizni yozing'/>
+        <input ref={usst} type="number" placeholder='  +998 numer'/>
         <button onClick={opnmadal} onDoubleClick={removmadal}>Yuborish</button>
       </div>
     </div>
@@ -146,13 +147,13 @@ function HomeIkki() {
 
 {/* bottom */}
 
-    <div className={buton}>
+    <div className='bottom '>
     <div className="bottom_bir">
     <div className="ul_li">
-        <li>Biz haqimizda</li>
-        <li>Katalog</li>
+        <li><a href="#Bizhaqimizda">Biz haqimizda</a></li>
+        <li><a href="#Kampanya">Kampanya haqda</a></li>
         <li>Aksiya</li>
-        <li>Manzilimiz</li>
+        <li><a href="#Ishlabchiqarish">Ishlab chiqarish</a></li>
       </div>
       <div className="ul_img">
         <li><img src={ferbook} alt="" /></li>

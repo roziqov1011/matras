@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './card.scss'
 import matrs from '../../img/img__home/oq_matras.png'
+import Buyurtma from '../buyurtma/Buyurtma';
 
 
-function Card() {
+function Card({maxsulot}) {
+
   return (
     <div className='card'>
       <div className='card__matras'>
@@ -11,32 +13,30 @@ function Card() {
           <img src={matrs} className="img" alt="" />
       </div>
       <div className="card__item">
-        <span className='card__title'>Ortopedik Eko matras</span>
+        <span className='card__title'>{maxsulot.name}</span>
         <div className="malumaot">
           <ul className='list'>
               <li className='list-item'>
                 <span>Yuklama</span>
-                <p>150 <sub>kg</sub></p>
+                <p>{maxsulot.kg} <sub>kg</sub></p>
               </li>
               <li className='list-item'>
                 <span>Kafolat</span>
-                <p>3 <sub>yil</sub></p>
+                <p>{maxsulot.yil} <sub>yil</sub></p>
               </li>
               <li className='list-item li1'>
                 <span>O’lchami</span>
-                <p>200x120x40</p>
+                <p>{maxsulot.olcham}</p>
               </li>
               <li className='list-item li2'>
                 <span>Sig’imi</span>
-                <p>2 kishilik</p>
+                <p>{maxsulot.sigim} kishilik</p>
               </li>
           </ul>
-          <p className='info'>
-          Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum. Porttitor senectus lorem rhoncus facilisi ac dictum varius egestas.
-          </p>
+          <p className='info'>{maxsulot.malumot}</p>
           <span className='narx'>Narxi</span>
-          <p className='som'>1 699 999 <sub>so’m</sub></p>
-          <button className='button'>Buyurtma berish <i className="bi bi-cart-fill"></i></button>
+          <p className='som'>{maxsulot.narx} <sub>so’m</sub></p>
+          <Buyurtma/>
         </div>
       </div>
     </div>

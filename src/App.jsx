@@ -8,12 +8,13 @@ import Mahsulotlar from './pages/Mahsulotlar/Mahsulotlar'
 import Texnologiyalar from './pages/Texnologiyalar/Texnologiyalar'
 import Manzil from './pages/Manzil/Manzil';
 import Buyurtmalar from './pages/Buyurtmalar/Buyurtmalar';
+import HomeIkki from './pages/HomeIkki/HomeIkki';
 
 function App() {
   return (
     <div className="App">
      <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<HomeIkki/>}/>
           <Route path='/admin' element={<Admin/>}>
           <Route path='' element={<Buyurtmalar/>}/>
           <Route path='customers' element={<Сustomers/>}/>

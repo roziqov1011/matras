@@ -1,14 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.manzil{
+
+.manzil {
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
-.manzil_menu{
+
+.manzil_menu {
     width: 1086px;
     height: 50px;
     display: flex;
@@ -16,7 +18,8 @@
     background-color: #01384d;
     color: white;
 }
-.manzil_menu_matn{
+
+.manzil_menu_matn {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -24,7 +27,8 @@
     height: 30px;
     margin-top: 15px;
 }
-.manzil_menu_matn_li{
+
+.manzil_menu_matn_li {
     color: white;
     font-family: sans-serif;
     font-weight: 100;
@@ -32,72 +36,82 @@
     margin-left: 10px;
 }
 
-.manzil_form{
+.manzil_form {
     width: 1086px;
     height: 50px;
     border: 1px solid #000;
     display: flex;
     justify-content: space-between;
 }
-.manzil_from_location{
+
+.manzil_from_location {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     width: 580px;
     height: 30px;
-    li{
+
+    li {
         margin-right: 50px;
         color: black;
         margin-top: 15px;
     }
 }
-.manzil_from_delete{
+
+.manzil_from_delete {
     display: flex;
     list-style-type: none;
     width: 120px;
     height: 30px;
 }
-.manzil_from_delete_li{
+
+.manzil_from_delete_li {
     font-size: 20px;
     color: black;
     padding: 6px;
 }
-.manzil_from_delete_il{
+
+.manzil_from_delete_il {
     font-size: 20px;
     padding: 5px;
 }
-.modal-header{
-    h5{
+
+.modal-header {
+    h5 {
         color: #000;
     }
 }
-.my-modal{
-    // width: -700px;
-    // height: 100px;
-}
-.modal-content{
+.modal-content {
     width: 600px;
     height: 400px;
 }
-.modal-footer{
-    button{
+
+.modal-footer {
+    button {
         width: 250px;
         height: 50px;
         background-color: #01384d;
     }
 }
-.modal_img{
-    img{
+
+.modal_img {
+    img {
         width: 100px;
     }
 }
-.modal_tedy_1{
+
+.modal_tedy{
+    margin-left: 400px;
+    margin-top: -300px;
+}
+.modal_tedy_1 {
     display: flex;
     flex-direction: column;
     width: 250px;
     height: 100px;
-    input{
+
+    input {
         height: 50px;
         border-radius: 9px;
         -webkit-border-radius: 9px;
@@ -106,20 +120,25 @@
         -o-border-radius: 9px;
         border: 1px solid rgb(170, 163, 163);
         outline: rgb(131, 127, 127);
+        padding: 10px;
+        color: black;
     }
-    span{
+
+    span {
         font-size: 20px;
         font-family: sans-serif;
         font-weight: 100;
         color: #000;
     }
 }
-.modal_tedy_2{
+
+.modal_tedy_2 {
     display: flex;
     flex-direction: column;
     width: 250px;
     height: 100px;
-    input{
+
+    input {
         height: 50px;
         border-radius: 9px;
         -webkit-border-radius: 9px;
@@ -128,35 +147,42 @@
         -o-border-radius: 9px;
         border: 1px solid rgb(170, 163, 163);
         outline: rgb(114, 110, 110);
+        padding: 10px;
+        color: #000;
     }
-    span{
+
+    span {
         font-size: 20px;
         font-family: sans-serif;
         font-weight: 100;
         color: #000;
     }
 }
-.modal_tedy_3{
+
+.modal_tedy_3 {
     display: flex;
     width: 250px;
     height: 30px;
     justify-content: space-between;
-    span{
+
+    span {
         font-size: 20px;
         font-family: sans-serif;
         font-weight: 100;
         color: #000;
     }
-    .from{
+
+    .from {
         width: 50px;
         height: 25px;
         margin-left: 110px;
     }
 }
-.modal_tedy_4{
+
+.modal_tedy_4 {
     margin-left: 25px;
     margin-top: -200px;
-    input{
+    textarea {
         width: 200px;
         height: 180px;
         border: 1px solid rgb(170, 163, 163);
@@ -166,23 +192,56 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         outline: rgb(154, 148, 148);
-}
-    span{
+        color: #000;
+    }
+
+    span {
         font-size: 20px;
         font-family: sans-serif;
         font-weight: 100;
         color: #000;
     }
 }
-.qoshish{
+
+.qoshish {
     width: 1400px;
     height: 70px;
     margin-top: 500px;
     display: flex;
     justify-content: end;
-    button{
+
+    button {
         width: 180px;
         height: 55px;
-        background-color:  #01384d;
+        background-color: #01384d;
+    }
+}
+
+// **********************************************************************
+
+.modal-content {
+    width: 900px;
+    height: 500px;
+    margin-left: -150px;
+}
+
+.modall {
+    margin-left: 400px;
+    margin-top: -300px;
+}
+
+.modal_img {
+    margin-top: 1px;
+
+    input {
+        width: 340px;
+        height: 300px;
+        background-color: #fff;
+        background-image: url('https://icons.iconarchive.com/icons/praveen/minimal-outline/512/gallery-icon.png');
+        // background- : ;
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        padding: 5px;
     }
 }

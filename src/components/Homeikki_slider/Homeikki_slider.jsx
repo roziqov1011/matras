@@ -21,7 +21,129 @@ export default function Homeikki_slider() {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper"
+        className="mySwiper" id="bir"
+      >
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
+            Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
+            </p>
+            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        
+        
+      </Swiper>
+
+      <Swiper
+        slidesPerView={2}
+        spaceBetween={30}
+        
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper" id="ikki"
+      >
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
+            Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
+            </p>
+            
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SwiperSlide" >
+          <div className="drop">
+            <h3>memoform</h3>
+            <img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
+          </div>
+        </SwiperSlide>
+        
+        
+      </Swiper>
+
+
+      
+      <Swiper
+        slidesPerView={1}
+        spaceBetween={30}
+        
+        freeMode={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper" id="uch"
       >
         <SwiperSlide className="SwiperSlide" >
           <div className="drop">
