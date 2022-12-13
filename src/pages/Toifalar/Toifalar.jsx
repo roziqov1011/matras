@@ -134,8 +134,8 @@ function Toifalar() {
           
         </form>
       </div>
-      <div className="modal-footer btn__qoshish">
-        <button type="button" className="btn btn-secondary " data-bs-dismiss="modal">Qo'shish</button>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary btn__qoshish" data-bs-dismiss="modal">Qo'shish</button>
       </div>
     </div>
   </div>
