@@ -6,7 +6,11 @@ function Texnologiyalar() {
   return (
     <div>
       <div className="texno">
-        
+        <ul className="table__head">
+          <li>Nomlari</li>
+          <li>Matn</li>
+          <li>Video</li>
+        </ul>
       </div>
     </div>
   )
