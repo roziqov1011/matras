@@ -9,6 +9,7 @@ import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
 import { maxsulot } from '../../lib/maxsulot'
 import Buyurtma from '../../components/buyurtma/Buyurtma'
+import Menu from '../../components/Menu/Menu'
 
 
 
@@ -18,7 +19,7 @@ function Home() {
   return (
     <div className="home">
       <div className="headerr">
-        <div className="container">
+        <div className="containerrr">
           <div className="header__item">
               <nav className='nav-list'>
                 <a href="#">Katalog</a>
@@ -29,8 +30,9 @@ function Home() {
               </nav>
                 <div className="logo-btn">
                   <img src={logo} alt="" />
+                  <Menu/>
                     <div className="btn-ra">
-                        <p> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
+                        <span> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</span>
                         <Buyurtma/>
                     </div>
                 </div>
@@ -46,7 +48,7 @@ function Home() {
         </div>
       </div>
 
-        <div className="ST">
+        {/* <div className="ST">
           <div className="container">
             <div className="st">
                 {
@@ -75,7 +77,7 @@ function Home() {
                 </div>
           </div>
         </div>
-    {/* <HomeIkki/> */}
+    <HomeIkki/> */}
 
     </div> 
   )

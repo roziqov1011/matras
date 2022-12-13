@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+.texno{
 
 .manzil {
     margin-top: 50px;
@@ -120,6 +121,8 @@
         -o-border-radius: 9px;
         border: 1px solid rgb(170, 163, 163);
         outline: rgb(131, 127, 127);
+        padding: 10px;
+        color: black;
     }
 
     span {
@@ -145,6 +148,8 @@
         -o-border-radius: 9px;
         border: 1px solid rgb(170, 163, 163);
         outline: rgb(114, 110, 110);
+        padding: 10px;
+        color: #000;
     }
 
     span {
@@ -188,6 +193,7 @@
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         outline: rgb(154, 148, 148);
+        color: #000;
     }
 
     span {
@@ -237,5 +243,6 @@
         background-size: 200px;
         background-repeat: no-repeat;
         background-position: 50%;
+        padding: 5px;
     }
-}
+}}

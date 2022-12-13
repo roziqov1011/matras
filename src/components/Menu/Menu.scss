@@ -1,3 +1,7 @@
+.burger{
+    height: 50px;
+    display: none;
+}
 .List{
     background: #EABF9F;
     height: 100vh;
@@ -51,4 +55,23 @@
 .burger{
     background: #01384D !important;
     color: white !important;
+}
+.bur{
+    
+    color: white;
+}
+//responsiv__1
+@media only screen and (max-width: 1000px){
+
+    .burger{    
+        margin-top: 10px;
+        display: block;
+    }
+}
+@media only screen and (max-width: 770px){
+
+    .burger{    
+        margin-top: 10px;
+        display: block;
+    }
 }

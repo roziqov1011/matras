@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='header'>
       {location.pathname == '/admin' || location.pathname == '/admin/customers' || location.pathname == '/admin/mahsulotlar'  ? <Searchh /> : console.log('test')}
-      <div className="profile">
+      <div className={location.pathname == '/admin/buyurtmalar' || '/admin/customers' || '/admin/mahsulotlar' ? 'profile' : location.pathname == '/admin/toifalar' ? 'header__switch' : 'null'}>
         <img src={profile} alt="profile" />
         <p>John Doe</p>
       </div>
