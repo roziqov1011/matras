@@ -31,8 +31,12 @@ function Toifalar() {
           <td></td>
           <td>
           <div className='table__action'>
-                    <i className="bi bi-pencil-fill"></i>
-                    <i className="bi bi-trash-fill"></i>
+                  <div>
+                      <i className="bi bi-pencil-fill pencill ruchka"></i>
+                  </div>
+                  <div>
+                      <i className="bi bi-trash-fill trashsh"></i>
+                  </div>
                   </div>
           </td>
            
@@ -46,8 +50,12 @@ function Toifalar() {
           <td></td>
           <td>
           <div className='table__action'>
-                    <i className="bi bi-pencil-fill"></i>
-                    <i className="bi bi-trash-fill"></i>
+                  <div>
+                      <i className="bi bi-pencil-fill pencill ruchka"></i>
+                  </div>
+                  <div>
+                      <i className="bi bi-trash-fill trashsh"></i>
+                  </div>
                   </div>
           </td>
            
@@ -61,8 +69,12 @@ function Toifalar() {
           <td></td>
           <td>
           <div className='table__action'>
-                    <i className="bi bi-pencil-fill"></i>
-                    <i className="bi bi-trash-fill"></i>
+                  <div>
+                      <i className="bi bi-pencil-fill pencill ruchka"></i>
+                  </div>
+                  <div>
+                      <i className="bi bi-trash-fill trashsh"></i>
+                  </div>
                   </div>
           </td>
            
@@ -78,8 +90,12 @@ function Toifalar() {
           
           <td>
           <div className='table__action'>
-                    <i className="bi bi-pencil-fill"></i>
-                    <i className="bi bi-trash-fill"></i>
+                  <div>
+                      <i className="bi bi-pencil-fill pencill ruchka"></i>
+                  </div>
+                  <div>
+                      <i className="bi bi-trash-fill trashsh"></i>
+                  </div>
                   </div>
           </td>
             
@@ -92,14 +108,14 @@ function Toifalar() {
 
 
 
-    <button type="button" className="btn_btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Qo'shish</button>
+    <button type="button" className="btn_btn btnn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Qo'shish</button>
 
 <div className="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog">
-    <div className="modal-content">
+    <div className="modal-content modal__width">
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalLabel">Qo'shish</h5>
-        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" className="btn-close closee" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div className="modal-body">
         <form>
@@ -119,7 +135,7 @@ function Toifalar() {
         </form>
       </div>
       <div className="modal-footer">
-        <button type="button" className="btn btn-secondary " data-bs-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-secondary btn__qoshish" data-bs-dismiss="modal">Qo'shish</button>
       </div>
     </div>
   </div>
