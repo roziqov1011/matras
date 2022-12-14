@@ -52,7 +52,7 @@ function HomeIkki() {
 
 
       <div className="ACG">
-        <div className="ACG_bir"><img src="https://www.imgacademy.com/sites/default/files/legacyhotel.jpg" alt="" /></div>
+        <div className="ACG_bir"><iframe className='frame' src="https://www.youtube.com/embed/bswvkv1_kgg" title="ДИВАН КРЕСЛО, СПАЛЬНАЯ МЕБЕЛЬ, СЕРВАНТЛАР НАРХИ 2023 ФАСОН Рустамжон мебел" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         <div className="ACG_ikki">
           <h6>Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. </h6>
           <div className="border_ol">
