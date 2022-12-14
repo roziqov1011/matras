@@ -53,14 +53,11 @@ function HomeIkki() {
           </div>
 
         </div>
-        <div className="vps_ikki"><iframe className='img' src="https://www.youtube.com/embed/Pq-1P_i00WU" title="ТОП—7. Лучшие матрасы для сна в 2022 году (ортопедические, пружинные, беспружинные). Рейтинг!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div className="vps_ikki"><iframe  className='img' src="https://www.youtube.com/embed/Pq-1P_i00WU" title="ТОП—7. Лучшие матрасы для сна в 2022 году (ортопедические, пружинные, беспружинные). Рейтинг!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       </div>
 
 
       <div className="ACG">
-
-        <div className="ACG_bir"></div>
-
         <div className="ACG_bir"><img src="https://avatars.mds.yandex.net/get-altay/2436798/2a0000018206f6c31806d60d99049fca97ea/M" alt="" /></div>
         <div className="ACG_ikki">
           <h6>Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. </h6>
