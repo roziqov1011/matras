@@ -43,7 +43,7 @@ function HomeIkki() {
         <div className="vps_bir" id='Kampanya'>
 
           <h1>Dream Cloud<br /> kompaniyasi haqida</h1>
-          <p>Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum:</p>
+          <p>Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum:Penatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentumPenatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentumPenatibus viverra gravida rhoncus in. At turpis morbi ante tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut urna, fermentum</p>
           <div className="borderr">
             <ul>
               <li>Penatibus viverra gravida rhoncus in.</li>
@@ -60,7 +60,7 @@ function HomeIkki() {
       <div className="ACG">
         <div className="ACG_bir"><img src="https://avatars.mds.yandex.net/get-altay/2436798/2a0000018206f6c31806d60d99049fca97ea/M" alt="" /></div>
         <div className="ACG_ikki">
-          <h6>Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. </h6>
+          <h6>Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae.Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae.Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae.Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae.Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae.Libero erat praesent ullamcorper eget tortor sed et. Nec id lobortis gravida vitae. Scelerisque id fusce vitae ut. Integer sed vulputate sed nec. Arcu id mattis erat et id. </h6>
           <div className="border_ol">
             <ol>
               <li>Id risus phasellus laoreet eget. A nec pulvinar.</li>
@@ -69,7 +69,7 @@ function HomeIkki() {
               <li>Facilisi mauris condimentum sagittis odio rhoncus semper.</li>
             </ol>
           </div>
-          <p>Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.</p>
+          <p>Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.Ac tortor volutpat pellentesque mauris nisi, praesent. Et tempus accumsan est elementum feugiat arcu mauris tincidunt. Eget faucibus pharetra et luctus eget ut fames. A cursus elementum egestas eu scelerisque id.</p>
         </div>
         
       </div>

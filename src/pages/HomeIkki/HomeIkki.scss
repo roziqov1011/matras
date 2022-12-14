@@ -66,12 +66,14 @@
     top: 120px;
     font-size: 16px;
     padding: 0 20px;
+    overflow-y: scroll;
+    height: 100px;
 }
 .borderr{
     position: absolute;
     border-radius: 5px;
     background: #EABF9F;
-    top: 190px;
+    top: 230px;
     width: 80%;
     height: auto;
     left: 50px;
@@ -119,7 +121,7 @@
     position: absolute;
     border-radius: 5px;
     background: #EABF9F;
-    top: 90px;
+    top: 140px;
     width: 80%;
     height: auto;
     left: 50px;
@@ -130,13 +132,16 @@
     top:10px;
     font-size: 18px;
     padding: 0 20px;
-
+    overflow-y: scroll;
+    height: 100px;
 }
 .ACG_ikki p{
     position: absolute;
-    top: 230px;
+    top: 280px;
     font-size:16px;
     padding: 0 20px;
+    overflow-y: scroll;
+    height: 100px;
 }
 
 
@@ -406,7 +411,7 @@
 
 
 @media only screen and (max-width: 1040px) {
-    
+
     .Home {
         width: 900px;
         height: max-content;
@@ -463,6 +468,8 @@
         top: 80px;
         font-size: 12px;
         padding: 0 20px;
+        overflow-y: scroll;
+        height: 90px;
     }
     .borderr{
         position: absolute;
@@ -471,7 +478,7 @@
         width: 80%;
         height: auto;
         font-size: 12px;
-        top: 160px;
+        top: 180px;
     }
     .vps_ikki{
         width: 50%;
@@ -516,7 +523,7 @@
         position: absolute;
         border-radius: 5px;
         background: #EABF9F;
-        top: 60px;
+        top: 85px;
         width: 80%;
         height: auto;
         left: 40px;
@@ -527,13 +534,16 @@
         font-size: 14px;
         top: -5px;
         padding: 0 20px;
-    
+        overflow-y: scroll;
+        height: 80px;
     }
     .ACG_ikki p{
         position: absolute;
-        top: 190px;
+        top: 200px;
         font-size:12px;
         padding: 0 20px;
+        overflow-y: scroll;
+        height: 80px;
     }
     
     
@@ -587,7 +597,7 @@
     .count_all h5{
         text-align: center;
         font-size: 13px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     
     
@@ -866,6 +876,8 @@
         font-size: 11px;
         padding: 0 20px;
         top: 60px;
+        overflow-y: scroll;
+        height: 60px;
     }
     .borderr{
         position: absolute;
@@ -930,13 +942,16 @@
         font-size: 12px;
         top: -5px;
         padding: 0 20px;
-    
+        overflow-y: scroll;
+        height: 60px;
     }
     .ACG_ikki p{
         position: absolute;
-        top: 178px;
+        top: 188px;
         font-size:10px;
         padding: 0 20px;
+        overflow-y: scroll;
+        height: 60px;
     }
     
     
@@ -1267,6 +1282,8 @@
         top: 100px;
         left: 4px;
         height: auto;
+        overflow-y: scroll;
+        height: 70px;
     }
     .borderr{
         position: absolute;
@@ -1328,7 +1345,7 @@
         border-radius: 5px;
         background: #EABF9F;
         border: 2px solid #01384D;
-        top: 100px;
+        top: 105px;
         width:90%;
         height: auto;
         left: 25px;
@@ -1339,13 +1356,16 @@
         font-size: 15px;
         top: 10px;
         padding: 0 20px;
-    
+        overflow-y: scroll;
+        height: 80px;
     }
     .ACG_ikki p{
         position: absolute;
         top: 242px;
         font-size:13px;
         padding: 0 20px;
+        overflow-y: scroll;
+        height: 80px;
     }
     
     
@@ -1692,6 +1712,8 @@
         top: 70px;
         left: 4px;
         height: auto;
+        overflow-y: scroll;
+        height: 95px;
     }
     .borderr{
         position: absolute;
@@ -1765,7 +1787,8 @@
         font-size: 15px;
         top: -60px;
         left: 0;
-    
+        overflow-y: scroll;
+        height: 90px;
     }
     .ACG_ikki p{
         position: absolute;
@@ -1827,7 +1850,7 @@
     .count_all h5{
         text-align: center;
         font-size: 14px;
-        margin-top: 49px;
+        margin-top: 40px;
     }
     
     
