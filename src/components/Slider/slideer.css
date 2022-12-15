@@ -1,6 +1,11 @@
 .carousel{
   width: 705px;
   height: 380px;
+  background: #EABF9F;
+}
+.carusel-img{
+  background: #EABF9F;
+
 }
 /* responsi--1 */
 @media only screen and (max-width: 770px){

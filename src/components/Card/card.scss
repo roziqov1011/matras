@@ -78,16 +78,175 @@
 }
 
 @media only screen and (max-width: 1425px){ 
-    .card__item{
-        .list-item{
-            margin-left: -30px;             
-            p{
-                font-size: 20px !important;
-                margin-right: -50px !important;
-            } 
+    .list-item{
+        margin-left: -30px;             
+        p{
+            font-size: 20px !important;
+            margin-right: -50px !important;
         } 
-        .info{
-             width: 500px;
+    } 
+    .info{
+         width: 500px;
+    }
+    .card__item{
+        .malumaot{
+            .list{
+                display: flex;
+                justify-content: none;
+                margin-right: 150px;
+            }
         }
+    }
+    .card{
+        width: 1200px;
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+        padding: 20px 30px;
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 1190px){ 
+    .card__item{
+        .malumaot{
+            .list{
+                width: 450px;
+                display: flex;
+                justify-content: none;
+                margin-right: 150px;
+            }
+        }
+    }
+    .card{
+        width: 1060px;
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+        padding: 20px 30px;
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 1200px){ 
+    .card{
+        margin-bottom: 20px;
+    }
+    .card__item{
+        .malumaot{
+            .list{
+                width: 450px;
+                display: flex;
+                justify-content: none;
+                margin-right: 150px;
+            }
+        }
+    }
+    .card__item{
+        margin-left: -0px !important;
+        margin-top: 100px !important; 
+    }
+}
+@media only screen and (max-width: 725px){ 
+    .card{
+        width: 530px;
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+        padding: 20px 30px;
+        margin-top: 80px;
+    }
+    .card__item{
+        .malumaot{
+            .list{
+                width: 450px;
+                display: flex;
+                justify-content: none;
+                margin-right: 150px;
+            }
+        }
+    }
+    .card__item{
+        margin-left: -0px !important;
+        margin-top: 100px !important; 
+    }
+    .card__title{
+        font-size: 30px !important;
+    }
+    .list-item{
+        margin-left: -30px;             
+        p{
+            font-size: 20px !important;
+            margin-right:10px !important;
+        } 
+    } 
+    .info{
+         width: 350px;
+    }
+    .som{
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 660px){ 
+    .card{
+        width: 380px;
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+        padding: 20px 30px;
+        margin-top: 80px;
+    }
+
+    .card__matras{
+        img{
+            width: 300px;
+            height: 150px;
+        }
+
+    }
+
+    .card__item{
+        .card__title{
+            font-size: 25px !important;
+        }
+        .malumaot{
+            .list{
+                width: 300px;
+                display: flex;
+                flex-wrap: wrap;
+                .li1{
+                    width: 150px;
+                    justify-content: space-between;
+                }
+                .li2{
+
+                }
+            }
+        }
+    }
+    .card__item{
+        margin-left: -0px !important;
+        margin-top: 100px !important; 
+    }
+    .card__title{
+        font-size: 30px !important;
+    }
+    .list-item{
+        margin-left: -30px;             
+        p{
+            font-size: 20px !important;
+            margin-right:10px !important;
+        } 
+    } 
+    .info{
+         width: 300px;
+    }
+    .som{
+        font-size: 25px !important;
+    }
+    
+}
+@media only screen and (max-width: 450px){ 
+    .card{
+        width: 350px;
+        background: #F6FBFF;
+        border: 1px solid #C7DFF5;
+        padding: 20px 30px;
+        margin-top: 80px;
     }
 }

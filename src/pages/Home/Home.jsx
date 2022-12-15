@@ -45,7 +45,7 @@ function Home() {
         </div>
       </div>
 
-        {/* <div className="ST">
+        <div className="ST">
           <div className="container">
             <div className="st">
                 {
@@ -60,6 +60,7 @@ function Home() {
         <div className="CT">
           <div className="container">
               <Category_slid/>
+              <Slider__category/>
           </div>
         </div>
 
@@ -75,8 +76,8 @@ function Home() {
                 </div>
           </div>
         </div>
-     */}
-      <HomeIkki/>
+    
+      {/* <HomeIkki/> */}
     </div> 
   )
 }
