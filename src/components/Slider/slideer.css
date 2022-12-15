@@ -1,16 +1,25 @@
 .carousel{
   width: 705px;
   height: 380px;
+
+}
+.Sliderr{
+  background: #EABF9F;
+}
+.carusel-img{
+  background: #EABF9F;
 }
 /* responsi--1 */
-@media only screen and (max-width: 7700px){
+@media only screen and (max-width: 770px){
   .carousel{
     width: 605px;
     height: 380px;
+
   }
   .carusel-img{
     width: 600px;
     height: 400px;
+
   }
 }
 /* responsi--2 */
