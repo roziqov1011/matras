@@ -1,6 +1,6 @@
 import React from 'react'
 import './Mahsulotlar.scss'
-
+import input_logo from '../../img/admin/input_logo.png'
 function Mahsulotlar() {
   return (
     <div>
@@ -91,33 +91,61 @@ function Mahsulotlar() {
           </table>
 
 
-          <button type="button" className="btn btn-primary add__button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Qo'shish</button>
+          <button type="button" className="btn btn-primary add__button" data-bs-toggle="modal" data-bs-target="#maxsulot" data-bs-whatever="@getbootstrap">Qo'shish</button>
 
-          <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div className="modal-dialog">
-            <div className="modal-content modal-add">
-              <div className="modal-header">
-                <h5 className="modal-title" id="exampleModalLabel">New message</h5>
-                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div className="modal-body">
-                <form>
-                  <div className="mb-3">
-                    <label for="recipient-name" className="col-form-label">Recipient:</label>
-                    <input type="text" className="form-control" id="recipient-name" />
+
+
+          <div className="modal fade my-modal" id="maxsulot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog">
+              <div className="modal-content modal__wrapper2">
+                <div className="modal-header">
+                  <h5 className="modal-title" id="exampleModalLabel">Tahrirlash</h5>
+                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div className="modal-body">
+                  <div className='modal_img'>
+                    <div className="mb-3">
+                      <label for="formFile" className="form-label"></label>
+                      <input className="form-control" type="file" id="formFile" />
+                    </div>
                   </div>
-                  <div className="mb-3">
-                    <label for="message-text" className="col-form-label">Message:</label>
-                    <textarea className="form-control" id="message-text"></textarea>
+                  <div className='modal_tedy'>
+                    <div className='modal_tedy_1'>
+                      <span>
+                        Toifalar
+                      </span>
+                      <select>
+                        <option value="Model C">Model C</option>
+                        <option value="Model C">Model C</option>
+                        <option value="Model C">Model C</option>
+                        <option value="Model C">Model C</option>
+                      </select>
+                    </div>
+                    <div className='modal_tedy_2'>
+                      <span>
+                      Tovar nomi
+                      </span>
+                      <input className='form-control w-200' type="text" placeholder='masalan: Lux Soft Memory'/>
+                    </div>
+                    <div className='modal_tedy_3'>
+                      <span>
+                      Narxi
+                      </span>
+                      <input className='form-control w-200' type="text" placeholder='masalan: 20 000'/>
+                      <div className='modal_tedy_4'>
+                        <span>
+                        Yuklama
+                        </span>
+                        <input className='form-control w-200' type="text" placeholder='masalan: 200 kg'/>
+                      </div>
+                    </div>
                   </div>
-                </form>
-              </div>
-              <div className="modal-footer">
-                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" className="btn btn-primary">Send message</button>
+                </div>
+                <div className="modal-footer">
+                  <button type="button" className="btn btn-primary">Saqlash</button>
+                </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
 

@@ -60,7 +60,7 @@ return (
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div className='modal_img '>
+            <div className='modal_img'>
               <div class="mb-3">
                 <label for="formFile" class="form-label"></label>
                 <input class="form-control" type="file" id="formFile" />

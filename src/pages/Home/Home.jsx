@@ -10,10 +10,7 @@ import Card from '../../components/Card/Card'
 import { maxsulot } from '../../lib/maxsulot'
 import Buyurtma from '../../components/buyurtma/Buyurtma'
 import Menu from '../../components/Menu/Menu'
-
-
-
-
+import Slider__category from '../../components/slider__category/Slider__category'
 
 function Home() {
   return (
@@ -48,7 +45,7 @@ function Home() {
         </div>
       </div>
 
-        <div className="ST">
+        {/* <div className="ST">
           <div className="container">
             <div className="st">
                 {
@@ -60,13 +57,14 @@ function Home() {
           </div>
         </div>
         
-        {/* <div className="CT">
+        <div className="CT">
           <div className="container">
               <Category_slid/>
           </div>
         </div>
+
         <div className="Cardss">
-          <div className="container">
+          <div className="containerrr">
                 <div className="cardss">
                   {
                     maxsulot && maxsulot.map((e,i)=>(
@@ -77,8 +75,8 @@ function Home() {
                 </div>
           </div>
         </div>
-    
-  <HomeIkki/> */}
+     */}
+      <HomeIkki/>
     </div> 
   )
 }

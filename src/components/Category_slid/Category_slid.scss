@@ -39,6 +39,8 @@
     }
   }
   .list__itemC{
+    width: 131px;
+    height: 45px;
     list-style-type: none;
     font-weight: 400;
     font-size: 16px;
@@ -46,13 +48,13 @@
     text-align: center;
     color: #01384D;
     opacity: 0.6;
+
     &:hover{
       background: #01384D;
       opacity: 0.8;
       color: white;
       border-radius: 5px;
-      width: 131px;
-      height: 45px;
+
       border-radius: 10px;
       transition: all ease 0.5s;
       p{
@@ -66,4 +68,23 @@
     
   }
 
+}
+@media only screen and (max-width: 1000px){
+  .listC{
+    display: none;
+  }
+  .title{
+    font-size: 40px;
+
+  }
+}
+@media only screen and (max-width: 600px){
+  .title{
+    font-size: 37px !important;
+  }
+}
+@media only screen and (max-width: 400px){
+  .title{
+    font-size: 30px !important;
+  }
 }
