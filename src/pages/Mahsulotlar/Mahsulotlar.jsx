@@ -95,54 +95,54 @@ function Mahsulotlar() {
 
 
 
-          <div class="modal fade my-modal" id="maxsulot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Tahrirlash</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div className="modal fade my-modal" id="maxsulot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog">
+              <div className="modal-content modal__wrapper2">
+                <div className="modal-header">
+                  <h5 className="modal-title" id="exampleModalLabel">Tahrirlash</h5>
+                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                  <div className='modal_img '>
-                    <div class="mb-3">
-                      <label for="formFile" class="form-label"></label>
-                      <input class="form-control" type="file" id="formFile" />
+                <div className="modal-body">
+                  <div className='modal_img'>
+                    <div className="mb-3">
+                      <label for="formFile" className="form-label"></label>
+                      <input className="form-control" type="file" id="formFile" />
                     </div>
                   </div>
                   <div className='modal_tedy'>
                     <div className='modal_tedy_1'>
                       <span>
-                        Manzil
+                        Toifalar
                       </span>
-                      <input type="text" />
+                      <select>
+                        <option value="Model C">Model C</option>
+                        <option value="Model C">Model C</option>
+                        <option value="Model C">Model C</option>
+                        <option value="Model C">Model C</option>
+                      </select>
                     </div>
                     <div className='modal_tedy_2'>
                       <span>
-                        Location
+                      Tovar nomi
                       </span>
-                      <input type="text" />
+                      <input className='form-control w-200' type="text" placeholder='masalan: Lux Soft Memory'/>
                     </div>
                     <div className='modal_tedy_3'>
                       <span>
-                        Holat
+                      Narxi
                       </span>
-                      <div className="form-check form-switch">
-                        <input className="form-check-input from" type="checkbox" id="flexSwitchCheckDefault" />
-                      </div>
+                      <input className='form-control w-200' type="text" placeholder='masalan: 20 000'/>
                       <div className='modal_tedy_4'>
                         <span>
-                          Matn
+                        Yuklama
                         </span>
-                        <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label"></label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
+                        <input className='form-control w-200' type="text" placeholder='masalan: 200 kg'/>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary">Saqlash</button>
+                <div className="modal-footer">
+                  <button type="button" className="btn btn-primary">Saqlash</button>
                 </div>
               </div>
             </div>
