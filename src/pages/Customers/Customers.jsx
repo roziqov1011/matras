@@ -19,7 +19,7 @@ function getUsers() {
 
 function deleteUser(id) {
 
-  fetch(`https://638ec96e9cbdb0dbe314bdf0.mockapi.io/customers${id}`,{
+  fetch(`https://638ec96e9cbdb0dbe314bdf0.mockapi.io/customers/${id}`,{
     method:'DELETE'
   }).then((result)=>{
     result.json().then((resp)=>{
