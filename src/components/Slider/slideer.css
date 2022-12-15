@@ -2,3 +2,42 @@
   width: 705px;
   height: 380px;
 }
+/* responsi--1 */
+@media only screen and (max-width: 7700px){
+  .carousel{
+    width: 605px;
+    height: 380px;
+  }
+  .carusel-img{
+    width: 600px;
+    height: 400px;
+  }
+}
+/* responsi--2 */
+@media only screen and (max-width: 618px){
+  .Sliderr{
+    margin-left: 20px;
+  }
+  .carousel{
+    width: 405px;
+    height: 380px;
+  }
+  .carusel-img{
+    width: 400px;
+    height: 400px;
+  }
+}
+/* responsi--3 */
+@media only screen and (max-width: 520px){
+  .Sliderr{
+    margin-left: 40px;
+  }
+  .carousel{
+    width: 305px;
+    height: 300px;
+  }
+  .carusel-img{
+    width: 300px;
+    height: 300px;
+  }
+}

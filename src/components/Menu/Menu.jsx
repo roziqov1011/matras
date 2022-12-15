@@ -45,10 +45,10 @@ export default function Menu() {
   );
 
   return (
-    <div>
+    <div className='burger'>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)} className='burger'><i className="bi bi-list"></i></Button>
+          <Button onClick={toggleDrawer(anchor, true)} className='burger'><i className="bi bi-list bur"></i></Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
