@@ -10,6 +10,7 @@ import Card from '../../components/Card/Card'
 import { maxsulot } from '../../lib/maxsulot'
 import Buyurtma from '../../components/buyurtma/Buyurtma'
 import Menu from '../../components/Menu/Menu'
+import Slider__category from '../../components/slider__category/Slider__category'
 
 
 
@@ -48,7 +49,7 @@ function Home() {
         </div>
       </div>
 
-        {/* <div className="ST">
+        <div className="ST">
           <div className="container">
             <div className="st">
                 {
@@ -62,9 +63,13 @@ function Home() {
         
         <div className="CT">
           <div className="container">
-              <Category_slid/>
+              <div className="ct">
+                <Category_slid/>
+                <Slider__category/>
+              </div>
           </div>
         </div>
+
         <div className="Cardss">
           <div className="container">
                 <div className="cardss">
@@ -77,8 +82,8 @@ function Home() {
                 </div>
           </div>
         </div>
-     */}
-  <HomeIkki/>
+    
+       <HomeIkki/>
     </div> 
   )
 }
