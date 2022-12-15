@@ -95,43 +95,58 @@ function Mahsulotlar() {
 
 
 
-          <div className="modal fade" id="maxsulot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div className="modal-dialog">
-              <div className="modal-content ">
-                <div className="modal-header">
-                  <h5 className="modal-title" id="exampleModalLabel">New message</h5>
-                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
+          <div class="modal fade my-modal" id="maxsulot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tahrirlash</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div className="modal-body">
-                  <form>
-                    <div className="mb-3">
-                      <label for="recipient-name" className="col-form-label"><img src={input_logo} alt="" /></label>
-                      <input type="file" className="form-control" id="recipient-name" />
+                <div class="modal-body">
+                  <div className='modal_img '>
+                    <div class="mb-3">
+                      <label for="formFile" class="form-label"></label>
+                      <input class="form-control" type="file" id="formFile" />
                     </div>
-                    <div className="input__group1">
-                      <div className="mb-3">
-                        <label for="message-text" className="col-form-label">Toifalar</label>
-                        <textarea className="form-control" id="message-text"></textarea>
+                  </div>
+                  <div className='modal_tedy'>
+                    <div className='modal_tedy_1'>
+                      <span>
+                        Manzil
+                      </span>
+                      <input type="text" />
+                    </div>
+                    <div className='modal_tedy_2'>
+                      <span>
+                        Location
+                      </span>
+                      <input type="text" />
+                    </div>
+                    <div className='modal_tedy_3'>
+                      <span>
+                        Holat
+                      </span>
+                      <div className="form-check form-switch">
+                        <input className="form-check-input from" type="checkbox" id="flexSwitchCheckDefault" />
                       </div>
-                      <div className="mb-3">
-                        <label for="message-text" className="col-form-label">Tovar nomi</label>
-                        <textarea className="form-control" id="message-text"></textarea>
+                      <div className='modal_tedy_4'>
+                        <span>
+                          Matn
+                        </span>
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label"></label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
                       </div>
-                      <div className="mb-3">
-                      <label for="message-text" className="col-form-label">Narxi</label>
-                      <textarea className="form-control" id="message-text"></textarea>
                     </div>
-                    </div>
-                  </form>
+                  </div>
                 </div>
-                <div className="modal-footer">
-                  <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" className="btn btn-primary">Send message</button>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Saqlash</button>
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
 
     </div>
