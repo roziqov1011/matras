@@ -19,3 +19,32 @@
         }
     }
 }
+@media only screen and (max-width: 770px){
+    .static{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .static{
+        p{
+            font-size: 100px !important;
+        }
+        span{
+
+            font-size: 18px !important;
+
+        }
+    }
+}
+@media only screen and (max-width: 435px){
+    .static{
+        p{
+            font-size: 80px !important;
+        }
+        span{
+
+            font-size: 15px !important;
+
+        }
+    }
+}

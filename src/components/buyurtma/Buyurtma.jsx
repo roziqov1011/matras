@@ -7,15 +7,15 @@ function Buyurtma() {
     const [count, setCount] = useState(1)
     return (
       <div className="Buyurtma">
-            <button type="button" class="btn btn-primary button__modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button type="button" className="btn btn-primary button__modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Buyurtma berish
             </button>
 
 
-            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content modal-con" >
-                <div class="modal-body buyrtma__modal">
+            <div className="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal-dialog">
+                <div className="modal-content modal-con" >
+                <div className="modal-body buyrtma__modal">
                     <div className="buyurtma__block">
                         <p className="title__b">Buyurtma qilish</p>
                         <input className="name__yoz" type="text" placeholder="Ismingizni yozing"/>
@@ -33,27 +33,27 @@ function Buyurtma() {
                           <span className="miqdor__sonni">{count}</span>
                           <button className="button_2" onClick={() => setCount(count + 1)}>+</button>
                         </div>
-                        <div class="yubor">
-                          <button class="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Yuborish</button>
+                        <div className="yubor">
+                          <button className="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Yuborish</button>
                         </div>
                     </div>
                 </div>
                 </div>
             </div>
             </div>
-            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content" style={{height: '680px'}}>
-                <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div className="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div className="modal-dialog modal-dialog-centered">
+              <div className="modal-content" style={{height: '680px'}}>
+                <div className="modal-header">
+                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div className="modal-body">
                   <div className="modal2__block2">
                     <p className="ariza">Arizangiz muvaffaqiyatli yuborildi</p>
                     <img src={img} alt="" />
                     <p className="habar">Tez orada operatorlarimiz siz bilan bog’lanishadi</p>
-                    <div class="yubor">
-                          <button class="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ok</button>
+                    <div className="yubor">
+                          <button className="btn btn-primary " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ok</button>
                     </div>
                   </div>
                 </div>
