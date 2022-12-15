@@ -9,6 +9,8 @@ import Category_slid from '../../components/Category_slid/Category_slid'
 import Card from '../../components/Card/Card'
 import { maxsulot } from '../../lib/maxsulot'
 import Buyurtma from '../../components/buyurtma/Buyurtma'
+import Menu from '../../components/Menu/Menu'
+import Slider__category from '../../components/slider__category/Slider__category'
 
 
 
@@ -18,7 +20,7 @@ function Home() {
   return (
     <div className="home">
       <div className="headerr">
-        <div className="container">
+        <div className="containerrr">
           <div className="header__item">
               <nav className='nav-list'>
                 <a href="#">Katalog</a>
@@ -29,8 +31,9 @@ function Home() {
               </nav>
                 <div className="logo-btn">
                   <img src={logo} alt="" />
+                  <Menu/>
                     <div className="btn-ra">
-                        <p> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</p>
+                        <span> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</span>
                         <Buyurtma/>
                     </div>
                 </div>
@@ -60,9 +63,13 @@ function Home() {
         
         <div className="CT">
           <div className="container">
-              <Category_slid/>
+              <div className="ct">
+                <Category_slid/>
+                <Slider__category/>
+              </div>
           </div>
         </div>
+
         <div className="Cardss">
           <div className="container">
                 <div className="cardss">
@@ -75,8 +82,8 @@ function Home() {
                 </div>
           </div>
         </div>
-    <HomeIkki/>
-
+    
+       <HomeIkki/>
     </div> 
   )
 }

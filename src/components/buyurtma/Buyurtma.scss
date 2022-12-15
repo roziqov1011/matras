@@ -5,10 +5,16 @@
     background: #fff;
     color: #01384D !important;
 }
+.modal-con{
+    width: 550px !important;
+    height: 700px !important;
+}
 .buyrtma__modal{
     .buyurtma__block{
         padding: 20px;
+        
         .title__b{
+            margin-left: 60px;
             font-weight: 700;
             font-size: 40px;
             line-height: 47px;
@@ -99,6 +105,7 @@
     }
 }
 .modal2__block2{
+    margin-left: 40px;
     margin-top: 20px;
     .ariza{
         font-weight: 700;
@@ -118,9 +125,11 @@
         line-height: 19px;
         text-align: center;
         color: #01384D;
+        text-align: center;
+
     }
     .yubor{
-        margin-left: 60px;
+        margin-left: 40px;
         margin-top: 50px;
         button{
             width: 360px;

@@ -1,0 +1,102 @@
+.admin_home {
+    width: 1040px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 1px solid #01384D;
+
+    th {
+        color: white;
+
+    }
+
+    tbody {
+        tr {
+            border: 1px solid #000;
+        }
+        td{
+        height: 40px;
+      
+        }
+    }
+
+}
+
+.admin_thead {
+    background-color: #01384D;
+    th{
+    width: 40px;
+    }
+
+    tr{
+        width: 1086px;
+        height: 50px;
+    }
+}
+.btnn{
+    border-radius: 8px;
+}
+.holat{
+    display: flex;
+}
+.modal__width{
+    width: 400px !important;
+    height: 400px !important;
+}
+.btn__qoshish{
+    width: 220px;
+    height: 45px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #01384D;
+}
+.trashsh{
+    padding: 5px;
+    background: #D61F1F;
+    border-radius: 7px;
+    font-size: 25px;
+    color: white;
+    border: none;
+}
+.table__action{
+div{
+    i{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+}
+  
+}
+.pencill{
+    width: 37px;
+    height: 37px;
+    background: #01384D;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 600px;
+}
+
+.mb-4{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn_btn{
+    width: 135px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 997px;
+    background-color: #01384D;
+    color: #fff;
+}
+
+.icon{
+    font-size: 30px;
+}
+.holat{
+    font-size: 30px;
+}
