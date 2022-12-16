@@ -139,3 +139,28 @@
         }
     }
 }
+
+
+
+// responsiv
+
+@media only screen and (max-width: 1400px){
+    .miqdor{
+        margin-left: 60px;
+        button{
+            width: 103px;
+            height: 47px;
+        }
+        .button_2{
+
+            margin-left: -50px;
+        }
+        .miqdor__sonni{
+            padding: 11px 73px;
+            margin-left: 0px !important;
+        }
+
+    }
+}
+
+// resp 2
