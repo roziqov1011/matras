@@ -12,10 +12,6 @@ import Buyurtma from '../../components/buyurtma/Buyurtma'
 import Menu from '../../components/Menu/Menu'
 import Slider__category from '../../components/slider__category/Slider__category'
 
-
-
-
-
 function Home() {
   return (
     <div className="home">
@@ -63,15 +59,13 @@ function Home() {
         
         <div className="CT">
           <div className="container">
-              <div className="ct">
-                <Category_slid/>
-                <Slider__category/>
-              </div>
+              <Category_slid/>
+              <Slider__category/>
           </div>
         </div>
 
         <div className="Cardss">
-          <div className="container">
+          <div className="containerrr">
                 <div className="cardss">
                   {
                     maxsulot && maxsulot.map((e,i)=>(
@@ -83,7 +77,7 @@ function Home() {
           </div>
         </div>
     
-       <HomeIkki/>
+      {/* <HomeIkki/> */}
     </div> 
   )
 }
