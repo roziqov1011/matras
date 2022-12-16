@@ -12,11 +12,7 @@ function Buyurtmalar() {
           <th>Telefon Raqam</th>
           <th>mahsulot nomi</th>
           <th>miqdor</th>
-<<<<<<< HEAD
-          <th>qayta aloqa</th>   
-=======
           <th>qayta aloqa</th>
->>>>>>> e167b8d4a754ae597db801ce3e7bb120077371d6
         </tr>
       </thead>
       <tbody>
