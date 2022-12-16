@@ -10,8 +10,11 @@ useEffect(()=>{
 },[])
 function getUsers() {
   fetch(`https://638ec96e9cbdb0dbe314bdf0.mockapi.io/customers`)
-  
-
+//   .then((result)=>{
+//   result.json().then((resp)=>{
+//     setUser(resp)
+//   })
+// })
 .then(response => response.json())
 .then(response => setData(response))
 .catch(err => console.error(err));
@@ -24,7 +27,7 @@ function deleteUser(id) {
   }).then((result)=>{
     result.json().then((resp)=>{
       console.warn(resp)
-      getUsers() 
+      getUsers(id) 
     })
   })
 
