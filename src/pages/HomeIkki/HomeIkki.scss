@@ -653,10 +653,11 @@
     .manzil_slider{
         width: 55%;
         height: 180px;
+        background-color: none;
         img{
-            width: 440px;
-            height: 280px;
-            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
         }
     }
     

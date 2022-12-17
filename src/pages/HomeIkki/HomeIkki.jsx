@@ -114,7 +114,7 @@ function HomeIkki() {
           <button>Geolokatsiya</button>
         </div>
 
-        <div className="manzil_slider">
+        <div className="manzil_slider" id='manzil_ul'>
           <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
