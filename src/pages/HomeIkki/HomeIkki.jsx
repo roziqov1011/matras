@@ -115,7 +115,7 @@ function HomeIkki() {
         </div>
 
         <div className="manzil_slider" id='manzil_ul'>
-          <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+          <div  className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img src="https://static-pano.maps.yandex.ru/v1/?panoid=1487048994_803755386_23_1571548967&size=500%2C240&azimuth=61.6&tilt=10&api_key=maps&signature=CPOTm5Nz-BxlIDbp6l11xrmOnmhYQRHGw-hqkap7CeU="  alt="..." />
