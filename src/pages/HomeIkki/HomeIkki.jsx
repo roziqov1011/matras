@@ -16,7 +16,7 @@ import Homeikki_slider from '../../components/Homeikki_slider/Homeikki_slider'
 
 
 function HomeIkki() {
-  const usst = useRef()
+  const inputref = useRef()
   const [modal , setModal]= useState('sorov_modal')
   const [buton , setbutn]= useState('bottom')
   let opnmadal = ()=>{
@@ -145,7 +145,7 @@ function HomeIkki() {
         <p>Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz📱</p>
       </div>
       <div className="sorov_btn">
-        <input ref={usst} type="number" placeholder='  +998 numer'/>
+        <input ref={inputref} type="number" placeholder='  +998 raqmizni yozing'/>
         <button onClick={opnmadal} onDoubleClick={removmadal}>Yuborish</button>
       </div>
     </div>
@@ -158,7 +158,7 @@ function HomeIkki() {
     <div className="ul_li">
         <li><a href="#Bizhaqimizda">Biz haqimizda</a></li>
         <li><a href="#Kampanya">Kampanya haqda</a></li>
-        <li>Aksiya</li>
+        <li><a href="#Aksiya">Aksiya</a></li>
         <li><a href="#Ishlabchiqarish">Ishlab chiqarish</a></li>
       </div>
       <div className="ul_img">

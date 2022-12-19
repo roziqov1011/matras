@@ -20,10 +20,10 @@ function Home() {
           <div className="header__item">
               <nav className='nav-list'>
                 <a href="#">Katalog</a>
-                <a href="#">Aksiya</a>
-                <a href="#">Biz haqimizda</a>
-                <a href="#">Manzilimiz</a>
-                <a href="#">Aloqa</a>  
+                <a href="#Aksiya">Aksiya</a>
+                <a href="#Bizhaqimizda">Biz haqimizda</a>
+                <a href="#manzil_ul">Manzilimiz</a>
+                <a href="#Bizhaqimizda">Aloqa</a>  
               </nav>
                 <div className="logo-btn">
                   <img src={logo} alt="" />
@@ -64,7 +64,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="Cardss">
+        <div className="Cardss" id='Aksiya'>
           <div className="containerrr">
                 <div className="cardss">
                   {

@@ -6,7 +6,20 @@
     a{
         text-decoration: none;
     }
+    .cardss::-webkit-scrollbar {
+        width: 1em;
+      }
+       
+      .cardss::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+       
+      .cardss::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+      }
 }
+
 
 
 
@@ -50,6 +63,7 @@
     position: relative;
     width: 50%;
     height: auto;
+    left:-30px;
 
 }
 .vps_bir h1{
@@ -67,13 +81,13 @@
     font-size: 16px;
     padding: 0 20px;
     overflow-y: scroll;
-    height: 100px;
+    height: 140px;
 }
 .borderr{
     position: absolute;
     border-radius: 5px;
     background: #EABF9F;
-    top: 230px;
+    top: 290px;
     width: 80%;
     height: auto;
     left: 50px;
@@ -104,6 +118,7 @@
 .ACG_bir img{
     width: 100%;
     height: 100%;
+    border-radius:5px ;
 }
 .ACG_bir {
     width: 50%;
@@ -121,7 +136,7 @@
     position: absolute;
     border-radius: 5px;
     background: #EABF9F;
-    top: 140px;
+    top: 150px;
     width: 80%;
     height: auto;
     left: 50px;
@@ -133,7 +148,7 @@
     font-size: 18px;
     padding: 0 20px;
     overflow-y: scroll;
-    height: 100px;
+    height: 110px;
 }
 .ACG_ikki p{
     position: absolute;
@@ -141,7 +156,7 @@
     font-size:16px;
     padding: 0 20px;
     overflow-y: scroll;
-    height: 100px;
+    height: 120px;
 }
 
 
@@ -2065,7 +2080,7 @@
         position: relative;
         width: 100%;
         height: auto;
-    
+        left: 0px;
     }
     .vps_bir h1{
         position: absolute;

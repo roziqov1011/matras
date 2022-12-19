@@ -1,15 +1,15 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import './Homeikki_slider.scss'
-
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
-
+import {matraslib} from '../../lib/lib_matras'
 import { FreeMode, Pagination } from "swiper";
 
 export default function Homeikki_slider() {
+console.log(matraslib);
+
   return (
     <>
       <Swiper
@@ -24,19 +24,17 @@ export default function Homeikki_slider() {
         className="mySwiper" id="bir"
       >
         <SwiperSlide className="SwiperSlide" >
-          <div className="drop">
+          
+        <div className="drop">
             <h3>memoform</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMJmSQMRiZhFQyp7ZqA4Nyua0S8AV56uwwxTOx49QweoZj6KzkxVVveA_kcoXCN46RCVs&usqp=CAU" alt="" />
-            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
-            Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.
-            </p>
-            
+            <img src="" alt="" />
+            <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="SwiperSlide" >
+         <SwiperSlide className="SwiperSlide" >
           <div className="drop">
             <h3>memoform</h3>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-uEqaPqJkB897h5a8-1WbQrVTl3mfO74lyg2RQrTF14S2YZx0uoHzI4QKmp-KhBECZ8&usqp=CAU" alt="" />
+            <img src="" alt="" />
             <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
           </div>
         </SwiperSlide>
@@ -67,7 +65,7 @@ export default function Homeikki_slider() {
             <img src="https://dreamway.uz/media/cache/7d/0f/7d0ff726b3b13d1657f3896be865d6b5.webp" alt="" />
             <p>Lectus pellentesque senectus elit donec massa ipsum ultricies dui. Bibendum et enim fringilla tincidunt ligula non, condimentum nunc.</p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> 
         
         
       </Swiper>
