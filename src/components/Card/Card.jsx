@@ -5,7 +5,6 @@ import Buyurtma from '../buyurtma/Buyurtma';
 
 
 function Card({maxsulot}) {
-
   return (
     <div className='card'>
       <div className='card__matras'>

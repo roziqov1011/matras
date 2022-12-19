@@ -12,7 +12,7 @@ function Buyurtma() {
             </button>
 
 
-            <div className="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div className="modal fade folor" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content modal-con" >
                 <div className="modal-body buyrtma__modal">
@@ -43,9 +43,9 @@ function Buyurtma() {
             </div>
             <div className="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
             <div className="modal-dialog modal-dialog-centered">
-              <div className="modal-content" style={{height: '680px'}}>
+              <div className="modal-content" style={{height: '700px'}}>
                 <div className="modal-header">
-                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"><p>X</p></button>
                 </div>
                 <div className="modal-body">
                   <div className="modal2__block2">

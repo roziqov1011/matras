@@ -31,7 +31,7 @@ function Home() {
                     <div className="btn-ra">
                         <span> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</span>
                         <Buyurtma/>
-                    </div>
+                    </div>  
                 </div>
                 <div className="header_M">
                     <p className='header_M-title'>Kechalari sokin dam oling</p>
@@ -77,7 +77,7 @@ function Home() {
           </div>
         </div>
     
-      <HomeIkki/>
+      {/* <HomeIkki/> */}
     </div> 
   )
 }

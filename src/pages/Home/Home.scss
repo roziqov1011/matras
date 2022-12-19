@@ -215,7 +215,7 @@
 //responsiv__2
 @media only screen and (max-width: 1200px){
     .cardss{
-        width: 600px;
+        width: 900px;
         height: 1000px;
         padding: 20px;
         overflow: auto;
@@ -391,6 +391,14 @@
     .header__item{
         width: 700px !important;
     }
+    .cardss{
+        width: 700px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+    
+    }
 }
 
 
@@ -484,20 +492,7 @@
         width: 350px;
     }
     .cardss{
-        width: 400px;
-        height: 1000px;
-        padding: 20px;
-        overflow: auto;
-        margin: 0 auto;
-    
-    }
-}
-@media only screen and (max-width: 660px){
-    .Cardss{
-        width: 350px;
-    }
-    .cardss{
-        width: 400px;
+        width: 560px;
         height: 1000px;
         padding: 20px;
         overflow: auto;
@@ -572,7 +567,19 @@
     
 }
 
-
+@media only screen and (max-width: 550px){
+    .Cardss{
+        width: 350px;
+    }
+    .cardss{
+        width: 500px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+    
+    }
+}
 
 //responsiv__6
 @media only screen and (max-width: 520px){
@@ -608,39 +615,20 @@
     }
 }
 //responsiv__8
-@media only screen and (max-width: 520px){
-    .header__item{
-        width: 300px !important;
-    } 
-    .containerrr{
-        width: 300px;
-    }
-    .header_M-title{
-        width: 300px !important;
-        font-size: 40px !important;
-    }
-}
-@media only screen and (max-width: 435px){
-    .st{
-        width: 350px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 50px;
-        flex-wrap: wrap;
-    }
-}
 @media only screen and (max-width: 450px){
     .Cardss{
         width: 0px;
         margin-left: -20px;
     }
     .cardss{
-        width: 380px;
+        width: 400px;
         height: 1000px;
         padding: 20px;
         overflow: auto;
         margin: 0 auto;
     
+    }
+    .st{
+        width: 300px;
     }
 }

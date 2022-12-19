@@ -36,7 +36,11 @@
         }
     }
 }
-@media only screen and (max-width: 435px){
+@media only screen and (max-width: 450px){
+    .Statistica{
+        width: 100px !important;
+        margin-right: 50px;
+    }
     .static{
         p{
             font-size: 80px !important;
