@@ -30,9 +30,9 @@ export default function Menu() {
                     <ul className='nav__list1'>
                         <li className='list__item1'>Katalog</li>
                         <li className='list__item1'>Aksiya</li>
-                        <li className='list__item1'>Biz haqimizda</li>
-                        <li className='list__item1'>Manzilimiz</li>
-                        <li className='list__item1'>Aloqa</li>
+                        <li className='list__item1'><a href="#Bizhaqimizda">Biz haqimizda</a></li>
+                        <li className='list__item1'><a href="#manzil_ul">Manzil</a></li>
+                        <li className='list__item1'><a href="#Bizhaqimizda">Aloqa</a></li>
                     </ul>
                     <div className="aloqa1">
                     <button>Buyurtma berish</button>

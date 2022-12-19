@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './card.scss'
 import matrs from '../../img/img__home/oq_matras.png'
 import Buyurtma from '../buyurtma/Buyurtma';
@@ -16,15 +16,15 @@ function Card({maxsulot}) {
         <span className='card__title'>{maxsulot.name}</span>
         <div className="malumaot">
           <ul className='list'>
-              <li className='list-item'>
+              <li className='list-item li1'>
                 <span>Yuklama</span>
                 <p>{maxsulot.kg} <sub>kg</sub></p>
               </li>
-              <li className='list-item'>
+              <li className='list-item li1'>
                 <span>Kafolat</span>
                 <p>{maxsulot.yil} <sub>yil</sub></p>
               </li>
-              <li className='list-item li1'>
+              <li className='list-item li2'>
                 <span>O’lchami</span>
                 <p>{maxsulot.olcham}</p>
               </li>

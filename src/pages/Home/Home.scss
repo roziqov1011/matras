@@ -82,17 +82,6 @@
     }
 }
 
-.st{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.cardss{
-    width: 1300px;
-    height: 1000px;
-    padding: 20px;
-    overflow: auto;
-}
 
 
 .cardss::-webkit-scrollbar {
@@ -108,7 +97,7 @@
     outline: 1px solid slategrey;
   }
 
-  .st{
+.st{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -225,6 +214,14 @@
 }
 //responsiv__2
 @media only screen and (max-width: 1200px){
+    .cardss{
+        width: 600px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+
+    }
     .containerrr{
         width: 1000px;
         height: max-content;
@@ -462,16 +459,52 @@
             }
         }
     }
+    .st{
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+        flex-wrap: wrap;
+    }
     
 }
-
-// @media only screen and (max-width: 510px){
-//     .containerrr{
-//         display: none;
-//     }
-// }
-
-//responsiv__5
+@media only screen and (max-width: 725px){
+    .cardss{
+        width: 570px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+    
+    }
+}
+@media only screen and (max-width: 660px){
+    .Cardss{
+        width: 350px;
+    }
+    .cardss{
+        width: 400px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+    
+    }
+}
+@media only screen and (max-width: 660px){
+    .Cardss{
+        width: 350px;
+    }
+    .cardss{
+        width: 400px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+    
+    }
+}
 @media only screen and (max-width: 618px){
     .containerrr{
         width: 400px;
@@ -565,6 +598,14 @@
     .logo-btn{
         width: 300px;
     }
+    .st{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+        flex-wrap: wrap;
+    }
 }
 //responsiv__8
 @media only screen and (max-width: 520px){
@@ -576,6 +617,30 @@
     }
     .header_M-title{
         width: 300px !important;
-        font-size: 30px !important;
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 435px){
+    .st{
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 50px;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 450px){
+    .Cardss{
+        width: 0px;
+        margin-left: -20px;
+    }
+    .cardss{
+        width: 380px;
+        height: 1000px;
+        padding: 20px;
+        overflow: auto;
+        margin: 0 auto;
+    
     }
 }

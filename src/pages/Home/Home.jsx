@@ -10,10 +10,7 @@ import Card from '../../components/Card/Card'
 import { maxsulot } from '../../lib/maxsulot'
 import Buyurtma from '../../components/buyurtma/Buyurtma'
 import Menu from '../../components/Menu/Menu'
-
-
-
-
+import Slider__category from '../../components/slider__category/Slider__category'
 
 function Home() {
   return (
@@ -23,10 +20,10 @@ function Home() {
           <div className="header__item">
               <nav className='nav-list'>
                 <a href="#">Katalog</a>
-                <a href="#">Aksiya</a>
-                <a href="#">Biz haqimizda</a>
-                <a href="#">Manzilimiz</a>
-                <a href="#">Aloqa</a>  
+                <a href="#Aksiya">Aksiya</a>
+                <a href="#Bizhaqimizda">Biz haqimizda</a>
+                <a href="#manzil_ul">Manzilimiz</a>
+                <a href="#Bizhaqimizda">Aloqa</a>  
               </nav>
                 <div className="logo-btn">
                   <img src={logo} alt="" />
@@ -48,7 +45,7 @@ function Home() {
         </div>
       </div>
 
-        {/* <div className="ST">
+        <div className="ST">
           <div className="container">
             <div className="st">
                 {
@@ -63,10 +60,12 @@ function Home() {
         <div className="CT">
           <div className="container">
               <Category_slid/>
+              <Slider__category/>
           </div>
         </div>
-        <div className="Cardss">
-          <div className="container">
+
+        <div className="Cardss" id='Aksiya'>
+          <div className="containerrr">
                 <div className="cardss">
                   {
                     maxsulot && maxsulot.map((e,i)=>(
@@ -77,8 +76,8 @@ function Home() {
                 </div>
           </div>
         </div>
-     */}
-  <HomeIkki/>
+    
+      <HomeIkki/>
     </div> 
   )
 }

@@ -22,7 +22,9 @@
 
 }
 .tbody__icon {
+    border-radius: 7px;
     display: flex;
+    border: none;
     justify-content: space-around;
 }
 .table_head {
@@ -38,7 +40,7 @@
 }
 .trashh{
     padding: 5px;
-    background-color: rgb(192, 114, 132);
+    background-color: rgb(255, 0, 60);
     border-radius: 7px;
     font-size: 25px;
     color: white;
