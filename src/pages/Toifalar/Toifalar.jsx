@@ -62,7 +62,7 @@ function Toifalar() {
         </tr>
         <tr>
         <th></th>
-          <td>Model c</td>
+          <td>Model C</td>
           <td></td>
           <td></td>
           <td></td>
