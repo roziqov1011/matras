@@ -6,7 +6,20 @@
     a{
         text-decoration: none;
     }
+    .cardss::-webkit-scrollbar {
+        width: 1em;
+      }
+       
+      .cardss::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+       
+      .cardss::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+      }
 }
+
 
 
 
@@ -50,6 +63,7 @@
     position: relative;
     width: 50%;
     height: auto;
+    left:-30px;
 
 }
 .vps_bir h1{
@@ -67,13 +81,13 @@
     font-size: 16px;
     padding: 0 20px;
     overflow-y: scroll;
-    height: 100px;
+    height: 140px;
 }
 .borderr{
     position: absolute;
     border-radius: 5px;
     background: #EABF9F;
-    top: 230px;
+    top: 290px;
     width: 80%;
     height: auto;
     left: 50px;
@@ -104,6 +118,7 @@
 .ACG_bir img{
     width: 100%;
     height: 100%;
+    border-radius:5px ;
 }
 .ACG_bir {
     width: 50%;
@@ -121,7 +136,7 @@
     position: absolute;
     border-radius: 5px;
     background: #EABF9F;
-    top: 140px;
+    top: 150px;
     width: 80%;
     height: auto;
     left: 50px;
@@ -133,7 +148,7 @@
     font-size: 18px;
     padding: 0 20px;
     overflow-y: scroll;
-    height: 100px;
+    height: 110px;
 }
 .ACG_ikki p{
     position: absolute;
@@ -141,7 +156,7 @@
     font-size:16px;
     padding: 0 20px;
     overflow-y: scroll;
-    height: 100px;
+    height: 120px;
 }
 
 
@@ -408,8 +423,410 @@
 // responsive
 
 
+@media only screen and (max-width: 1285px) {
 
+    .Home {
+        width: 1000px;
+        height: max-content;
+        margin: 0 auto;
+    }
+    
+    
+    .ishlab_chiqarish {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        margin-top: 150px;
+    }
+    /* slider */
+    
+    .slider_content{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+        
+    }
+    
+    
+    /* div_vps */
+    
+    
+    .vps{
+        width: 100%;
+        height: 320px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        margin-top: 85px;
+    }
+    .vps_bir{
+        position: relative;
+        width: 50%;
+        height: auto;
+    
+    }
+    .vps_bir h1{
+        position: absolute;
+        color: #01384D;
+        font-weight: 700;
+        top: 10px;
+        left: 60px;
+        font-size: 23px;
+    }
+    .vps_bir p{
+        position: absolute;
+        left: 40px;
+        top: 80px;
+        font-size: 12px;
+        padding: 0 20px;
+        overflow-y: scroll;
+        height: 90px;
+    }
+    .borderr{
+        position: absolute;
+        border-radius: 3px;
+        background: #EABF9F;
+        width: 80%;
+        height: auto;
+        font-size: 12px;
+        top: 180px;
+    }
+    .vps_ikki{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .vps_ikki .img{
+        width: 100%;
+        height: 90%;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .ACG{
+        width: 100%;
+        height: 320px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        margin-top: 30px;
 
+    }
+    .ACG_bir{
+        width: 50%;
+        height: 100%;
+    }
+    .ACG_bir img{
+        width: 100%;
+        height:90%;
+        border-radius: 5px;
+    }
+    
+    .ACG_ikki{
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding: 15px 20px;
+    }
+    .border_ol{
+        position: absolute;
+        border-radius: 5px;
+        background: #EABF9F;
+        top: 85px;
+        width: 80%;
+        height: auto;
+        left: 40px;
+        font-size: 12px;
+    }
+    .ACG_ikki h6{
+        position: absolute;
+        font-size: 14px;
+        top: -5px;
+        padding: 0 20px;
+        overflow-y: scroll;
+        height: 80px;
+    }
+    .ACG_ikki p{
+        position: absolute;
+        top: 200px;
+        font-size:12px;
+        padding: 0 20px;
+        overflow-y: scroll;
+        height: 80px;
+    }
+    
+    
+    /* nega bizni tanlashdi */
+    
+    .Nega_bizni{
+        margin-top: 75px;
+        text-align: center;
+        font-size:28px;
+    }
+    
+    .counter{
+        display: flex;
+        width: 100%;
+        height: 320px;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .count_all{
+        position: relative;
+        width: 30%;
+        height: 100%;
+        border: 1px solid #01384D;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .con_img{
+        width: 100%;
+        height: 50%;
+    }
+    .count_all img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .count_all h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .count_all p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding: 0 25px;
+    }
+    .count_all h5{
+        text-align: center;
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    
+    
+    // manzil
+    
+    .Manzil{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        overflow: hidden;
+        
+    }
+    .lakatsya{
+        position: relative;
+        width: 48%;
+        height: 100%;
+        padding: 15px 50px;
+        h3{
+            position: absolute;
+            font-size: 25px;
+            top: 42px;
+        }
+        h6{
+            position: absolute;
+            top: 110px;
+            font-size: 17px;
+        }
+        p{
+            position: absolute;
+            top: 150px;
+            left: 29px;
+            font-size: 12px;
+            padding: 0 20px;
+        }
+        button{
+            position: absolute;
+            width: 170px;
+            top: 220px;
+            height: 30px;
+            border:1px solid  #01384D;
+            border-radius: 2px;
+            font-size: 13px;
+            transition: all ease 0.5s;
+    
+            &:hover{
+                background-color: #01384D;
+                color: #fff;
+            }
+        }
+    }
+    .manzil_slider{
+        width: 55%;
+        height: 180px;
+        background-color: none;
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+    }
+    
+    
+    // sorovnoma
+    .open_modal{
+        width: 100%;
+        height: 220px;
+        margin-top: 100px;
+        position: relative;
+    }
+    .sorov_modal{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+    
+    }
+    
+    .sorov_modal_open{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+        top: -0px;
+        z-index: 2;
+    }
+    
+    .sorov_content{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        
+        .savol{
+            position: absolute;
+            width: 550px;
+            left: 60px;
+           h6{
+                font-size: 18px;
+           }
+           p{
+            font-size: 13px;
+           }
+        }
+        .sorov_btn{
+            position: absolute;
+            width:450px;
+            right: 10px;
+    
+            input{
+                width:200px;
+                height: 30px;
+                border: 1px solid  #01384D;
+                outline: none;
+                border-radius: 3px;
+                font-size: 16px;
+                padding: 0 8px;
+                margin-left: 55px;
+                
+            }
+            button{
+                width: 120px;
+                height: 30px;
+                border: none;
+                border-radius: 2px;
+                background: #01384D;
+                color: #FFF;
+                margin-left: 5px;
+                margin-top: -2px;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    
+    
+    // bottom
+   
+    .bottom{
+        width: 100%;
+        height: 180px;
+    
+        hr{
+            width: 85%;
+            margin: 5px auto;
+        }
+        .bottom_bir{
+            display: flex;
+            justify-content: space-around;
+            height: 80px;
+            align-items: center;
+            .ul_li{
+                display: flex;
+                li{
+                    margin: 0 15px;
+                    list-style-type: none;
+                    font-size: 14px;
+                }
+            }
+            .ul_img{
+                display: flex;
+                list-style-type: none;
+                width: 220px;
+                height: 30px;
+                li{
+                    margin: 0 15px;
+                    font-size: 12px;
+                }
+                img{
+                    width: 20px;
+                }
+            }
+        }
+        .bottom_ikki{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 20px;
+            p{
+                font-size: 12px;
+            }
+            .bottom_img {
+                display: flex;
+            p{
+                width: 89px;
+                text-align: center;
+                border: 1px solid #909090;
+                height: 40px;
+                font-size: 12px;
+            }
+            img{
+                width: 120px;
+                height: 40px;
+            }
+        }
+        }
+    }
+  }
 @media only screen and (max-width: 1040px) {
 
     .Home {
@@ -653,10 +1070,11 @@
     .manzil_slider{
         width: 55%;
         height: 180px;
+        background-color: none;
         img{
-            width: 440px;
-            height: 280px;
-            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
         }
     }
     
@@ -813,12 +1231,6 @@
         }
     }
   }
-
-
-
-//   700
-
-
 @media only screen and (max-width: 700px) {
     .Home {
         width: 650px;
@@ -1060,10 +1472,10 @@
     }
     .manzil_slider{
         width: 55%;
-        height: 180px;
+        height: 170px;
         img{
-            width: 350px;
-            height: 240px;
+            width: 65%;
+            height: 250px;
             border-radius: 5px;
         }
     }
@@ -1221,10 +1633,414 @@
         }
     }
   }
+  @media only screen and (max-width: 600px) {
+    .Home {
+        width: 550px;
+        height: max-content;
+        margin: 0 auto;
+    }
+    
+    
+    .ishlab_chiqarish {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 150px;
+    }
+    /* slider */
+    
+    .slider_content{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        
+    }
+    
+    
+    /* div_vps */
+    
+    
+    .vps{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 85px;
+    }
+    .vps_bir{
+        position: relative;
+        width: 50%;
+        height: auto;
+        left: -40px;
+    }
+    .vps_bir h1{
+        position: absolute;
+        color: #01384D;
+        font-weight: 700;
+        top: 10px;
+        font-size: 15px;
+    }
+    .vps_bir p{
+        position: absolute;
+        left: 40px;
+        top: 80px;
+        font-size: 11px;
+        padding: 0 20px;
+        top: 60px;
+        overflow-y: scroll;
+        height: 60px;
+    }
+    .borderr{
+        position: absolute;
+        border-radius: 3px;
+        background: #EABF9F;
+        width: 80%;
+        height: auto;
+        font-size: 9px;
+        top: 140px;
+    }
+    .vps_ikki{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .vps_ikki .img{
+        width: 100%;
+        height: 90%;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .ACG{
+        width: 100%;
+        height: 270px;
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        margin-top: 30px;
 
-//   500
-
-
+    }
+    .ACG_bir{
+        width: 50%;
+        height: 100%;
+    }
+    .ACG_bir img{
+        width: 100%;
+        height:90%;
+        border-radius: 5px;
+    }
+    
+    .ACG_ikki{
+        position: relative;
+        width: 50%;
+        height: 100%;
+        padding: 15px 20px;
+    }
+    .border_ol{
+        position: absolute;
+        border-radius: 5px;
+        background: #EABF9F;
+        top: 60px;
+        width: 90%;
+        height: auto;
+        left: 30px;
+        font-size: 10px;
+    }
+    .ACG_ikki h6{
+        position: absolute;
+        font-size: 12px;
+        top: -5px;
+        padding: 0 20px;
+        overflow-y: scroll;
+        height: 60px;
+    }
+    .ACG_ikki p{
+        position: absolute;
+        top: 188px;
+        font-size:10px;
+        padding: 0 20px;
+        overflow-y: scroll;
+        height: 60px;
+    }
+    
+    
+    /* nega bizni tanlashdi */
+    
+    .Nega_bizni{
+        margin-top: 50px;
+        text-align: center;
+        font-size:28px;
+    }
+    
+    .counter{
+        display: flex;
+        width: 100%;
+        height: 240px;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .count_all{
+        position: relative;
+        width: 32%;
+        height: 100%;
+        border: 1px solid #01384D;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .con_img{
+        width: 100%;
+        height: 50%;
+    }
+    .count_all img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .count_all h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .count_all p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 8px;
+        padding: 0 25px;
+    }
+    .count_all h5{
+        text-align: center;
+        font-size: 9px;
+        margin-top: 18px;
+    }
+    
+    
+    // manzil
+    
+    .Manzil{
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        overflow: hidden;
+        
+    }
+    .lakatsya{
+        position: relative;
+        width: 48%;
+        height: 100%;
+        left: -30px;
+        h3{
+            position: absolute;
+            font-size: 20px;
+            top: 32px;
+        }
+        h6{
+            position: absolute;
+            top: 80px;
+            font-size: 14px;
+        }
+        p{
+            position: absolute;
+            top: 110px;
+            left: 29px;
+            font-size: 12px;
+            padding: 0 20px;
+        }
+        button{
+            position: absolute;
+            width: 150px;
+            top: 190px;
+            height: 25px;
+            border:1px solid  #01384D;
+            border-radius: 2px;
+            font-size: 13px;
+            transition: all ease 0.5s;
+    
+            &:hover{
+                background-color: #01384D;
+                color: #fff;
+            }
+        }
+    }
+    .manzil_slider{
+        width: 55%;
+        height: 250px;
+        left: -20px;
+        img{
+            width: 100%;
+            height: 200px;
+            border-radius: 5px;
+        }
+        .carousel{
+            left: -20px;
+            width: 280px;
+            height: 250px;
+            background: none;
+        }
+    }
+    
+    
+    // sorovnoma
+    .open_modal{
+        width: 100%;
+        height: 200px;
+        margin-top: 80px;
+        position: relative;
+    }
+    .sorov_modal{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+    
+    }
+    
+    .sorov_modal_open{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+        top: -0px;
+        z-index: 2;
+    }
+    
+    .sorov_content{
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        
+        .savol{
+            position: absolute;
+            width: 300px;
+            left: 20px;
+           h6{
+                font-size: 16px;
+           }
+           p{
+            font-size: 11px;
+           }
+        }
+        .sorov_btn{
+            position: absolute;
+            width:400px;
+            right: -20px;
+    
+            input{
+                width:190px;
+                height: 25px;
+                border: 1px solid  #01384D;
+                outline: none;
+                border-radius: 3px;
+                font-size: 16px;
+                padding: 0 8px;
+                margin-left: 55px;
+                
+            }
+            button{
+                width: 100px;
+                height: 25px;
+                border: none;
+                border-radius: 2px;
+                background: #01384D;
+                color: #FFF;
+                margin-left: 5px;
+                margin-top: -2px;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    
+    
+    // bottom
+    
+    .bottom{
+        width: 100%;
+        height: 180px;
+    
+        hr{
+            width: 85%;
+            margin: 5px auto;
+        }
+        .bottom_bir{
+            display: flex;
+            justify-content: space-around;
+            height: 80px;
+            align-items: center;
+            .ul_li{
+                display: flex;
+                li{
+                    margin: 0 15px;
+                    list-style-type: none;
+                    font-size: 11px;
+                }
+            }
+            .ul_img{
+                display: flex;
+                list-style-type: none;
+                width: 220px;
+                height: 30px;
+                li{
+                    margin: 0 15px;
+                    font-size: 10px;
+                }
+                img{
+                    width: 20px;
+                }
+            }
+        }
+        .bottom_ikki{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 20px;
+            p{
+                font-size: 12px;
+            }
+            .bottom_img {
+                display: flex;
+            p{
+                width: 89px;
+                text-align: center;
+                border: 1px solid #909090;
+                height: 40px;
+                font-size: 12px;
+            }
+            img{
+                width: 120px;
+                height: 40px;
+            }
+        }
+        }
+    }
+  }
 @media only screen and (max-width: 500px) {
     .Home {
         width: 450px;
@@ -1264,7 +2080,7 @@
         position: relative;
         width: 100%;
         height: auto;
-    
+        left: 0px;
     }
     .vps_bir h1{
         position: absolute;
@@ -1448,12 +2264,12 @@
         }
         h6{
             position: absolute;
-            top:310px;
+            top:320px;
             font-size: 18px;
         }
         p{
             position: absolute;
-            top: 340px;
+            top: 350px;
             left: 29px;
             font-size: 14px;
             padding: 0 20px;
@@ -1461,7 +2277,7 @@
         button{
             position: absolute;
             width: 80%;
-            top: 400px;
+            top: 410px;
             height: 40px;
             border:1px solid  #01384D;
             border-radius: 2px;
@@ -1476,13 +2292,19 @@
     }
     .manzil_slider{
         position: absolute;
-        width: 80%;
-        height: 100px;
+        width: 350px;
+        height: 250px;
         top: 60px;
         img{
-            width: 350px;
-            height: 240px;
+            width: 370px;
+            height: 250px;
             border-radius: 5px;
+        }
+        .carousel{
+            height: 250px;
+            width: 370px;
+            left: 40px;
+
         }
     }
     
@@ -1491,7 +2313,7 @@
     .open_modal{
         width: 100%;
         height: 200px;
-        margin-top: 10px;
+        margin-top: 20px;
         position: relative;
     }
     .sorov_modal{
@@ -1651,10 +2473,447 @@
         }
     }
   }
+@media only screen and (max-width: 412px) {
+    .Home {
+        width: 380px;
+        height: max-content;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    
+    
+    .ishlab_chiqarish {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 150px;
+    }
+    /* slider */
+    
+    .slider_content{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        
+    }
+    
+    
+    /* div_vps */
+    
+    
+    .vps{
+        width: 100%;
+        height: 630px;
+        margin-top: 75px;
+        display: block;
+    }
+    .vps_bir{
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    .vps_bir h1{
+        position: absolute;
+        color: #01384D;
+        font-weight: 700;
+        top: -20px;
+        font-size: 28px;
+        left: 25px;
+    }
+    .vps_bir p{
+        position: absolute;
+        top: 80px;
+        font-size: 13px;
+        padding: 0 20px;
+        top: 70px;
+        left: 4px;
+        height: auto;
+        overflow-y: scroll;
+        height: 95px;
+    }
+    .borderr{
+        position: absolute;
+        border-radius: 3px;
+        background: #EABF9F;
+        width: 90%;
+        border: 2px solid #01384D;
+        height: auto;
+        font-size: 14px;
+        top: 180px;
+        left: 20px;
+    }
+    .vps_ikki{
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        margin-top: 370px;
+    }
+    .vps_ikki .img{
+        width: 95%;
+        margin-left:14px;
+        height: 50%;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .ACG{
+        width: 100%;
+        height: 720px;
+        position: relative;
+        display: block;
+        
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .ACG_bir{
+        width: 95%;
+        height: 140px;
+        position: absolute;
+    }
+    .ACG_bir img{
+        position: absolute;
+        width: 90%;
+        height:200px;
+        left: 5%;
+        border-radius: 3px;
+        top: 380px;
+    }
+    
+    .ACG_ikki{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .border_ol{
+        position: absolute;
+        border-radius: 5px;
+        background: #EABF9F;
+        border: 2px solid #01384D;
+        top: 50px;
+        width:90%;
+        height: auto;
+        left: 20px;
+        font-size: 13px;
+    }
+    .ACG_ikki h6{
+        position: absolute;
+        font-size: 15px;
+        top: -60px;
+        left: 0;
+        overflow-y: scroll;
+        height: 90px;
+    }
+    .ACG_ikki p{
+        position: absolute;
+        top: 222px;
+        font-size:13px;
+        left: 0;
+    }
+    
+    
+    /* nega bizni tanlashdi */
+    
+    .Nega_bizni{
+        margin-top: -50px;
+        text-align: center;
+        font-size:25px;
+    }
+    
+    .counter{
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .count_all{
+        position: relative;
+        width: 80%;
+        height: 340px;
+        border: 1 solid #01384D;
+        border-radius: 5px;
+        margin: 29px 0;
+        overflow: hidden;
+        left: 10%;
+    }
+    .con_img{
+        width: 100%;
+        height: 50%;
+    }
+    .count_all img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .count_all h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .count_all p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding: 0 25px;
+    }
+    .count_all h5{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    
+    
+    // manzil
+    
+    .Manzil{
+        position: relative;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
 
-//   3660
+        
+    }
+    .lakatsya{
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        left: -5%;
+        h3{
+            position: absolute;
+            font-size: 30px;
+            top: 0px;
+        }
+        h6{
+            position: absolute;
+            top:280px;
+            font-size: 18px;
+        }
+        p{
+            position: absolute;
+            top: 320px;
+            font-size: 14px;
+            
+        }
+        button{
+            position: absolute;
+            width: 80%;
+            top: 400px;
+            height: 40px;
+            border:1px solid  #01384D;
+            border-radius: 2px;
+            font-size: 15px;
+            transition: all ease  0.5s;
+    
+            &:hover{
+                background-color: #01384D;
+                color: #fff;
+            }
+        }
+    }
+    .manzil_slider{
+        position: absolute;
+        background: none;
+        width: 70%;
+        height: auto;
+        top: 60px;
+        left: 5%;
+        img{
+            width: 310px;
+            height: 200px;
+            border-radius: 5px;
+        }
+        .carousel{
+            width: 310px;
+            height: 200px; 
+            left: 10px;
+        }
+    }
+    
+    
+    // sorovnoma
+    .open_modal{
+        width: 100%;
+        height: 200px;
+        margin-top: 80px;
+        position: relative;
+    }
+    .sorov_modal{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition:0.9s;
+    
+    }
+    
+    .sorov_modal_open{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition:0.9s;
+        top: -0px;
+        z-index: 2;
+        h5{
+            font-size: 25px;
+            text-align: center;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    
+    .sorov_content{
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        .savol{
+            position: absolute;
+            width: 250px;
+            left: 40px;
+            top: 40px;
+            text-align: center;
+           h6{
+                font-size: 25px;
+           }
+           p{
+            font-size: 13px;
+           }
+        }
+        .sorov_btn{
+            position: absolute;
+            width:100%;
+                
+            input{
+                position: absolute;
+                width:88%;
+                height: 40px;
+                border: 1px solid  #01384D;
+                outline: none;
+                border-radius: 3px;
+                font-size: 16px;
+                padding: 0 8px;
+                left: -55px;
+                top: -20px;
+                
+            }
+            button{
+                position: absolute;
+                width: 88%;
+                height: 40px;
+                border: none;
+                border-radius: 2px;
+                background: #01384D;
+                color: #FFF;
+                font-size: 12px;
+                top: 40px;
+                left:-5px;
+            }
+        }
+    }
+    
+    
+    
+    // bottom
+    
+    .bottom{
+        width: 100%;
+        height: 180px;
+        margin-top: 190px;
+        hr{
+            width: 85%;
+            margin: 5px auto;
+        }
+        .bottom_bir{
+            justify-content: space-around;
+            display: block;
+            height: 60px;
+            align-items: center;
+            .ul_li{
+                display: flex;
+                li{
+                    margin: 0 15px;
+                    list-style-type: none;
+                    font-size: 8px;
+                }
+            }
+            .ul_img{
+                display: flex;
+                list-style-type: none;
+                width: 220px;
+                height: 30px;
+                margin: 10px 0;
+                li{
+                    margin: 0 15px;
+                    font-size: 10px;
+                }
+                img{
+                    width: 15px;
+                }
+            }
+        }
+        .bottom_ikki{
+            display: block;
+            position: relative;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 20px;
+            p{
+                position: absolute;
+                font-size: 9px;
+                top: 50px;
+                left: 15px;
+            }
+            .bottom_img {
+                position: absolute;
+                display: flex;
+                top: -50px;
 
-@media only screen and (max-width: 360px) {
+            p{
+                width: 80px;
+                height: 30px;
+                text-align: center;
+                border: 1px solid #909090;
+                font-size:9px;
+                margin-left: 0px;
+            }
+            img{
+                position: absolute;
+                width: 80px;
+                height: 30px;
+                top: 50px;
+                left: 90px;
+            }
+        }
+        }
+    }
+  }
+@media only screen and (max-width: 390px) {
     .Home {
         width: 350px;
         height: max-content;
@@ -1905,8 +3164,9 @@
     }
     .manzil_slider{
         position: absolute;
+        background: none;
         width: 70%;
-        height: 80px;
+        height: auto;
         top: 60px;
         left: 5%;
         img{
@@ -2023,6 +3283,883 @@
         width: 100%;
         height: 180px;
         margin-top: 190px;
+        hr{
+            width: 85%;
+            margin: 5px auto;
+        }
+        .bottom_bir{
+            justify-content: space-around;
+            display: block;
+            height: 60px;
+            align-items: center;
+            .ul_li{
+                display: flex;
+                li{
+                    margin: 0 15px;
+                    list-style-type: none;
+                    font-size: 8px;
+                }
+            }
+            .ul_img{
+                display: flex;
+                list-style-type: none;
+                width: 220px;
+                height: 30px;
+                margin: 10px 0;
+                li{
+                    margin: 0 15px;
+                    font-size: 10px;
+                }
+                img{
+                    width: 15px;
+                }
+            }
+        }
+        .bottom_ikki{
+            display: block;
+            position: relative;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 20px;
+            p{
+                position: absolute;
+                font-size: 9px;
+                top: 50px;
+                left: 15px;
+            }
+            .bottom_img {
+                position: absolute;
+                display: flex;
+                top: -50px;
+
+            p{
+                width: 80px;
+                height: 30px;
+                text-align: center;
+                border: 1px solid #909090;
+                font-size:9px;
+                margin-left: 0px;
+            }
+            img{
+                position: absolute;
+                width: 80px;
+                height: 30px;
+                top: 50px;
+                left: 90px;
+            }
+        }
+        }
+    }
+  }
+@media only screen and (max-width: 360px) {
+    .Home {
+        width: 320px;
+        height: max-content;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    
+    
+    .ishlab_chiqarish {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 150px;
+    }
+    /* slider */
+    
+    .slider_content{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        
+    }
+    
+    
+    /* div_vps */
+    
+    
+    .vps{
+        width: 100%;
+        height: 630px;
+        margin-top: 75px;
+        display: block;
+    }
+    .vps_bir{
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    .vps_bir h1{
+        position: absolute;
+        color: #01384D;
+        font-weight: 700;
+        top: -40px;
+        font-size: 28px;
+        left: 25px;
+    }
+    .vps_bir p{
+        position: absolute;
+        top: 80px;
+        font-size: 13px;
+        padding: 0 20px;
+        top: 70px;
+        left: 4px;
+        height: auto;
+        overflow-y: scroll;
+        height: 95px;
+    }
+    .borderr{
+        position: absolute;
+        border-radius: 3px;
+        background: #EABF9F;
+        width: 90%;
+        border: 2px solid #01384D;
+        height: auto;
+        font-size: 14px;
+        top: 180px;
+        left: 20px;
+    }
+    .vps_ikki{
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        margin-top: 370px;
+    }
+    .vps_ikki .img{
+        width: 95%;
+        margin-left:14px;
+        height: 50%;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .ACG{
+        width: 100%;
+        height: 720px;
+        position: relative;
+        display: block;
+        
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .ACG_bir{
+        width: 95%;
+        height: 140px;
+        position: absolute;
+    }
+    .ACG_bir img{
+        position: absolute;
+        width: 90%;
+        height:200px;
+        left: 5%;
+        border-radius: 3px;
+        top: 380px;
+    }
+    
+    .ACG_ikki{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .border_ol{
+        position: absolute;
+        border-radius: 5px;
+        background: #EABF9F;
+        border: 2px solid #01384D;
+        top: 50px;
+        width:90%;
+        height: auto;
+        left: 20px;
+        font-size: 13px;
+    }
+    .ACG_ikki h6{
+        position: absolute;
+        font-size: 15px;
+        top: -60px;
+        left: 0;
+        overflow-y: scroll;
+        height: 90px;
+    }
+    .ACG_ikki p{
+        position: absolute;
+        top: 252px;
+        font-size:13px;
+        left: 0;
+    }
+    
+    
+    /* nega bizni tanlashdi */
+    
+    .Nega_bizni{
+        margin-top: -50px;
+        text-align: center;
+        font-size:25px;
+    }
+    
+    .counter{
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .count_all{
+        position: relative;
+        width: 80%;
+        height: 340px;
+        border: 1 solid #01384D;
+        border-radius: 5px;
+        margin: 29px 0;
+        overflow: hidden;
+        left: 10%;
+    }
+    .con_img{
+        width: 100%;
+        height: 50%;
+    }
+    .count_all img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .count_all h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .count_all p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 12px;
+        padding: 0 25px;
+    }
+    .count_all h5{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+    
+    
+    // manzil
+    
+    .Manzil{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+
+        
+    }
+    .lakatsya{
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        left: -5%;
+        h3{
+            position: absolute;
+            font-size: 30px;
+            top: 0px;
+        }
+        h6{
+            position: absolute;
+            top:280px;
+            font-size: 18px;
+        }
+        p{
+            position: absolute;
+            top: 340px;
+            font-size: 14px;
+            
+        }
+        button{
+            position: absolute;
+            width: 80%;
+            top: 430px;
+            height: 40px;
+            border:1px solid  #01384D;
+            border-radius: 2px;
+            font-size: 15px;
+            transition: all ease  0.5s;
+    
+            &:hover{
+                background-color: #01384D;
+                color: #fff;
+            }
+        }
+    }
+    .manzil_slider{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        top: 60px;
+        left: 5%;
+        overflow: hidden;
+        img{
+            width: 300px;
+            height: 200px;
+            border-radius: 5px;
+        }
+    }
+    
+    
+    // sorovnoma
+    .open_modal{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        
+    }
+    .sorov_modal{
+        position: absolute;
+        width: 300px;
+        height: 300px !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+    
+    }
+    
+    .sorov_modal_open{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+        top: -0px;
+        z-index: 2;
+        h5{
+            font-size: 25px;
+            text-align: center;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    
+    .sorov_content{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        margin: 0 auto;
+        .savol{
+            position: absolute;
+            width: 250px;
+            left: 40px;
+            top: 40px;
+            text-align: center;
+           h6{
+                font-size: 25px;
+           }
+           p{
+            font-size: 13px;
+           }
+        }
+        .sorov_btn{
+            position: absolute;
+            width:100%;
+                
+            input{
+                position: absolute;
+                width:88%;
+                height: 40px;
+                border: 1px solid  #01384D;
+                outline: none;
+                border-radius: 3px;
+                font-size: 16px;
+                padding: 0 8px;
+                left: -55px;
+                top: -20px;
+                
+            }
+            button{
+                position: absolute;
+                width: 88%;
+                height: 40px;
+                border: none;
+                border-radius: 2px;
+                background: #01384D;
+                color: #FFF;
+                font-size: 12px;
+                top: 40px;
+                left:-5px;
+            }
+        }
+    }
+    
+    
+    
+    // bottom
+    
+    .bottom{
+        width: 100%;
+        height: 180px;
+        margin-top: 50px;
+        hr{
+            width: 85%;
+            margin: 5px auto;
+        }
+        .bottom_bir{
+            justify-content: space-around;
+            display: block;
+            height: 60px;
+            align-items: center;
+            .ul_li{
+                display: flex;
+                li{
+                    margin: 0 15px;
+                    list-style-type: none;
+                    font-size: 8px;
+                }
+            }
+            .ul_img{
+                display: flex;
+                list-style-type: none;
+                width: 220px;
+                height: 30px;
+                margin: 10px 0;
+                li{
+                    margin: 0 15px;
+                    font-size: 10px;
+                }
+                img{
+                    width: 15px;
+                }
+            }
+        }
+        .bottom_ikki{
+            display: block;
+            position: relative;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 20px;
+            p{
+                position: absolute;
+                font-size: 9px;
+                top: 50px;
+                left: 15px;
+            }
+            .bottom_img {
+                position: absolute;
+                display: flex;
+                top: -50px;
+
+            p{
+                width: 80px;
+                height: 30px;
+                text-align: center;
+                border: 1px solid #909090;
+                font-size:9px;
+                margin-left: 0px;
+            }
+            img{
+                position: absolute;
+                width: 80px;
+                height: 30px;
+                top: 50px;
+                left: 90px;
+            }
+        }
+        }
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .Home {
+        width: 270px;
+        height: max-content;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    
+    
+    .ishlab_chiqarish {
+        text-align: center;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-top: 150px;
+    }
+    /* slider */
+    
+    .slider_content{
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+        
+    }
+    
+    
+    /* div_vps */
+    
+    
+    .vps{
+        width: 100%;
+        height: 630px;
+        margin-top: 75px;
+        display: block;
+    }
+    .vps_bir{
+        position: relative;
+        width: 100%;
+        height: auto;
+    
+    }
+    .vps_bir h1{
+        position: absolute;
+        color: #01384D;
+        font-weight: 700;
+        top: -40px;
+        font-size: 28px;
+        left: 25px;
+    }
+    .vps_bir p{
+        position: absolute;
+        top: 80px;
+        font-size: 13px;
+        padding: 0 20px;
+        top: 70px;
+        left: 4px;
+        height: auto;
+        overflow-y: scroll;
+        height: 95px;
+    }
+    .borderr{
+        position: absolute;
+        border-radius: 3px;
+        background: #EABF9F;
+        width: 90%;
+        border: 2px solid #01384D;
+        height: auto;
+        font-size: 12px;
+        top: 185px;
+        left: 20px;
+    }
+    .vps_ikki{
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        margin-top: 370px;
+    }
+    .vps_ikki .img{
+        width: 95%;
+        margin-left:1px;
+        height: 50%;
+        border-radius: 3px;
+    }
+    
+    
+    
+    
+    .ACG{
+        width: 100%;
+        height: 720px;
+        position: relative;
+        display: block;
+        
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .ACG_bir{
+        width: 95%;
+        height: 140px;
+        position: absolute;
+    }
+    .ACG_bir img{
+        position: absolute;
+        width: 90%;
+        height:180px;
+        left: 1%;
+        border-radius: 3px;
+        top: 380px;
+    }
+    
+    .ACG_ikki{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .border_ol{
+        position: absolute;
+        border-radius: 5px;
+        background: #EABF9F;
+        border: 2px solid #01384D;
+        top: 50px;
+        width:90%;
+        height: auto;
+        left: 20px;
+        font-size: 12px;
+    }
+    .ACG_ikki h6{
+        position: absolute;
+        font-size: 15px;
+        top: -60px;
+        left: 0;
+        overflow-y: scroll;
+        height: 90px;
+    }
+    .ACG_ikki p{
+        position: absolute;
+        top: 242px;
+        font-size:13px;
+        left: 0;
+        height: 90px;
+    }
+    
+    
+    /* nega bizni tanlashdi */
+    
+    .Nega_bizni{
+        margin-top: -50px;
+        text-align: center;
+        font-size:25px;
+    }
+    
+    .counter{
+        display: block;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .count_all{
+        position: relative;
+        width: 80%;
+        height: 300px;
+        border: 1 solid #01384D;
+        border-radius: 5px;
+        margin: 29px 0;
+        overflow: hidden;
+        left: 10%;
+    }
+    .con_img{
+        width: 100%;
+        height: 50%;
+    }
+    .count_all img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .count_all h6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    .count_all p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 10px;
+        padding: 0 25px;
+    }
+    .count_all h5{
+        text-align: center;
+        font-size: 14px;
+        margin-top: 30px;
+    }
+    
+    
+    // manzil
+    
+    .Manzil{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+
+        
+    }
+    .lakatsya{
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        left: -5%;
+        h3{
+            position: absolute;
+            font-size: 30px;
+            top: 0px;
+        }
+        h6{
+            position: absolute;
+            top:280px;
+            font-size: 18px;
+        }
+        p{
+            position: absolute;
+            top: 340px;
+            font-size: 14px;
+            
+        }
+        button{
+            position: absolute;
+            width: 80%;
+            top: 430px;
+            height: 40px;
+            border:1px solid  #01384D;
+            border-radius: 2px;
+            font-size: 15px;
+            transition: all ease  0.5s;
+    
+            &:hover{
+                background-color: #01384D;
+                color: #fff;
+            }
+        }
+    }
+    .manzil_slider{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        top: 60px;
+        left: 1%;
+        overflow: hidden;
+        img{
+            width: 300px;
+            height: 200px;
+            border-radius: 5px;
+        }
+    }
+    
+    
+    // sorovnoma
+    .open_modal{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        
+    }
+    .sorov_modal{
+        position: absolute;
+        width: 300px;
+        height: 300px !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+    
+    }
+    
+    .sorov_modal_open{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        transition:0.9s;
+        top: -0px;
+        z-index: 2;
+        h5{
+            font-size: 20px;
+            text-align: center;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    
+    .sorov_content{
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #EABF9F;
+        margin: 0 auto;
+        .savol{
+            position: absolute;
+            width: 250px;
+            left: 40px;
+            top: 40px;
+            text-align: center;
+           h6{
+                font-size: 25px;
+           }
+           p{
+            font-size: 13px;
+           }
+        }
+        .sorov_btn{
+            position: absolute;
+            width:100%;
+                
+            input{
+                position: absolute;
+                width:88%;
+                height: 40px;
+                border: 1px solid  #01384D;
+                outline: none;
+                border-radius: 3px;
+                font-size: 16px;
+                padding: 0 8px;
+                left: -55px;
+                top: -20px;
+                
+            }
+            button{
+                position: absolute;
+                width: 88%;
+                height: 40px;
+                border: none;
+                border-radius: 2px;
+                background: #01384D;
+                color: #FFF;
+                font-size: 12px;
+                top: 40px;
+                left:-5px;
+            }
+        }
+    }
+    
+    
+    
+    // bottom
+    
+    .bottom{
+        width: 100%;
+        height: 180px;
+        margin-top: 50px;
         hr{
             width: 85%;
             margin: 5px auto;

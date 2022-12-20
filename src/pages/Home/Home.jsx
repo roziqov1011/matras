@@ -12,10 +12,6 @@ import Buyurtma from '../../components/buyurtma/Buyurtma'
 import Menu from '../../components/Menu/Menu'
 import Slider__category from '../../components/slider__category/Slider__category'
 
-
-
-
-
 function Home() {
   return (
     <div className="home">
@@ -24,10 +20,10 @@ function Home() {
           <div className="header__item">
               <nav className='nav-list'>
                 <a href="#">Katalog</a>
-                <a href="#">Aksiya</a>
-                <a href="#">Biz haqimizda</a>
-                <a href="#">Manzilimiz</a>
-                <a href="#">Aloqa</a>  
+                <a href="#Aksiya">Aksiya</a>
+                <a href="#Bizhaqimizda">Biz haqimizda</a>
+                <a href="#manzil_ul">Manzilimiz</a>
+                <a href="#Bizhaqimizda">Aloqa</a>  
               </nav>
                 <div className="logo-btn">
                   <img src={logo} alt="" />
@@ -35,7 +31,7 @@ function Home() {
                     <div className="btn-ra">
                         <span> <i className="bi bi-telephone-fill"></i> +998 90 123 45 67</span>
                         <Buyurtma/>
-                    </div>
+                    </div>  
                 </div>
                 <div className="header_M">
                     <p className='header_M-title'>Kechalari sokin dam oling</p>
@@ -63,15 +59,13 @@ function Home() {
         
         <div className="CT">
           <div className="container">
-              <div className="ct">
-                <Category_slid/>
-                <Slider__category/>
-              </div>
+              <Category_slid/>
+              <Slider__category/>
           </div>
         </div>
 
-        <div className="Cardss">
-          <div className="container">
+        <div className="Cardss" id='Aksiya'>
+          <div className="containerrr">
                 <div className="cardss">
                   {
                     maxsulot && maxsulot.map((e,i)=>(
@@ -83,7 +77,7 @@ function Home() {
           </div>
         </div>
     
-       <HomeIkki/>
+      {/* <HomeIkki/> */}
     </div> 
   )
 }

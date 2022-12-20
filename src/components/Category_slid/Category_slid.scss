@@ -39,6 +39,8 @@
     }
   }
   .list__itemC{
+    width: 131px;
+    height: 45px;
     list-style-type: none;
     font-weight: 400;
     font-size: 16px;
@@ -46,13 +48,13 @@
     text-align: center;
     color: #01384D;
     opacity: 0.6;
+
     &:hover{
       background: #01384D;
       opacity: 0.8;
       color: white;
       border-radius: 5px;
-      width: 131px;
-      height: 45px;
+
       border-radius: 10px;
       transition: all ease 0.5s;
       p{
