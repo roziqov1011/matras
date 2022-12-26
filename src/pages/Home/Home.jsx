@@ -57,20 +57,19 @@ function Home() {
           </div>
         </div>
         
-        <div className="CT">
+        <div className="CT">   
           <div className="container">
               <Category_slid/>
               <Slider__category/>
           </div>
         </div>
 
-        <div className="Cardss" id='Aksiya'>
-          <div className="containerrr">
+        <div className="Cardss" id='Aksiya'> 
+          <div className="containerrr"> 
                 <div className="cardss">
                   {
                     maxsulot && maxsulot.map((e,i)=>(
                       <Card key={i} maxsulot={e}/>
-
                     ))
                   }
                 </div>

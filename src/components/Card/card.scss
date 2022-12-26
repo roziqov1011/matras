@@ -239,9 +239,6 @@
                     width: 150px;
                     justify-content: space-between;
                 }
-                .li2{
-
-                }
             }
         }
     }
@@ -276,9 +273,9 @@
         margin-top: 80px;
     }
 }
-@media only screen and (max-width: 450px){ 
+@media only screen and (max-width: 480px){ 
     .card{
-        width: 100%;
+        width: 400px;
         background: #F6FBFF;
         border: 1px solid #C7DFF5;
         padding: 20px 30px;
@@ -286,14 +283,14 @@
     }
     .card__matras{
         img{
-            width: 300px;
+            width: 350px;
             height: 200px;
         }
 
     }
     .card__item{
         .card__title{
-            font-size: 25px !important;
+            font-size: 20px !important;
         }
     }
 }
