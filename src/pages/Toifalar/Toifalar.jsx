@@ -4,38 +4,27 @@ import { useEffect } from 'react'
 import './Toifalar.scss' 
  
 function Toifalar() { 
-  const [data ,setData] = useState([])
-  const[user,setUser] = useState([])
-  inp
-  useEffect(()=>{
-    getUsers();
-  },[])
-  function getUsers() {
-    fetch(`https://638ec96e9cbdb0dbe314bdf0.mockapi.io/customers`)
-  //   .then((result)=>{
-  //   result.json().then((resp)=>{
-  //     setUser(resp)
-  //   })
-  // })
-  .then(response => response.json())
-  .then(response => setData(response))
-  .catch(err => console.error(err));
-  }
-  
-  function deleteUser(id) {
-  
-    fetch(`https://638ec96e9cbdb0dbe314bdf0.mockapi.io/customers/${id}`,{
-      method:'DELETE'
-    }).then((result)=>{
-      result.json().then((resp)=>{
-        console.warn(resp)
-        +(id) 
-      })
-    })
-  
-  
-    
-  }
+  const [data, setData] = useState([]) 
+  const inp = useRef() 
+  useEffect(() => { 
+    fetch('https://638ec96e9cbdb0dbe314bdf0.mockapi.io/toifalar') 
+      .then(res => res.json()) 
+      .then(data => setData(data)) 
+  }, []) 
+  const addCategory = () => { 
+    let category = inp.current.value 
+    fetch('https://638ec96e9cbdb0dbe314bdf0.mockapi.io/toifalar', { 
+      method: 'POST', 
+      headers: { 
+        'Content-type': 'application/json', // qysi formatta yuborish 
+        'Accept': 'application/json', // qysi formatta uni qabul qilib olishi 
+        'Access-Control-Allow-Origin': '*' // ruxsat berish hammaga 
+      }, 
+      body: JSON.stringify({ nomi: category }) 
+    }) 
+      .then(res => res.json()) 
+      .then(data => console.log(data)) 
+  } 
   return ( 
     <div> 
  
@@ -71,7 +60,7 @@ function Toifalar() {
                       <i className="bi bi-pencil-fill pencill ruchka"></i> 
                     </div> 
                     <div > 
-                     <button onClick={()=> deleteUser(e.id)}> <i className="bi bi-trash-fill trashsh"></i> </button>
+                      <i  id={e.id} className="bi bi-trash-fill trashsh"></i> 
                     </div> 
                   </div> 
                 </td> 
@@ -115,7 +104,7 @@ function Toifalar() {
               </form> 
             </div> 
             <div className="modal-footer"> 
-              <button onClick={getUsers} type="button" className="btn btn-secondary btn__qoshish" data-bs-dismiss="modal">Qo'shish</button> 
+              <button onClick={addCategory} type="button" className="btn btn-secondary btn__qoshish" data-bs-dismiss="modal">Qo'shish</button> 
             </div> 
           </div> 
         </div> 
