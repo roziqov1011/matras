@@ -36,7 +36,7 @@ export default function Menu() {
                         <li className='list__item1'><a href="#Bizhaqimizda">Aloqa</a></li>
                     </ul>
                     <div className="aloqa1">
-                    <Buyurtma />
+                    <Buyurtma/>                    
                     <i className="bi bi-telephone-fill"></i>  
                     <p>+998 90 123 45 67</p>
                     </div>
